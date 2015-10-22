@@ -1,0 +1,27 @@
+<b>Partlist exported from /Users/thomaswillson/Dropbox (PVS)/Formula Electric 2014-2015/Electrical/Models/EAGLE Models/HV Board/HV Board.sch at 3/22/15 9:56 AM</b>
+<p>
+<table>
+<tr><td><b>Qty</b></td><td><b>Value</b></td><td><b>Device</b></td><td><b>Package</b></td><td><b>Parts</b></td><td><b>Description</b></td><td><b>COIL</b></td></tr>
+<tr><td>1</td><td></td><td>R-EU_R0402</td><td>R0402</td><td>FUSE_1</td><td>RESISTOR, European symbol</td><td></td></tr>
+<tr><td>1</td><td>10k</td><td>RESISTOR0603-RES</td><td>0603-RES</td><td>R12</td><td>Resistor</td><td></td></tr>
+<tr><td>1</td><td>1100k</td><td>RESISTOR0603-RES</td><td>0603-RES</td><td>R7</td><td>Resistor</td><td></td></tr>
+<tr><td>1</td><td>110k</td><td>RESISTORPTH-1W</td><td>AXIAL-0.6</td><td>R5</td><td>Resistor</td><td></td></tr>
+<tr><td>1</td><td>1M</td><td>RESISTOR0603-RES</td><td>0603-RES</td><td>R8</td><td>Resistor</td><td></td></tr>
+<tr><td>1</td><td>1µF</td><td>CAP</td><td>C0805</td><td>C2</td><td>Capacitor</td><td></td></tr>
+<tr><td>1</td><td>22k</td><td>RESISTOR0603-RES</td><td>0603-RES</td><td>R6</td><td>Resistor</td><td></td></tr>
+<tr><td>1</td><td>240</td><td>RESISTORPTH-1W</td><td>AXIAL-0.6</td><td>R16</td><td>Resistor</td><td></td></tr>
+<tr><td>1</td><td>3.9k</td><td>R-US_R0402</td><td>R0402</td><td>R17</td><td>RESISTOR, American symbol</td><td></td></tr>
+<tr><td>3</td><td>500</td><td>FS20SERIES</td><td>VISHAY_FS20W_RES</td><td>R1, R2, R3</td><td>Digikey FS20-{R}</td><td></td></tr>
+<tr><td>1</td><td>68k</td><td>RESISTOR0603-RES</td><td>0603-RES</td><td>R10</td><td>Resistor</td><td></td></tr>
+<tr><td>1</td><td>887k</td><td>RESISTOR0603-RES</td><td>0603-RES</td><td>R9</td><td>Resistor</td><td></td></tr>
+<tr><td>1</td><td>CNY17-3</td><td>CNY17-3</td><td>CNY17-3</td><td>U2</td><td></td><td></td></tr>
+<tr><td>1</td><td>CONN_2</td><td>CONN_2</td><td>CONNECTOR_2</td><td>HV_CONN</td><td></td><td></td></tr>
+<tr><td>1</td><td>CONN_3</td><td>CONN_3</td><td>CONNECTOR_3</td><td>LV_CONN</td><td></td><td></td></tr>
+<tr><td>2</td><td>DIODE_MMBD4448</td><td>DIODE_MMBD4448</td><td>SOT-23-3@1</td><td>D1, D2</td><td></td><td></td></tr>
+<tr><td>1</td><td>G2RL-1-E</td><td>G2RL-1-E</td><td>G2RL-1-E_RELAY</td><td>U1</td><td>G2RL-1-E SPDT Relay, 16A, Digikey: Z2834-ND</td><td>DC 12</td></tr>
+<tr><td>1</td><td>LT1121</td><td>LT1121</td><td>SOIC8</td><td>U$2</td><td></td><td></td></tr>
+<tr><td>1</td><td>LTC6992-1</td><td>LTC6992-1</td><td>LTC6992-1</td><td>R4</td><td></td><td></td></tr>
+<tr><td>1</td><td>MJD45H11T4G</td><td>MJD45H11T4G</td><td>D-PAK_TO252AA</td><td>U3</td><td></td><td></td></tr>
+<tr><td>1</td><td>MMBT4401-7-F</td><td>MMBT4401-7-F</td><td>SOT-23-3</td><td>U4</td><td></td><td></td></tr>
+<tr><td>1</td><td>SMBJ5371B-TP</td><td>SMBJ5371B-TP</td><td>SMB-DIODE</td><td>U$3</td><td></td><td></td></tr>
+</table>
