@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.1.0">
+<eagle version="7.2.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -5037,9 +5037,9 @@ reed, 1 x norm. open, Hamlin</description>
 <instance part="HV_CONN" gate="G$1" x="-68.58" y="-109.22"/>
 <instance part="U1" gate="G$1" x="-33.02" y="-91.44"/>
 <instance part="D1" gate="G$1" x="-45.72" y="-91.44" rot="R90"/>
-<instance part="R1" gate="G$1" x="-22.86" y="-109.22"/>
-<instance part="R2" gate="G$1" x="-7.62" y="-109.22"/>
-<instance part="R3" gate="G$1" x="-2.54" y="-99.06" rot="R90"/>
+<instance part="R1" gate="G$1" x="-53.34" y="-114.3"/>
+<instance part="R2" gate="G$1" x="-43.18" y="-114.3"/>
+<instance part="R3" gate="G$1" x="-33.02" y="-114.3"/>
 <instance part="C2" gate="G$1" x="330.2" y="-104.14" smashed="yes">
 <attribute name="NAME" x="334.01" y="-105.41" size="1.778" layer="95" align="center-left"/>
 <attribute name="VALUE" x="334.01" y="-113.03" size="1.778" layer="96" align="center-left"/>
@@ -5161,25 +5161,23 @@ reed, 1 x norm. open, Hamlin</description>
 </net>
 <net name="N$3" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="B"/>
-<wire x1="-25.4" y1="-101.6" x2="-17.78" y2="-101.6" width="0.1524" layer="91"/>
 <pinref part="R3" gate="G$1" pin="2"/>
-<wire x1="-2.54" y1="-93.98" x2="-17.78" y2="-93.98" width="0.1524" layer="91"/>
-<wire x1="-17.78" y1="-93.98" x2="-17.78" y2="-101.6" width="0.1524" layer="91"/>
+<wire x1="-27.94" y1="-114.3" x2="-27.94" y2="-109.22" width="0.1524" layer="91"/>
+<wire x1="-27.94" y1="-109.22" x2="-38.1" y2="-101.6" width="0.1524" layer="91"/>
+<pinref part="U1" gate="G$1" pin="C"/>
+<wire x1="-38.1" y1="-101.6" x2="-38.1" y2="-91.44" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$10" class="0">
 <segment>
 <pinref part="R1" gate="G$1" pin="2"/>
 <pinref part="R2" gate="G$1" pin="1"/>
-<wire x1="-17.78" y1="-109.22" x2="-12.7" y2="-109.22" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$11" class="0">
 <segment>
 <pinref part="R2" gate="G$1" pin="2"/>
 <pinref part="R3" gate="G$1" pin="1"/>
-<wire x1="-2.54" y1="-109.22" x2="-2.54" y2="-104.14" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GLV+" class="0">
@@ -5283,10 +5281,10 @@ reed, 1 x norm. open, Hamlin</description>
 <label x="27.94" y="-68.58" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U1" gate="G$1" pin="C"/>
-<wire x1="-38.1" y1="-109.22" x2="-38.1" y2="-91.44" width="0.1524" layer="91"/>
 <pinref part="HV_CONN" gate="G$1" pin="2"/>
-<wire x1="-66.04" y1="-109.22" x2="-38.1" y2="-109.22" width="0.1524" layer="91"/>
+<wire x1="-25.4" y1="-109.22" x2="-66.04" y2="-109.22" width="0.1524" layer="91"/>
+<pinref part="U1" gate="G$1" pin="B"/>
+<wire x1="-25.4" y1="-109.22" x2="-25.4" y2="-101.6" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="HV-" class="0">
@@ -5298,10 +5296,9 @@ reed, 1 x norm. open, Hamlin</description>
 <label x="27.94" y="-73.66" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="HV_CONN" gate="G$1" pin="1"/>
-<wire x1="-27.94" y1="-104.14" x2="-66.04" y2="-104.14" width="0.1524" layer="91"/>
 <pinref part="R1" gate="G$1" pin="1"/>
-<wire x1="-27.94" y1="-104.14" x2="-27.94" y2="-109.22" width="0.1524" layer="91"/>
+<pinref part="HV_CONN" gate="G$1" pin="3"/>
+<wire x1="-58.42" y1="-114.3" x2="-66.04" y2="-114.3" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="K1" gate="2" pin="S"/>
@@ -5392,9 +5389,9 @@ reed, 1 x norm. open, Hamlin</description>
 </net>
 <net name="GATE_IN" class="0">
 <segment>
-<pinref part="HV_CONN" gate="G$1" pin="3"/>
-<wire x1="-66.04" y1="-114.3" x2="-60.96" y2="-114.3" width="0.1524" layer="91"/>
-<label x="-60.96" y="-114.3" size="1.778" layer="95" xref="yes"/>
+<label x="-55.88" y="-104.14" size="1.778" layer="95" xref="yes"/>
+<pinref part="HV_CONN" gate="G$1" pin="1"/>
+<wire x1="-55.88" y1="-104.14" x2="-66.04" y2="-104.14" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="K1" gate="2" pin="P"/>
