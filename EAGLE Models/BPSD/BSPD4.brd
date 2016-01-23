@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
+<<<<<<< HEAD
 <eagle version="7.5.0">
+=======
+<eagle version="7.2.0">
+>>>>>>> origin/master
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -109,12 +113,23 @@
 <wire x1="56.82" y1="0" x2="56.82" y2="53.33" width="0" layer="20"/>
 <wire x1="56.82" y1="53.33" x2="0" y2="53.33" width="0" layer="20"/>
 <wire x1="0" y1="53.33" x2="0" y2="0" width="0" layer="20"/>
+<<<<<<< HEAD
 <text x="15.5575" y="38.1" size="1.778" layer="21">GND</text>
 <text x="14.9225" y="33.02" size="1.778" layer="21">12V</text>
 <text x="14.9225" y="27.94" size="1.778" layer="21">CUR</text>
 <text x="14.9225" y="23.1775" size="1.778" layer="21">BF</text>
 <text x="14.9225" y="17.78" size="1.778" layer="21">BR</text>
 <text x="14.9225" y="12.7" size="1.778" layer="21">OUT</text>
+=======
+<text x="15.5575" y="39.37" size="1.778" layer="21">GND</text>
+<text x="15.24" y="33.3375" size="1.778" layer="21">12V</text>
+<text x="15.24" y="27.6225" size="1.778" layer="21">CUR</text>
+<text x="15.24" y="22.5425" size="1.778" layer="21">BF</text>
+<text x="15.24" y="17.4625" size="1.778" layer="21">BR</text>
+<text x="15.24" y="12.7" size="1.778" layer="21">OUT</text>
+<dimension x1="0" y1="0" x2="57.15" y2="0" x3="28.575" y3="-7.62" textsize="1.778" layer="1" unit="inch"/>
+<dimension x1="0" y1="0" x2="0" y2="53.34" x3="-13.97" y3="26.67" textsize="1.778" layer="1" unit="inch"/>
+>>>>>>> origin/master
 </plain>
 <libraries>
 <library name="resistor">
