@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.1.0">
+<eagle version="7.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -109,12 +109,12 @@
 <wire x1="56.82" y1="0" x2="56.82" y2="53.33" width="0" layer="20"/>
 <wire x1="56.82" y1="53.33" x2="0" y2="53.33" width="0" layer="20"/>
 <wire x1="0" y1="53.33" x2="0" y2="0" width="0" layer="20"/>
-<text x="15.5575" y="39.37" size="1.778" layer="21">GND</text>
-<text x="15.24" y="33.3375" size="1.778" layer="21">12V</text>
-<text x="15.24" y="27.6225" size="1.778" layer="21">CUR</text>
-<text x="15.24" y="22.5425" size="1.778" layer="21">BF</text>
-<text x="15.24" y="17.4625" size="1.778" layer="21">BR</text>
-<text x="15.24" y="12.7" size="1.778" layer="21">OUT</text>
+<text x="15.5575" y="38.1" size="1.778" layer="21">GND</text>
+<text x="14.9225" y="33.02" size="1.778" layer="21">12V</text>
+<text x="14.9225" y="27.94" size="1.778" layer="21">CUR</text>
+<text x="14.9225" y="23.1775" size="1.778" layer="21">BF</text>
+<text x="14.9225" y="17.78" size="1.778" layer="21">BR</text>
+<text x="14.9225" y="12.7" size="1.778" layer="21">OUT</text>
 </plain>
 <libraries>
 <library name="resistor">
@@ -1528,26 +1528,50 @@ Please make sure your boards conform to these design rules.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="C1" library="resistor" package="E2-5" value="EEU-FC1H180" x="12.7" y="3.81" rot="R270"/>
+<element name="C1" library="resistor" package="E2-5" value="EEU-FC1H180" x="12.7" y="3.81" smashed="yes" rot="R270">
+<attribute name="NAME" x="11.7475" y="6.731" size="1.27" layer="25" ratio="10"/>
+</element>
 <element name="CONN" library="formula electric" package="CONNECTOR_6" value="CONN_6" x="6.35" y="39.37" rot="R270"/>
-<element name="F1" library="resistor" package="R0603" value="50mA" x="19.05" y="11.43" rot="MR0"/>
-<element name="F2" library="resistor" package="R0603" value="500mA" x="19.05" y="36.83"/>
-<element name="F3" library="resistor" package="R0603" value="500mA" x="19.05" y="31.75"/>
-<element name="F4" library="resistor" package="R0603" value="50mA" x="19.05" y="26.67"/>
-<element name="F5" library="resistor" package="R0603" value="50mA" x="19.05" y="21.59"/>
-<element name="F6" library="resistor" package="R0603" value="50mA" x="19.05" y="16.51"/>
-<element name="IC1" library="linear-technology" package="SOIC8" value="LT1236S-5" x="49.53" y="40.64" rot="R180">
+<element name="F1" library="resistor" package="R0603" value="50mA" x="19.05" y="11.43" smashed="yes" rot="MR0">
+<attribute name="NAME" x="17.0815" y="11.049" size="1.27" layer="26" rot="MR0"/>
+<attribute name="VALUE" x="19.304" y="8.763" size="1.27" layer="28" rot="MR0"/>
+</element>
+<element name="F2" library="resistor" package="R0603" value="500mA" x="19.05" y="36.83" smashed="yes">
+<attribute name="NAME" x="15.3035" y="36.449" size="1.27" layer="25"/>
+<attribute name="VALUE" x="20.701" y="34.798" size="1.27" layer="27"/>
+</element>
+<element name="F3" library="resistor" package="R0603" value="500mA" x="19.05" y="31.75" smashed="yes">
+<attribute name="NAME" x="15.3035" y="31.369" size="1.27" layer="25"/>
+<attribute name="VALUE" x="20.701" y="32.5755" size="1.27" layer="27"/>
+</element>
+<element name="F4" library="resistor" package="R0603" value="50mA" x="19.05" y="26.67" smashed="yes">
+<attribute name="NAME" x="15.3035" y="26.289" size="1.27" layer="25"/>
+<attribute name="VALUE" x="18.161" y="24.3205" size="1.27" layer="27"/>
+</element>
+<element name="F5" library="resistor" package="R0603" value="50mA" x="19.05" y="21.59" smashed="yes">
+<attribute name="NAME" x="15.3035" y="21.5265" size="1.27" layer="25"/>
+<attribute name="VALUE" x="18.161" y="19.2405" size="1.27" layer="27"/>
+</element>
+<element name="F6" library="resistor" package="R0603" value="50mA" x="19.05" y="16.51" smashed="yes">
+<attribute name="NAME" x="15.3035" y="16.129" size="1.27" layer="25"/>
+<attribute name="VALUE" x="19.7485" y="14.1605" size="1.27" layer="27"/>
+</element>
+<element name="IC1" library="linear-technology" package="SOIC8" value="LT1236S-5" x="49.53" y="40.64" smashed="yes" rot="R180">
 <attribute name="OC_NEWARK" value="unknown" x="49.53" y="40.64" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="" x="49.53" y="40.64" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MF" value="" x="49.53" y="40.64" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_FARNELL" value="unknown" x="49.53" y="40.64" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="45.593" y="45.72" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="R1" library="SparkFun-Resistors" package="0603-RES" value="1k" x="26.67" y="43.18" rot="R90"/>
 <element name="R10" library="SparkFun-Resistors" package="0603-RES" value="1.8k" x="41.91" y="38.1" rot="R90"/>
 <element name="R11" library="SparkFun-Resistors" package="0603-RES" value="10k" x="24.13" y="22.86" rot="R90"/>
 <element name="R12" library="SparkFun-Resistors" package="0603-RES" value="10k" x="25.4" y="17.78" rot="R90"/>
 <element name="R13" library="SparkFun-Resistors" package="0603-RES" value="10k" x="25.4" y="29.21" rot="R90"/>
-<element name="R14" library="resistor" package="R0603" value="10k" x="25.4" y="9.525" rot="R180"/>
+<element name="R14" library="resistor" package="R0603" value="10k" x="25.4" y="9.525" smashed="yes" rot="R180">
+<attribute name="NAME" x="24.0665" y="10.541" size="1.27" layer="25" rot="R180"/>
+<attribute name="VALUE" x="27.2415" y="11.8745" size="1.27" layer="27" rot="R180"/>
+</element>
 <element name="R2" library="SparkFun-Resistors" package="0603-RES" value="9.1k" x="26.67" y="38.1" rot="R90"/>
 <element name="R3" library="SparkFun-Resistors" package="0603-RES" value="9.1k" x="30.48" y="43.18" rot="R90"/>
 <element name="R4" library="SparkFun-Resistors" package="0603-RES" value="1k" x="30.48" y="38.1" rot="R90"/>
@@ -1556,15 +1580,27 @@ Please make sure your boards conform to these design rules.</description>
 <element name="R7" library="SparkFun-Resistors" package="0603-RES" value="8.2k" x="38.1" y="43.18" rot="R90"/>
 <element name="R8" library="SparkFun-Resistors" package="0603-RES" value="2.2k" x="38.1" y="38.1" rot="R90"/>
 <element name="R9" library="SparkFun-Resistors" package="0603-RES" value="8.87k" x="41.91" y="43.18" rot="R90"/>
-<element name="U$1" library="linear-technology" package="SOIC8" value="LT1018" x="31.75" y="29.21" rot="R270"/>
-<element name="U$2" library="linear-technology" package="SOIC8" value="LT1018" x="45.72" y="17.78" rot="R270"/>
-<element name="U$3" library="linear-technology" package="SOIC8" value="LT1018" x="31.75" y="17.78" rot="R270"/>
-<element name="U$4" library="linear-technology" package="SOIC8" value="LT1018" x="45.72" y="29.21" rot="R270"/>
-<element name="U$5" library="formula electric" package="SSOP5-P-0.95" value="TC4S71FT5LFT-OR_GATE" x="33.02" y="2.54"/>
-<element name="U$6" library="formula electric" package="SSOP5-P-0.95" value="TC4S81FT5LFT-AND_GATE" x="39.37" y="2.54"/>
-<element name="U$7" library="formula electric" package="SSOP5-P-0.95" value="TC4S69F(TE85L,F)" x="44.45" y="2.54"/>
-<element name="U$8" library="formula electric" package="NXP_14_SOIC" value="HEF4082BT,653" x="39.37" y="8.89"/>
-<element name="U$9" library="linear-technology" package="SOIC8" value="LT1018" x="25.4" y="5.08" rot="R270"/>
+<element name="U$1" library="linear-technology" package="SOIC8" value="LT1018" x="31.75" y="29.21" smashed="yes" rot="R270">
+<attribute name="VALUE" x="28.575" y="31.9405" size="1.27" layer="27"/>
+</element>
+<element name="U$2" library="linear-technology" package="SOIC8" value="LT1018" x="45.72" y="17.78" smashed="yes" rot="R270">
+<attribute name="VALUE" x="42.545" y="13.843" size="1.27" layer="27"/>
+</element>
+<element name="U$3" library="linear-technology" package="SOIC8" value="LT1018" x="31.75" y="17.78" smashed="yes" rot="R270">
+<attribute name="VALUE" x="28.575" y="13.843" size="1.27" layer="27"/>
+</element>
+<element name="U$4" library="linear-technology" package="SOIC8" value="LT1018" x="45.72" y="29.21" smashed="yes" rot="R270">
+<attribute name="VALUE" x="42.2275" y="25.273" size="1.27" layer="27"/>
+</element>
+<element name="U$5" library="formula electric" package="SSOP5-P-0.95" value="TC4S71FT5LFT-OR_GATE" x="33.02" y="2.54" smashed="yes"/>
+<element name="U$6" library="formula electric" package="SSOP5-P-0.95" value="TC4S81FT5LFT-AND_GATE" x="39.37" y="2.54" smashed="yes"/>
+<element name="U$7" library="formula electric" package="SSOP5-P-0.95" value="TC4S69F(TE85L,F)" x="44.45" y="2.54" smashed="yes"/>
+<element name="U$8" library="formula electric" package="NXP_14_SOIC" value="HEF4082BT,653" x="39.37" y="8.89" smashed="yes">
+<attribute name="VALUE" x="34.925" y="5.3975" size="1.27" layer="27"/>
+</element>
+<element name="U$9" library="linear-technology" package="SOIC8" value="LT1018" x="25.4" y="5.08" smashed="yes" rot="R270">
+<attribute name="VALUE" x="23.495" y="1.143" size="1.27" layer="27"/>
+</element>
 </elements>
 <signals>
 <signal name="GND">
