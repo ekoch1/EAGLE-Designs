@@ -7963,22 +7963,22 @@ Source: http://www.infineon.com .. ITS4880R_20060309.pdf</description>
 <instance part="F20" gate="G$1" x="152.4" y="-172.72" rot="R270"/>
 <instance part="F21" gate="G$1" x="154.94" y="-162.56" rot="R270"/>
 <instance part="F22" gate="G$1" x="157.48" y="-172.72" rot="R270"/>
-<instance part="TUB_CONN" gate="-1" x="-40.64" y="-180.34" rot="R90"/>
-<instance part="TUB_CONN" gate="-2" x="-38.1" y="-180.34" rot="R90"/>
-<instance part="TUB_CONN" gate="-3" x="-35.56" y="-180.34" rot="R90"/>
-<instance part="TUB_CONN" gate="-4" x="-33.02" y="-180.34" rot="R90"/>
-<instance part="TUB_CONN" gate="-5" x="-30.48" y="-180.34" rot="R90"/>
-<instance part="TUB_CONN" gate="-6" x="-27.94" y="-180.34" rot="R90"/>
-<instance part="TUB_CONN" gate="-7" x="-25.4" y="-180.34" rot="R90"/>
-<instance part="TUB_CONN" gate="-8" x="-22.86" y="-180.34" rot="R90"/>
-<instance part="TUB_CONN" gate="-9" x="-20.32" y="-180.34" rot="R90"/>
-<instance part="TUB_CONN" gate="-10" x="-17.78" y="-180.34" rot="R90"/>
-<instance part="TUB_CONN" gate="-11" x="-15.24" y="-180.34" rot="R90"/>
-<instance part="TUB_CONN" gate="-12" x="-12.7" y="-180.34" rot="R90"/>
-<instance part="TUB_CONN" gate="-13" x="-10.16" y="-180.34" rot="R90"/>
-<instance part="TUB_CONN" gate="-14" x="-7.62" y="-180.34" rot="R90"/>
-<instance part="TUB_CONN" gate="-15" x="-5.08" y="-180.34" rot="R90"/>
-<instance part="TUB_CONN" gate="-16" x="-2.54" y="-180.34" rot="R90"/>
+<instance part="TUB_CONN" gate="-1" x="-40.64" y="-187.96" rot="R90"/>
+<instance part="TUB_CONN" gate="-2" x="-38.1" y="-187.96" rot="R90"/>
+<instance part="TUB_CONN" gate="-3" x="-35.56" y="-187.96" rot="R90"/>
+<instance part="TUB_CONN" gate="-4" x="-33.02" y="-187.96" rot="R90"/>
+<instance part="TUB_CONN" gate="-5" x="-30.48" y="-187.96" rot="R90"/>
+<instance part="TUB_CONN" gate="-6" x="-27.94" y="-187.96" rot="R90"/>
+<instance part="TUB_CONN" gate="-7" x="-25.4" y="-187.96" rot="R90"/>
+<instance part="TUB_CONN" gate="-8" x="-22.86" y="-187.96" rot="R90"/>
+<instance part="TUB_CONN" gate="-9" x="-20.32" y="-187.96" rot="R90"/>
+<instance part="TUB_CONN" gate="-10" x="-17.78" y="-187.96" rot="R90"/>
+<instance part="TUB_CONN" gate="-11" x="-15.24" y="-187.96" rot="R90"/>
+<instance part="TUB_CONN" gate="-12" x="-12.7" y="-187.96" rot="R90"/>
+<instance part="TUB_CONN" gate="-13" x="-10.16" y="-187.96" rot="R90"/>
+<instance part="TUB_CONN" gate="-14" x="-7.62" y="-187.96" rot="R90"/>
+<instance part="TUB_CONN" gate="-15" x="-5.08" y="-187.96" rot="R90"/>
+<instance part="TUB_CONN" gate="-16" x="-2.54" y="-187.96" rot="R90"/>
 <instance part="IC1" gate="''" x="149.86" y="-68.58" rot="R270"/>
 <instance part="IC1" gate="P1" x="215.9" y="-50.8"/>
 </instances>
@@ -8166,8 +8166,9 @@ Source: http://www.infineon.com .. ITS4880R_20060309.pdf</description>
 <label x="-66.04" y="58.42" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="-15.24" y1="-170.18" x2="-15.24" y2="-175.26" width="0.1524" layer="91"/>
+<wire x1="-15.24" y1="-170.18" x2="-15.24" y2="-182.88" width="0.1524" layer="91"/>
 <pinref part="TUB_CONN" gate="-11" pin="KL"/>
+<label x="-15.24" y="-149.86" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
 <label x="124.46" y="-40.64" size="1.778" layer="95" rot="R90" xref="yes"/>
@@ -8384,7 +8385,7 @@ Source: http://www.infineon.com .. ITS4880R_20060309.pdf</description>
 <wire x1="78.74" y1="-180.34" x2="78.74" y2="-167.64" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="-25.4" y1="-144.78" x2="-25.4" y2="-175.26" width="0.1524" layer="91"/>
+<wire x1="-25.4" y1="-144.78" x2="-25.4" y2="-182.88" width="0.1524" layer="91"/>
 <label x="-25.4" y="-144.78" size="1.778" layer="95" rot="R90" xref="yes"/>
 <pinref part="TUB_CONN" gate="-7" pin="KL"/>
 </segment>
@@ -8403,7 +8404,7 @@ Source: http://www.infineon.com .. ITS4880R_20060309.pdf</description>
 <wire x1="76.2" y1="-180.34" x2="76.2" y2="-167.64" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="-27.94" y1="-157.48" x2="-27.94" y2="-175.26" width="0.1524" layer="91"/>
+<wire x1="-27.94" y1="-157.48" x2="-27.94" y2="-182.88" width="0.1524" layer="91"/>
 <label x="-27.94" y="-157.48" size="1.778" layer="95" rot="R90" xref="yes"/>
 <pinref part="TUB_CONN" gate="-6" pin="KL"/>
 </segment>
@@ -8494,7 +8495,7 @@ Source: http://www.infineon.com .. ITS4880R_20060309.pdf</description>
 <label x="30.48" y="12.7" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="-17.78" y1="-175.26" x2="-17.78" y2="-167.64" width="0.1524" layer="91"/>
+<wire x1="-17.78" y1="-182.88" x2="-17.78" y2="-167.64" width="0.1524" layer="91"/>
 <label x="-17.78" y="-167.64" size="1.778" layer="95" rot="R90" xref="yes"/>
 <pinref part="TUB_CONN" gate="-10" pin="KL"/>
 </segment>
@@ -8511,7 +8512,7 @@ Source: http://www.infineon.com .. ITS4880R_20060309.pdf</description>
 <label x="20.32" y="15.24" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="-20.32" y1="-175.26" x2="-20.32" y2="-157.48" width="0.1524" layer="91"/>
+<wire x1="-20.32" y1="-182.88" x2="-20.32" y2="-157.48" width="0.1524" layer="91"/>
 <label x="-20.32" y="-157.48" size="1.778" layer="95" rot="R90" xref="yes"/>
 <pinref part="TUB_CONN" gate="-9" pin="KL"/>
 </segment>
@@ -8528,7 +8529,7 @@ Source: http://www.infineon.com .. ITS4880R_20060309.pdf</description>
 <label x="30.48" y="17.78" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="-2.54" y1="-175.26" x2="-2.54" y2="-144.78" width="0.1524" layer="91"/>
+<wire x1="-2.54" y1="-182.88" x2="-2.54" y2="-144.78" width="0.1524" layer="91"/>
 <label x="-2.54" y="-144.78" size="1.778" layer="95" rot="R90" xref="yes"/>
 <pinref part="TUB_CONN" gate="-16" pin="KL"/>
 </segment>
@@ -8540,7 +8541,7 @@ Source: http://www.infineon.com .. ITS4880R_20060309.pdf</description>
 <label x="7.62" y="20.32" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="-5.08" y1="-175.26" x2="-5.08" y2="-165.1" width="0.1524" layer="91"/>
+<wire x1="-5.08" y1="-182.88" x2="-5.08" y2="-165.1" width="0.1524" layer="91"/>
 <label x="-5.08" y="-165.1" size="1.778" layer="95" rot="R90" xref="yes"/>
 <pinref part="TUB_CONN" gate="-15" pin="KL"/>
 </segment>
@@ -8552,7 +8553,7 @@ Source: http://www.infineon.com .. ITS4880R_20060309.pdf</description>
 <label x="30.48" y="22.86" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="-10.16" y1="-175.26" x2="-10.16" y2="-165.1" width="0.1524" layer="91"/>
+<wire x1="-10.16" y1="-182.88" x2="-10.16" y2="-165.1" width="0.1524" layer="91"/>
 <label x="-10.16" y="-165.1" size="1.778" layer="95" rot="R90" xref="yes"/>
 <pinref part="TUB_CONN" gate="-13" pin="KL"/>
 </segment>
@@ -8603,8 +8604,9 @@ Source: http://www.infineon.com .. ITS4880R_20060309.pdf</description>
 </net>
 <net name="AMS_OUT" class="0">
 <segment>
-<wire x1="-35.56" y1="-175.26" x2="-35.56" y2="-144.78" width="0.1524" layer="91"/>
+<wire x1="-35.56" y1="-182.88" x2="-35.56" y2="-144.78" width="0.1524" layer="91"/>
 <label x="-35.56" y="-144.78" size="1.778" layer="95" rot="R90" xref="yes"/>
+<pinref part="TUB_CONN" gate="-3" pin="KL"/>
 </segment>
 <segment>
 <wire x1="144.78" y1="-81.28" x2="147.32" y2="-81.28" width="0.1524" layer="91"/>
@@ -8617,8 +8619,9 @@ Source: http://www.infineon.com .. ITS4880R_20060309.pdf</description>
 </net>
 <net name="IMD_OUT" class="0">
 <segment>
-<wire x1="-38.1" y1="-175.26" x2="-38.1" y2="-127" width="0.1524" layer="91"/>
+<wire x1="-38.1" y1="-182.88" x2="-38.1" y2="-127" width="0.1524" layer="91"/>
 <label x="-38.1" y="-127" size="1.778" layer="95" rot="R90" xref="yes"/>
+<pinref part="TUB_CONN" gate="-2" pin="KL"/>
 </segment>
 <segment>
 <wire x1="139.7" y1="-81.28" x2="142.24" y2="-81.28" width="0.1524" layer="91"/>
@@ -8631,8 +8634,9 @@ Source: http://www.infineon.com .. ITS4880R_20060309.pdf</description>
 </net>
 <net name="BSPD_OUT" class="0">
 <segment>
-<wire x1="-40.64" y1="-177.8" x2="-40.64" y2="-144.78" width="0.1524" layer="91"/>
+<wire x1="-40.64" y1="-182.88" x2="-40.64" y2="-144.78" width="0.1524" layer="91"/>
 <label x="-40.64" y="-144.78" size="1.778" layer="95" rot="R90" xref="yes"/>
+<pinref part="TUB_CONN" gate="-1" pin="KL"/>
 </segment>
 <segment>
 <wire x1="134.62" y1="-81.28" x2="137.16" y2="-81.28" width="0.1524" layer="91"/>
@@ -9073,7 +9077,7 @@ Source: http://www.infineon.com .. ITS4880R_20060309.pdf</description>
 <wire x1="-66.04" y1="-5.08" x2="-104.14" y2="-5.08" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="-7.62" y1="-175.26" x2="-7.62" y2="-144.78" width="0.1524" layer="91"/>
+<wire x1="-7.62" y1="-182.88" x2="-7.62" y2="-144.78" width="0.1524" layer="91"/>
 <label x="-7.62" y="-144.78" size="1.778" layer="95" rot="R90" xref="yes"/>
 <pinref part="TUB_CONN" gate="-14" pin="KL"/>
 </segment>
@@ -9187,8 +9191,9 @@ Source: http://www.infineon.com .. ITS4880R_20060309.pdf</description>
 </net>
 <net name="BUZZER_OUT" class="0">
 <segment>
-<wire x1="-33.02" y1="-175.26" x2="-33.02" y2="-127" width="0.1524" layer="91"/>
-<label x="-33.02" y="-127" size="1.778" layer="95" rot="R90" xref="yes"/>
+<wire x1="-33.02" y1="-182.88" x2="-33.02" y2="-129.54" width="0.1524" layer="91"/>
+<label x="-33.02" y="-129.54" size="1.778" layer="95" rot="R90" xref="yes"/>
+<pinref part="TUB_CONN" gate="-4" pin="KL"/>
 </segment>
 <segment>
 <wire x1="129.54" y1="-81.28" x2="132.08" y2="-81.28" width="0.1524" layer="91"/>
@@ -9209,7 +9214,7 @@ Source: http://www.infineon.com .. ITS4880R_20060309.pdf</description>
 </net>
 <net name="DI09" class="0">
 <segment>
-<wire x1="-22.86" y1="-175.26" x2="-22.86" y2="-132.08" width="0.1524" layer="91"/>
+<wire x1="-22.86" y1="-182.88" x2="-22.86" y2="-132.08" width="0.1524" layer="91"/>
 <label x="-22.86" y="-132.08" size="1.778" layer="95" rot="R90" xref="yes"/>
 <pinref part="TUB_CONN" gate="-8" pin="KL"/>
 </segment>
@@ -9268,14 +9273,14 @@ Source: http://www.infineon.com .. ITS4880R_20060309.pdf</description>
 <net name="N$22" class="0">
 <segment>
 <pinref part="F9" gate="G$1" pin="1"/>
-<wire x1="-12.7" y1="-175.26" x2="-12.7" y2="-160.02" width="0.1524" layer="91"/>
+<wire x1="-12.7" y1="-182.88" x2="-12.7" y2="-160.02" width="0.1524" layer="91"/>
 <pinref part="TUB_CONN" gate="-12" pin="KL"/>
 </segment>
 </net>
 <net name="N$23" class="0">
 <segment>
 <pinref part="F10" gate="G$1" pin="1"/>
-<wire x1="-30.48" y1="-165.1" x2="-30.48" y2="-175.26" width="0.1524" layer="91"/>
+<wire x1="-30.48" y1="-165.1" x2="-30.48" y2="-182.88" width="0.1524" layer="91"/>
 <pinref part="TUB_CONN" gate="-5" pin="KL"/>
 </segment>
 </net>
