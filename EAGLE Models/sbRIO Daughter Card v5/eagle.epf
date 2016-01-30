@@ -171,7 +171,6 @@ UsedLibrary="C:/Program Files/EAGLE/lbr/inductor-neosid.lbr"
 UsedLibrary="C:/Program Files/EAGLE/lbr/inductor-nkl.lbr"
 UsedLibrary="C:/Program Files/EAGLE/lbr/inductors.lbr"
 UsedLibrary="C:/Program Files/EAGLE/lbr/infineon-tricore.lbr"
-UsedLibrary="C:/Program Files/EAGLE/lbr/infineon.lbr"
 UsedLibrary="C:/Program Files/EAGLE/lbr/intersil-techwell.lbr"
 UsedLibrary="C:/Program Files/EAGLE/lbr/intersil.lbr"
 UsedLibrary="C:/Program Files/EAGLE/lbr/ir.lbr"
@@ -347,12 +346,18 @@ UsedLibrary="C:/Program Files/EAGLE/lbr/zetex.lbr"
 UsedLibrary="C:/Program Files/EAGLE/lbr/zilog.lbr"
 
 [Win_1]
+Type="Control Panel"
+Loc="1530 813 2129 1212"
+State=1
+Number=0
+
+[Win_2]
 Type="Board Editor"
 Loc="1612 861 2211 1260"
 State=1
 Number=2
-File="C:/Users/Miked/Documents/GitHub/EAGLE-Designs/EAGLE Models/BPSD/BSPD4.brd"
-View="-1.66725 -13.33 58.6141 54.958"
+File="Daughter Card Schematic v5.brd"
+View="-11.7553 -16.7983 119.021 86.9637"
 WireWidths=" 0 0.254 0.3048 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0.4064"
 PadDiameters=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0"
 PadDrills=" 0.5 0.6 0.7 0.9 1 1.1 1.2 1.3 1.4 1.5 1.6 2 2.2 2.8 3.2 0.8"
@@ -392,21 +397,7 @@ AddLevel=2
 PadsSameType=0
 Layer=16
 
-[Win_2]
-Type="CAM Processor"
-Loc="1612 861 2211 1296"
-State=0
-Number=3
-File="C:/Users/Miked/Documents/GitHub/EAGLE-Designs/EAGLE Models/BPSD/BSPD4.brd"
-
-[Win_3]
-Type="Control Panel"
-Loc="1530 813 2129 1212"
-State=1
-Number=0
-
 [Desktop]
 Screen="3840 2160"
 Window="Win_1"
 Window="Win_2"
-Window="Win_3"
