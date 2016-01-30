@@ -8168,7 +8168,6 @@ Source: http://www.infineon.com .. ITS4880R_20060309.pdf</description>
 <segment>
 <wire x1="-15.24" y1="-170.18" x2="-15.24" y2="-182.88" width="0.1524" layer="91"/>
 <pinref part="TUB_CONN" gate="-11" pin="KL"/>
-<label x="-15.24" y="-149.86" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
 <label x="124.46" y="-40.64" size="1.778" layer="95" rot="R90" xref="yes"/>
@@ -9191,8 +9190,8 @@ Source: http://www.infineon.com .. ITS4880R_20060309.pdf</description>
 </net>
 <net name="BUZZER_OUT" class="0">
 <segment>
-<wire x1="-33.02" y1="-182.88" x2="-33.02" y2="-129.54" width="0.1524" layer="91"/>
-<label x="-33.02" y="-129.54" size="1.778" layer="95" rot="R90" xref="yes"/>
+<wire x1="-33.02" y1="-182.88" x2="-33.02" y2="-127" width="0.1524" layer="91"/>
+<label x="-33.02" y="-127" size="1.778" layer="95" rot="R90" xref="yes"/>
 <pinref part="TUB_CONN" gate="-4" pin="KL"/>
 </segment>
 <segment>
