@@ -327,49 +327,116 @@
 </packages>
 <symbols>
 <symbol name="SEAM_SBRIO">
-<rectangle x1="-20.32" y1="-27.94" x2="-2.54" y2="27.94" layer="94"/>
-<pin name="DIO0" x="-20.32" y="25.4" length="middle" rot="R180"/>
-<pin name="DIO1" x="-20.32" y="22.86" length="middle" rot="R180"/>
-<pin name="DIO2" x="-20.32" y="20.32" length="middle" rot="R180"/>
-<pin name="DIO3" x="-20.32" y="17.78" length="middle" rot="R180"/>
-<pin name="DIO4" x="-20.32" y="15.24" length="middle" rot="R180"/>
-<pin name="DIO5" x="-20.32" y="12.7" length="middle" rot="R180"/>
-<pin name="DIO6" x="-20.32" y="10.16" length="middle" rot="R180"/>
-<pin name="DIO7" x="-20.32" y="7.62" length="middle" rot="R180"/>
-<pin name="DIO8" x="-20.32" y="5.08" length="middle" rot="R180"/>
-<pin name="DIO9" x="-20.32" y="2.54" length="middle" rot="R180"/>
-<pin name="DIO10" x="-20.32" y="0" length="middle" rot="R180"/>
-<pin name="DIO11" x="-20.32" y="-2.54" length="middle" rot="R180"/>
-<pin name="DIO12" x="-20.32" y="-5.08" length="middle" rot="R180"/>
-<pin name="DIO13" x="-20.32" y="-7.62" length="middle" rot="R180"/>
-<pin name="DIO14" x="-20.32" y="-10.16" length="middle" rot="R180"/>
-<pin name="DIO15" x="-20.32" y="-12.7" length="middle" rot="R180"/>
-<pin name="DIO16" x="-20.32" y="-15.24" length="middle" rot="R180"/>
-<pin name="DIO17" x="-20.32" y="-17.78" length="middle" rot="R180"/>
-<pin name="DIO18" x="-20.32" y="-20.32" length="middle" rot="R180"/>
-<pin name="DIO19" x="-20.32" y="-22.86" length="middle" rot="R180"/>
-<pin name="DIO20" x="-2.54" y="25.4" length="middle"/>
-<pin name="DIO21" x="-2.54" y="22.86" length="middle"/>
-<pin name="DIO22" x="-2.54" y="20.32" length="middle"/>
-<pin name="DIO23" x="-2.54" y="17.78" length="middle"/>
-<pin name="DIO24" x="-2.54" y="15.24" length="middle"/>
-<pin name="DIO25" x="-2.54" y="12.7" length="middle"/>
-<pin name="DIO26" x="-2.54" y="10.16" length="middle"/>
-<pin name="DIO27" x="-2.54" y="7.62" length="middle"/>
-<pin name="DIO28" x="-2.54" y="5.08" length="middle"/>
-<pin name="DIO29" x="-2.54" y="2.54" length="middle"/>
-<pin name="DIO30" x="-2.54" y="0" length="middle"/>
-<pin name="DIO31" x="-2.54" y="-2.54" length="middle"/>
-<pin name="DIO32" x="-2.54" y="-5.08" length="middle"/>
-<pin name="DIO33" x="-2.54" y="-7.62" length="middle"/>
-<pin name="DIO34" x="-2.54" y="-10.16" length="middle"/>
-<pin name="DIO35" x="-2.54" y="-12.7" length="middle"/>
-<pin name="DIO36" x="-2.54" y="-15.24" length="middle"/>
-<pin name="DIO37" x="-2.54" y="-17.78" length="middle"/>
-<pin name="DIO38" x="-2.54" y="-20.32" length="middle"/>
-<pin name="DIO39" x="-2.54" y="-22.86" length="middle"/>
-<pin name="VCC" x="-15.24" y="27.94" length="middle" direction="pwr" rot="R90"/>
-<pin name="GND" x="-7.62" y="27.94" length="middle" direction="sup" rot="R90"/>
+<pin name="DIO0" x="53.34" y="-33.02" length="middle" rot="R180"/>
+<pin name="DIO1" x="53.34" y="-27.94" length="middle" rot="R180"/>
+<pin name="DIO2" x="53.34" y="-25.4" length="middle" rot="R180"/>
+<pin name="DIO3" x="53.34" y="-20.32" length="middle" rot="R180"/>
+<pin name="DIO4" x="53.34" y="-17.78" length="middle" rot="R180"/>
+<pin name="DIO5" x="53.34" y="-12.7" length="middle" rot="R180"/>
+<pin name="DIO6" x="53.34" y="-10.16" length="middle" rot="R180"/>
+<pin name="DIO7" x="53.34" y="-5.08" length="middle" rot="R180"/>
+<pin name="DIO8" x="53.34" y="-2.54" length="middle" rot="R180"/>
+<pin name="DIO9" x="53.34" y="2.54" length="middle" rot="R180"/>
+<pin name="DIO10" x="53.34" y="5.08" length="middle" rot="R180"/>
+<pin name="DIO11" x="53.34" y="10.16" length="middle" rot="R180"/>
+<pin name="DIO12" x="53.34" y="12.7" length="middle" rot="R180"/>
+<pin name="DIO13" x="53.34" y="17.78" length="middle" rot="R180"/>
+<pin name="DIO14" x="53.34" y="20.32" length="middle" rot="R180"/>
+<pin name="DIO15" x="53.34" y="25.4" length="middle" rot="R180"/>
+<pin name="DIO16" x="-15.24" y="-35.56" length="middle"/>
+<pin name="DIO17" x="-15.24" y="-33.02" length="middle"/>
+<pin name="DIO18" x="-15.24" y="-27.94" length="middle"/>
+<pin name="DIO19" x="-15.24" y="-25.4" length="middle"/>
+<pin name="DIO20" x="-15.24" y="-20.32" length="middle"/>
+<pin name="DIO21" x="-15.24" y="-17.78" length="middle"/>
+<pin name="DIO22" x="-15.24" y="-12.7" length="middle"/>
+<pin name="DIO23" x="-15.24" y="-10.16" length="middle"/>
+<pin name="DIO24" x="-15.24" y="-5.08" length="middle"/>
+<pin name="DIO25" x="-15.24" y="-2.54" length="middle"/>
+<pin name="DIO26" x="-15.24" y="2.54" length="middle"/>
+<pin name="DIO27" x="-15.24" y="5.08" length="middle"/>
+<pin name="DIO28" x="-15.24" y="10.16" length="middle"/>
+<pin name="DIO29" x="-15.24" y="12.7" length="middle"/>
+<pin name="DIO30" x="-15.24" y="17.78" length="middle"/>
+<pin name="DIO31" x="-15.24" y="20.32" length="middle"/>
+<pin name="DIO32" x="25.4" y="-30.48" length="middle"/>
+<pin name="DIO33" x="25.4" y="-27.94" length="middle"/>
+<pin name="DIO34" x="25.4" y="-22.86" length="middle"/>
+<pin name="DIO35" x="25.4" y="-20.32" length="middle"/>
+<pin name="DIO36" x="25.4" y="-15.24" length="middle"/>
+<pin name="DIO37" x="25.4" y="-12.7" length="middle"/>
+<pin name="DIO38" x="25.4" y="-7.62" length="middle"/>
+<pin name="DIO39" x="25.4" y="-5.08" length="middle"/>
+<pin name="VCC" x="53.34" y="33.02" length="middle" direction="pwr" rot="R180"/>
+<pin name="GND" x="-15.24" y="-38.1" length="middle" direction="sup"/>
+<wire x1="30.48" y1="-40.64" x2="30.48" y2="35.56" width="0.254" layer="94"/>
+<wire x1="30.48" y1="35.56" x2="48.26" y2="35.56" width="0.254" layer="94"/>
+<wire x1="48.26" y1="35.56" x2="48.26" y2="-40.64" width="0.254" layer="94"/>
+<wire x1="48.26" y1="-40.64" x2="30.48" y2="-40.64" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-40.64" x2="-10.16" y2="35.56" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="35.56" x2="7.62" y2="35.56" width="0.254" layer="94"/>
+<wire x1="7.62" y1="35.56" x2="7.62" y2="-40.64" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-40.64" x2="-10.16" y2="-40.64" width="0.254" layer="94"/>
+<wire x1="-50.8" y1="-40.64" x2="-50.8" y2="35.56" width="0.254" layer="94"/>
+<wire x1="-50.8" y1="35.56" x2="-33.02" y2="35.56" width="0.254" layer="94"/>
+<wire x1="-33.02" y1="35.56" x2="-33.02" y2="-40.64" width="0.254" layer="94"/>
+<wire x1="-33.02" y1="-40.64" x2="-50.8" y2="-40.64" width="0.254" layer="94"/>
+<pin name="DIO64" x="12.7" y="-33.02" length="middle" rot="R180"/>
+<pin name="DIO65" x="12.7" y="-30.48" length="middle" rot="R180"/>
+<pin name="DIO79" x="12.7" y="22.86" length="middle" rot="R180"/>
+<pin name="DIO78" x="12.7" y="20.32" length="middle" rot="R180"/>
+<pin name="DIO77" x="12.7" y="15.24" length="middle" rot="R180"/>
+<pin name="DIO76" x="12.7" y="12.7" length="middle" rot="R180"/>
+<pin name="DIO75" x="12.7" y="7.62" length="middle" rot="R180"/>
+<pin name="DIO74" x="12.7" y="5.08" length="middle" rot="R180"/>
+<pin name="DIO73" x="12.7" y="0" length="middle" rot="R180"/>
+<pin name="DIO72" x="12.7" y="-2.54" length="middle" rot="R180"/>
+<pin name="DIO71" x="12.7" y="-7.62" length="middle" rot="R180"/>
+<pin name="DIO70" x="12.7" y="-10.16" length="middle" rot="R180"/>
+<pin name="DIO69" x="12.7" y="-15.24" length="middle" rot="R180"/>
+<pin name="DIO68" x="12.7" y="-17.78" length="middle" rot="R180"/>
+<pin name="DIO67" x="12.7" y="-22.86" length="middle" rot="R180"/>
+<pin name="DIO66" x="12.7" y="-25.4" length="middle" rot="R180"/>
+<pin name="DIO40" x="25.4" y="0" length="middle"/>
+<pin name="DIO41" x="25.4" y="2.54" length="middle"/>
+<pin name="DIO42" x="25.4" y="7.62" length="middle"/>
+<pin name="DIO43" x="25.4" y="10.16" length="middle"/>
+<pin name="DIO44" x="25.4" y="15.24" length="middle"/>
+<pin name="DIO45" x="25.4" y="17.78" length="middle"/>
+<pin name="DIO46" x="25.4" y="22.86" length="middle"/>
+<pin name="DIO47" x="25.4" y="25.4" length="middle"/>
+<pin name="DIO62" x="-27.94" y="17.78" length="middle" rot="R180"/>
+<pin name="DIO61" x="-27.94" y="15.24" length="middle" rot="R180"/>
+<pin name="DIO60" x="-27.94" y="10.16" length="middle" rot="R180"/>
+<pin name="DIO59" x="-27.94" y="7.62" length="middle" rot="R180"/>
+<pin name="DIO58" x="-27.94" y="2.54" length="middle" rot="R180"/>
+<pin name="DIO57" x="-27.94" y="0" length="middle" rot="R180"/>
+<pin name="DIO56" x="-27.94" y="-5.08" length="middle" rot="R180"/>
+<pin name="DIO55" x="-27.94" y="-7.62" length="middle" rot="R180"/>
+<pin name="DIO48" x="-27.94" y="-35.56" length="middle" rot="R180"/>
+<pin name="DIO49" x="-27.94" y="-30.48" length="middle" rot="R180"/>
+<pin name="DIO50" x="-27.94" y="-27.94" length="middle" rot="R180"/>
+<pin name="DIO51" x="-27.94" y="-22.86" length="middle" rot="R180"/>
+<pin name="DIO52" x="-27.94" y="-20.32" length="middle" rot="R180"/>
+<pin name="DIO53" x="-27.94" y="-15.24" length="middle" rot="R180"/>
+<pin name="DIO54" x="-27.94" y="-12.7" length="middle" rot="R180"/>
+<pin name="DIO94" x="-55.88" y="15.24" length="middle"/>
+<pin name="DIO93" x="-55.88" y="12.7" length="middle"/>
+<pin name="DIO92" x="-55.88" y="7.62" length="middle"/>
+<pin name="DIO91" x="-55.88" y="5.08" length="middle"/>
+<pin name="DIO90" x="-55.88" y="0" length="middle"/>
+<pin name="DIO89" x="-55.88" y="-2.54" length="middle"/>
+<pin name="DIO88" x="-55.88" y="-7.62" length="middle"/>
+<pin name="DIO87" x="-55.88" y="-10.16" length="middle"/>
+<pin name="DIO86" x="-55.88" y="-15.24" length="middle"/>
+<pin name="DIO85" x="-55.88" y="-17.78" length="middle"/>
+<pin name="DIO84" x="-55.88" y="-22.86" length="middle"/>
+<pin name="DIO83" x="-55.88" y="-25.4" length="middle"/>
+<pin name="DIO82" x="-55.88" y="-30.48" length="middle"/>
+<pin name="DIO81" x="-55.88" y="-33.02" length="middle"/>
+<pin name="DIO80" x="-55.88" y="-38.1" length="middle"/>
+<pin name="DIO95" x="-55.88" y="20.32" length="middle"/>
+<pin name="DIO63" x="-27.94" y="22.86" length="middle" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -415,11 +482,67 @@
 <connect gate="G$1" pin="DIO38" pad="167"/>
 <connect gate="G$1" pin="DIO39" pad="161"/>
 <connect gate="G$1" pin="DIO4" pad="192"/>
+<connect gate="G$1" pin="DIO40" pad="149"/>
+<connect gate="G$1" pin="DIO41" pad="143"/>
+<connect gate="G$1" pin="DIO42" pad="131"/>
+<connect gate="G$1" pin="DIO43" pad="125"/>
+<connect gate="G$1" pin="DIO44" pad="113"/>
+<connect gate="G$1" pin="DIO45" pad="107"/>
+<connect gate="G$1" pin="DIO46" pad="95"/>
+<connect gate="G$1" pin="DIO47" pad="89"/>
+<connect gate="G$1" pin="DIO48" pad="230"/>
+<connect gate="G$1" pin="DIO49" pad="218"/>
 <connect gate="G$1" pin="DIO5" pad="180"/>
+<connect gate="G$1" pin="DIO50" pad="212"/>
+<connect gate="G$1" pin="DIO51" pad="200"/>
+<connect gate="G$1" pin="DIO52" pad="194"/>
+<connect gate="G$1" pin="DIO53" pad="182"/>
+<connect gate="G$1" pin="DIO54" pad="176"/>
+<connect gate="G$1" pin="DIO55" pad="164"/>
+<connect gate="G$1" pin="DIO56" pad="158"/>
+<connect gate="G$1" pin="DIO57" pad="146"/>
+<connect gate="G$1" pin="DIO58" pad="140"/>
+<connect gate="G$1" pin="DIO59" pad="128"/>
 <connect gate="G$1" pin="DIO6" pad="174"/>
+<connect gate="G$1" pin="DIO60" pad="122"/>
+<connect gate="G$1" pin="DIO61" pad="110"/>
+<connect gate="G$1" pin="DIO62" pad="104"/>
+<connect gate="G$1" pin="DIO63" pad="92"/>
+<connect gate="G$1" pin="DIO64" pad="226"/>
+<connect gate="G$1" pin="DIO65" pad="220"/>
+<connect gate="G$1" pin="DIO66" pad="208"/>
+<connect gate="G$1" pin="DIO67" pad="202"/>
+<connect gate="G$1" pin="DIO68" pad="190"/>
+<connect gate="G$1" pin="DIO69" pad="184"/>
 <connect gate="G$1" pin="DIO7" pad="162"/>
+<connect gate="G$1" pin="DIO70" pad="172"/>
+<connect gate="G$1" pin="DIO71" pad="166"/>
+<connect gate="G$1" pin="DIO72" pad="154"/>
+<connect gate="G$1" pin="DIO73" pad="148"/>
+<connect gate="G$1" pin="DIO74" pad="136"/>
+<connect gate="G$1" pin="DIO75" pad="130"/>
+<connect gate="G$1" pin="DIO76" pad="118"/>
+<connect gate="G$1" pin="DIO77" pad="112"/>
+<connect gate="G$1" pin="DIO78" pad="100"/>
+<connect gate="G$1" pin="DIO79" pad="94"/>
 <connect gate="G$1" pin="DIO8" pad="156"/>
+<connect gate="G$1" pin="DIO80" pad="235"/>
+<connect gate="G$1" pin="DIO81" pad="223"/>
+<connect gate="G$1" pin="DIO82" pad="217"/>
+<connect gate="G$1" pin="DIO83" pad="205"/>
+<connect gate="G$1" pin="DIO84" pad="199"/>
+<connect gate="G$1" pin="DIO85" pad="187"/>
+<connect gate="G$1" pin="DIO86" pad="181"/>
+<connect gate="G$1" pin="DIO87" pad="169"/>
+<connect gate="G$1" pin="DIO88" pad="163"/>
+<connect gate="G$1" pin="DIO89" pad="151"/>
 <connect gate="G$1" pin="DIO9" pad="144"/>
+<connect gate="G$1" pin="DIO90" pad="145"/>
+<connect gate="G$1" pin="DIO91" pad="133"/>
+<connect gate="G$1" pin="DIO92" pad="127"/>
+<connect gate="G$1" pin="DIO93" pad="115"/>
+<connect gate="G$1" pin="DIO94" pad="109"/>
+<connect gate="G$1" pin="DIO95" pad="97"/>
 <connect gate="G$1" pin="GND" pad="237"/>
 <connect gate="G$1" pin="VCC" pad="236"/>
 </connects>
