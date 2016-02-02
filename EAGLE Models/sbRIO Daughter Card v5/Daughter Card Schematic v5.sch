@@ -8,20 +8,20 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="1" fill="1" visible="yes" active="no"/>
-<layer number="16" name="Bottom" color="4" fill="1" visible="yes" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="1" name="Top" color="1" fill="1" visible="no" active="no"/>
+<layer number="16" name="Bottom" color="4" fill="1" visible="no" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -30,8 +30,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="1" fill="10" visible="no" active="no"/>
@@ -39,16 +39,16 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="yes" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
@@ -8397,14 +8397,14 @@ Source: http://www.infineon.com/dgdl/BTS716G.pdf</description>
 <label x="40.64" y="-111.76" size="1.778" layer="95" rot="R270"/>
 </segment>
 <segment>
-<label x="78.74" y="-172.72" size="1.778" layer="95" rot="R90"/>
-<pinref part="ACCUMULATOR_CONN" gate="G$1" pin="3"/>
-<wire x1="78.74" y1="-180.34" x2="78.74" y2="-167.64" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <wire x1="223.52" y1="-160.02" x2="223.52" y2="-198.12" width="0.1524" layer="91"/>
 <label x="223.52" y="-160.02" size="1.778" layer="95" rot="R90" xref="yes"/>
 <pinref part="TUB_CONN" gate="-7" pin="KL"/>
+</segment>
+<segment>
+<label x="73.66" y="-172.72" size="1.778" layer="95" rot="R90"/>
+<pinref part="ACCUMULATOR_CONN" gate="G$1" pin="5"/>
+<wire x1="73.66" y1="-180.34" x2="73.66" y2="-167.64" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="CAN_L" class="0">
@@ -8416,14 +8416,14 @@ Source: http://www.infineon.com/dgdl/BTS716G.pdf</description>
 <label x="38.1" y="-111.76" size="1.778" layer="95" rot="R270"/>
 </segment>
 <segment>
-<label x="76.2" y="-172.72" size="1.778" layer="95" rot="R90"/>
-<pinref part="ACCUMULATOR_CONN" gate="G$1" pin="4"/>
-<wire x1="76.2" y1="-180.34" x2="76.2" y2="-167.64" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <wire x1="220.98" y1="-172.72" x2="220.98" y2="-198.12" width="0.1524" layer="91"/>
 <label x="220.98" y="-172.72" size="1.778" layer="95" rot="R90" xref="yes"/>
 <pinref part="TUB_CONN" gate="-6" pin="KL"/>
+</segment>
+<segment>
+<label x="76.2" y="-172.72" size="1.778" layer="95" rot="R90"/>
+<pinref part="ACCUMULATOR_CONN" gate="G$1" pin="4"/>
+<wire x1="76.2" y1="-180.34" x2="76.2" y2="-167.64" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="CAN_GND" class="0">
@@ -8465,9 +8465,9 @@ Source: http://www.infineon.com/dgdl/BTS716G.pdf</description>
 <label x="33.02" y="-111.76" size="1.778" layer="95" rot="R270"/>
 </segment>
 <segment>
-<label x="81.28" y="-172.72" size="1.778" layer="95" rot="R90"/>
-<pinref part="ACCUMULATOR_CONN" gate="G$1" pin="2"/>
-<wire x1="81.28" y1="-180.34" x2="81.28" y2="-167.64" width="0.1524" layer="91"/>
+<label x="71.12" y="-172.72" size="1.778" layer="95" rot="R90"/>
+<pinref part="ACCUMULATOR_CONN" gate="G$1" pin="6"/>
+<wire x1="71.12" y1="-180.34" x2="71.12" y2="-167.64" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="AI2" class="0">
@@ -8480,14 +8480,14 @@ Source: http://www.infineon.com/dgdl/BTS716G.pdf</description>
 <label x="30.48" y="-111.76" size="1.778" layer="95" rot="R270"/>
 </segment>
 <segment>
-<label x="71.12" y="-172.72" size="1.778" layer="95" rot="R90"/>
-<pinref part="ACCUMULATOR_CONN" gate="G$1" pin="6"/>
-<wire x1="71.12" y1="-180.34" x2="71.12" y2="-167.64" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="F5" gate="G$1" pin="2"/>
 <wire x1="398.78" y1="-45.72" x2="391.16" y2="-45.72" width="0.1524" layer="91"/>
 <label x="391.16" y="-45.72" size="1.778" layer="95" rot="MR0" xref="yes"/>
+</segment>
+<segment>
+<label x="78.74" y="-172.72" size="1.778" layer="95" rot="R90"/>
+<pinref part="ACCUMULATOR_CONN" gate="G$1" pin="3"/>
+<wire x1="78.74" y1="-180.34" x2="78.74" y2="-167.64" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="AI1" class="0">
@@ -8500,9 +8500,9 @@ Source: http://www.infineon.com/dgdl/BTS716G.pdf</description>
 <label x="27.94" y="-111.76" size="1.778" layer="95" rot="R270"/>
 </segment>
 <segment>
-<label x="73.66" y="-172.72" size="1.778" layer="95" rot="R90"/>
-<pinref part="ACCUMULATOR_CONN" gate="G$1" pin="5"/>
-<wire x1="73.66" y1="-180.34" x2="73.66" y2="-167.64" width="0.1524" layer="91"/>
+<label x="81.28" y="-172.72" size="1.778" layer="95" rot="R90"/>
+<pinref part="ACCUMULATOR_CONN" gate="G$1" pin="2"/>
+<wire x1="81.28" y1="-180.34" x2="81.28" y2="-167.64" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="AI3" class="0">
@@ -9481,12 +9481,12 @@ Source: http://www.infineon.com/dgdl/BTS716G.pdf</description>
 <wire x1="144.78" y1="27.94" x2="139.7" y2="27.94" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="D6" gate="G$1" pin="A"/>
-<wire x1="68.58" y1="-50.8" x2="68.58" y2="-33.02" width="0.1524" layer="91"/>
-<wire x1="68.58" y1="-33.02" x2="68.58" y2="38.1" width="0.1524" layer="91"/>
-<pinref part="R9" gate="G$1" pin="1"/>
-<junction x="68.58" y="-33.02"/>
-<label x="68.58" y="38.1" size="1.778" layer="95" xref="yes"/>
+<pinref part="D5" gate="G$1" pin="A"/>
+<wire x1="66.04" y1="-40.64" x2="66.04" y2="-25.4" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="-25.4" x2="66.04" y2="40.64" width="0.1524" layer="91"/>
+<pinref part="R8" gate="G$1" pin="2"/>
+<junction x="66.04" y="-25.4"/>
+<label x="66.04" y="40.64" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
 <net name="DIO81" class="0">
@@ -9559,12 +9559,12 @@ Source: http://www.infineon.com/dgdl/BTS716G.pdf</description>
 <wire x1="144.78" y1="22.86" x2="142.24" y2="22.86" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="D5" gate="G$1" pin="A"/>
-<wire x1="66.04" y1="-40.64" x2="66.04" y2="-25.4" width="0.1524" layer="91"/>
-<wire x1="66.04" y1="-25.4" x2="66.04" y2="40.64" width="0.1524" layer="91"/>
-<pinref part="R8" gate="G$1" pin="2"/>
-<junction x="66.04" y="-25.4"/>
-<label x="66.04" y="40.64" size="1.778" layer="95" rot="R90" xref="yes"/>
+<pinref part="D6" gate="G$1" pin="A"/>
+<wire x1="68.58" y1="-50.8" x2="68.58" y2="-33.02" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="-33.02" x2="68.58" y2="38.1" width="0.1524" layer="91"/>
+<pinref part="R9" gate="G$1" pin="1"/>
+<junction x="68.58" y="-33.02"/>
+<label x="68.58" y="38.1" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="DIO93" class="0">
