@@ -7879,8 +7879,8 @@ Source: http://www.infineon.com/dgdl/BTS716G.pdf</description>
 <part name="F1" library="resistor" deviceset="R-EU_" device="R0402"/>
 <part name="F2" library="resistor" deviceset="R-EU_" device="R0402"/>
 <part name="F14" library="resistor" deviceset="R-EU_" device="R0402"/>
-<part name="F11" library="resistor" deviceset="R-EU_" device="R0402"/>
-<part name="F12" library="resistor" deviceset="R-EU_" device="R0402"/>
+<part name="F9" library="resistor" deviceset="R-EU_" device="R0402"/>
+<part name="F10" library="resistor" deviceset="R-EU_" device="R0402"/>
 </parts>
 <sheets>
 <sheet>
@@ -7961,22 +7961,22 @@ Source: http://www.infineon.com/dgdl/BTS716G.pdf</description>
 <instance part="F20" gate="G$1" x="152.4" y="-172.72" rot="R270"/>
 <instance part="F21" gate="G$1" x="154.94" y="-162.56" rot="R270"/>
 <instance part="F22" gate="G$1" x="157.48" y="-172.72" rot="R270"/>
-<instance part="TUB_CONN" gate="-1" x="259.08" y="-256.54" rot="R90"/>
-<instance part="TUB_CONN" gate="-2" x="261.62" y="-256.54" rot="R90"/>
-<instance part="TUB_CONN" gate="-3" x="264.16" y="-256.54" rot="R90"/>
-<instance part="TUB_CONN" gate="-4" x="266.7" y="-256.54" rot="R90"/>
-<instance part="TUB_CONN" gate="-5" x="269.24" y="-256.54" rot="R90"/>
-<instance part="TUB_CONN" gate="-6" x="271.78" y="-256.54" rot="R90"/>
-<instance part="TUB_CONN" gate="-7" x="274.32" y="-256.54" rot="R90"/>
-<instance part="TUB_CONN" gate="-8" x="276.86" y="-256.54" rot="R90"/>
-<instance part="TUB_CONN" gate="-9" x="279.4" y="-256.54" rot="R90"/>
-<instance part="TUB_CONN" gate="-10" x="281.94" y="-256.54" rot="R90"/>
-<instance part="TUB_CONN" gate="-11" x="284.48" y="-256.54" rot="R90"/>
-<instance part="TUB_CONN" gate="-12" x="287.02" y="-256.54" rot="R90"/>
-<instance part="TUB_CONN" gate="-13" x="289.56" y="-256.54" rot="R90"/>
-<instance part="TUB_CONN" gate="-14" x="292.1" y="-256.54" rot="R90"/>
-<instance part="TUB_CONN" gate="-15" x="294.64" y="-256.54" rot="R90"/>
-<instance part="TUB_CONN" gate="-16" x="297.18" y="-256.54" rot="R90"/>
+<instance part="TUB_CONN" gate="-1" x="195.58" y="-210.82" rot="R90"/>
+<instance part="TUB_CONN" gate="-2" x="198.12" y="-210.82" rot="R90"/>
+<instance part="TUB_CONN" gate="-3" x="200.66" y="-210.82" rot="R90"/>
+<instance part="TUB_CONN" gate="-4" x="203.2" y="-210.82" rot="R90"/>
+<instance part="TUB_CONN" gate="-5" x="205.74" y="-210.82" rot="R90"/>
+<instance part="TUB_CONN" gate="-6" x="208.28" y="-210.82" rot="R90"/>
+<instance part="TUB_CONN" gate="-7" x="210.82" y="-210.82" rot="R90"/>
+<instance part="TUB_CONN" gate="-8" x="213.36" y="-210.82" rot="R90"/>
+<instance part="TUB_CONN" gate="-9" x="215.9" y="-210.82" rot="R90"/>
+<instance part="TUB_CONN" gate="-10" x="218.44" y="-210.82" rot="R90"/>
+<instance part="TUB_CONN" gate="-11" x="220.98" y="-210.82" rot="R90"/>
+<instance part="TUB_CONN" gate="-12" x="223.52" y="-210.82" rot="R90"/>
+<instance part="TUB_CONN" gate="-13" x="226.06" y="-210.82" rot="R90"/>
+<instance part="TUB_CONN" gate="-14" x="228.6" y="-210.82" rot="R90"/>
+<instance part="TUB_CONN" gate="-15" x="231.14" y="-210.82" rot="R90"/>
+<instance part="TUB_CONN" gate="-16" x="233.68" y="-210.82" rot="R90"/>
 <instance part="IC2" gate="G$2" x="337.82" y="-63.5"/>
 <instance part="IC1" gate="G$1" x="139.7" y="-93.98" rot="R270"/>
 <instance part="IC3" gate="G$1" x="208.28" y="-83.82" rot="R270"/>
@@ -7986,8 +7986,8 @@ Source: http://www.infineon.com/dgdl/BTS716G.pdf</description>
 <instance part="F2" gate="G$1" x="401.32" y="-76.2"/>
 <instance part="F14" gate="G$1" x="401.32" y="-81.28"/>
 <instance part="IC2" gate="G$1" x="289.56" y="-63.5"/>
-<instance part="F11" gate="G$1" x="264.16" y="-236.22" rot="R90"/>
-<instance part="F12" gate="G$1" x="259.08" y="-228.6" rot="R90"/>
+<instance part="F9" gate="G$1" x="200.66" y="-193.04" rot="R90"/>
+<instance part="F10" gate="G$1" x="195.58" y="-182.88" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -8171,8 +8171,8 @@ Source: http://www.infineon.com/dgdl/BTS716G.pdf</description>
 <wire x1="185.42" y1="-30.48" x2="182.88" y2="-30.48" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="281.94" y1="-213.36" x2="281.94" y2="-251.46" width="0.1524" layer="91"/>
-<label x="281.94" y="-213.36" size="1.778" layer="95" rot="R90" xref="yes"/>
+<wire x1="218.44" y1="-167.64" x2="218.44" y2="-205.74" width="0.1524" layer="91"/>
+<label x="218.44" y="-167.64" size="1.778" layer="95" rot="R90" xref="yes"/>
 <pinref part="TUB_CONN" gate="-10" pin="KL"/>
 </segment>
 </net>
@@ -8289,9 +8289,9 @@ Source: http://www.infineon.com/dgdl/BTS716G.pdf</description>
 <pinref part="SHTDWN_CONN" gate="G$1" pin="4"/>
 </segment>
 <segment>
-<pinref part="F11" gate="G$1" pin="2"/>
-<wire x1="264.16" y1="-231.14" x2="264.16" y2="-195.58" width="0.1524" layer="91"/>
-<label x="264.16" y="-195.58" size="1.778" layer="95" rot="R90" xref="yes"/>
+<pinref part="F9" gate="G$1" pin="2"/>
+<wire x1="200.66" y1="-187.96" x2="200.66" y2="-149.86" width="0.1524" layer="91"/>
+<label x="200.66" y="-149.86" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
 <net name="N$4" class="0">
@@ -8319,9 +8319,9 @@ Source: http://www.infineon.com/dgdl/BTS716G.pdf</description>
 <label x="132.08" y="-144.78" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
 <segment>
-<pinref part="F12" gate="G$1" pin="2"/>
-<wire x1="259.08" y1="-223.52" x2="259.08" y2="-195.58" width="0.1524" layer="91"/>
-<label x="259.08" y="-195.58" size="1.778" layer="95" rot="R90" xref="yes"/>
+<pinref part="F10" gate="G$1" pin="2"/>
+<wire x1="195.58" y1="-177.8" x2="195.58" y2="-149.86" width="0.1524" layer="91"/>
+<label x="195.58" y="-149.86" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
 <net name="DIO3" class="0">
@@ -8339,6 +8339,11 @@ Source: http://www.infineon.com/dgdl/BTS716G.pdf</description>
 <pinref part="R36" gate="G$1" pin="2"/>
 <label x="228.6" y="-109.22" size="1.778" layer="95" rot="R270" xref="yes"/>
 <wire x1="228.6" y1="-93.98" x2="228.6" y2="-109.22" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<wire x1="198.12" y1="-205.74" x2="198.12" y2="-167.64" width="0.1524" layer="91"/>
+<label x="198.12" y="-167.64" size="1.778" layer="95" rot="R90" xref="yes"/>
+<pinref part="TUB_CONN" gate="-2" pin="KL"/>
 </segment>
 </net>
 <net name="DIO1" class="0">
@@ -8359,6 +8364,15 @@ Source: http://www.infineon.com/dgdl/BTS716G.pdf</description>
 <segment>
 <wire x1="259.08" y1="-25.4" x2="254" y2="-25.4" width="0.1524" layer="91"/>
 <pinref part="U$3" gate="G$1" pin="DIO0"/>
+</segment>
+<segment>
+<pinref part="U2" gate="G$1" pin="SCL"/>
+<wire x1="233.68" y1="106.68" x2="241.3" y2="106.68" width="0.1524" layer="91"/>
+<label x="241.3" y="104.14" size="1.778" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U3" gate="G$1" pin="SCL"/>
+<wire x1="317.5" y1="116.84" x2="322.58" y2="116.84" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="DIO22" class="0">
@@ -8404,8 +8418,8 @@ Source: http://www.infineon.com/dgdl/BTS716G.pdf</description>
 <wire x1="73.66" y1="-180.34" x2="73.66" y2="-167.64" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="279.4" y1="-195.58" x2="279.4" y2="-251.46" width="0.1524" layer="91"/>
-<label x="279.4" y="-195.58" size="1.778" layer="95" rot="R90" xref="yes"/>
+<wire x1="215.9" y1="-149.86" x2="215.9" y2="-205.74" width="0.1524" layer="91"/>
+<label x="215.9" y="-149.86" size="1.778" layer="95" rot="R90" xref="yes"/>
 <pinref part="TUB_CONN" gate="-9" pin="KL"/>
 </segment>
 </net>
@@ -8423,8 +8437,8 @@ Source: http://www.infineon.com/dgdl/BTS716G.pdf</description>
 <wire x1="76.2" y1="-180.34" x2="76.2" y2="-167.64" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="276.86" y1="-213.36" x2="276.86" y2="-251.46" width="0.1524" layer="91"/>
-<label x="276.86" y="-213.36" size="1.778" layer="95" rot="R90" xref="yes"/>
+<wire x1="213.36" y1="-167.64" x2="213.36" y2="-205.74" width="0.1524" layer="91"/>
+<label x="213.36" y="-167.64" size="1.778" layer="95" rot="R90" xref="yes"/>
 <pinref part="TUB_CONN" gate="-8" pin="KL"/>
 </segment>
 </net>
@@ -8519,8 +8533,8 @@ Source: http://www.infineon.com/dgdl/BTS716G.pdf</description>
 <label x="391.16" y="-40.64" size="1.778" layer="95" rot="MR0" xref="yes"/>
 </segment>
 <segment>
-<wire x1="284.48" y1="-251.46" x2="284.48" y2="-195.58" width="0.1524" layer="91"/>
-<label x="284.48" y="-195.58" size="1.778" layer="95" rot="R90" xref="yes"/>
+<wire x1="220.98" y1="-205.74" x2="220.98" y2="-149.86" width="0.1524" layer="91"/>
+<label x="220.98" y="-149.86" size="1.778" layer="95" rot="R90" xref="yes"/>
 <pinref part="TUB_CONN" gate="-11" pin="KL"/>
 </segment>
 </net>
@@ -8536,8 +8550,8 @@ Source: http://www.infineon.com/dgdl/BTS716G.pdf</description>
 <label x="391.16" y="-35.56" size="1.778" layer="95" rot="MR0" xref="yes"/>
 </segment>
 <segment>
-<wire x1="287.02" y1="-251.46" x2="287.02" y2="-213.36" width="0.1524" layer="91"/>
-<label x="287.02" y="-213.36" size="1.778" layer="95" rot="R90" xref="yes"/>
+<wire x1="223.52" y1="-205.74" x2="223.52" y2="-167.64" width="0.1524" layer="91"/>
+<label x="223.52" y="-167.64" size="1.778" layer="95" rot="R90" xref="yes"/>
 <pinref part="TUB_CONN" gate="-12" pin="KL"/>
 </segment>
 </net>
@@ -8548,9 +8562,9 @@ Source: http://www.infineon.com/dgdl/BTS716G.pdf</description>
 <label x="30.48" y="17.78" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="294.64" y1="-251.46" x2="294.64" y2="-195.58" width="0.1524" layer="91"/>
-<label x="294.64" y="-195.58" size="1.778" layer="95" rot="R90" xref="yes"/>
-<pinref part="TUB_CONN" gate="-15" pin="KL"/>
+<wire x1="226.06" y1="-205.74" x2="226.06" y2="-149.86" width="0.1524" layer="91"/>
+<label x="226.06" y="-149.86" size="1.778" layer="95" rot="R90" xref="yes"/>
+<pinref part="TUB_CONN" gate="-13" pin="KL"/>
 </segment>
 </net>
 <net name="THROTTLE_2" class="0">
@@ -8560,8 +8574,8 @@ Source: http://www.infineon.com/dgdl/BTS716G.pdf</description>
 <label x="7.62" y="20.32" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="292.1" y1="-251.46" x2="292.1" y2="-213.36" width="0.1524" layer="91"/>
-<label x="292.1" y="-213.36" size="1.778" layer="95" rot="R90" xref="yes"/>
+<wire x1="228.6" y1="-205.74" x2="228.6" y2="-167.64" width="0.1524" layer="91"/>
+<label x="228.6" y="-167.64" size="1.778" layer="95" rot="R90" xref="yes"/>
 <pinref part="TUB_CONN" gate="-14" pin="KL"/>
 </segment>
 </net>
@@ -8572,9 +8586,9 @@ Source: http://www.infineon.com/dgdl/BTS716G.pdf</description>
 <label x="30.48" y="22.86" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="289.56" y1="-251.46" x2="289.56" y2="-195.58" width="0.1524" layer="91"/>
-<label x="289.56" y="-195.58" size="1.778" layer="95" rot="R90" xref="yes"/>
-<pinref part="TUB_CONN" gate="-13" pin="KL"/>
+<wire x1="231.14" y1="-205.74" x2="231.14" y2="-149.86" width="0.1524" layer="91"/>
+<label x="231.14" y="-149.86" size="1.778" layer="95" rot="R90" xref="yes"/>
+<pinref part="TUB_CONN" gate="-15" pin="KL"/>
 </segment>
 </net>
 <net name="DIO8" class="0">
@@ -8618,8 +8632,8 @@ Source: http://www.infineon.com/dgdl/BTS716G.pdf</description>
 <pinref part="IC3" gate="G$1" pin="OUT2"/>
 </segment>
 <segment>
-<wire x1="271.78" y1="-251.46" x2="271.78" y2="-213.36" width="0.1524" layer="91"/>
-<label x="271.78" y="-213.36" size="1.778" layer="95" rot="R90" xref="yes"/>
+<wire x1="208.28" y1="-205.74" x2="208.28" y2="-167.64" width="0.1524" layer="91"/>
+<label x="208.28" y="-167.64" size="1.778" layer="95" rot="R90" xref="yes"/>
 <pinref part="TUB_CONN" gate="-6" pin="KL"/>
 </segment>
 </net>
@@ -8630,8 +8644,8 @@ Source: http://www.infineon.com/dgdl/BTS716G.pdf</description>
 <pinref part="IC3" gate="G$1" pin="OUT3"/>
 </segment>
 <segment>
-<wire x1="269.24" y1="-251.46" x2="269.24" y2="-195.58" width="0.1524" layer="91"/>
-<label x="269.24" y="-195.58" size="1.778" layer="95" rot="R90" xref="yes"/>
+<wire x1="205.74" y1="-205.74" x2="205.74" y2="-149.86" width="0.1524" layer="91"/>
+<label x="205.74" y="-149.86" size="1.778" layer="95" rot="R90" xref="yes"/>
 <pinref part="TUB_CONN" gate="-5" pin="KL"/>
 </segment>
 </net>
@@ -8642,8 +8656,8 @@ Source: http://www.infineon.com/dgdl/BTS716G.pdf</description>
 <pinref part="IC3" gate="G$1" pin="OUT4"/>
 </segment>
 <segment>
-<wire x1="266.7" y1="-251.46" x2="266.7" y2="-213.36" width="0.1524" layer="91"/>
-<label x="266.7" y="-213.36" size="1.778" layer="95" rot="R90" xref="yes"/>
+<wire x1="203.2" y1="-205.74" x2="203.2" y2="-167.64" width="0.1524" layer="91"/>
+<label x="203.2" y="-167.64" size="1.778" layer="95" rot="R90" xref="yes"/>
 <pinref part="TUB_CONN" gate="-4" pin="KL"/>
 </segment>
 </net>
@@ -8787,24 +8801,15 @@ Source: http://www.infineon.com/dgdl/BTS716G.pdf</description>
 <wire x1="226.06" y1="-22.86" x2="223.52" y2="-22.86" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U2" gate="G$1" pin="SCL"/>
-<wire x1="233.68" y1="106.68" x2="241.3" y2="106.68" width="0.1524" layer="91"/>
-<label x="241.3" y="104.14" size="1.778" layer="95" xref="yes"/>
-</segment>
-<segment>
-<pinref part="U3" gate="G$1" pin="SCL"/>
-<wire x1="317.5" y1="116.84" x2="322.58" y2="116.84" width="0.1524" layer="91"/>
+<pinref part="U3" gate="G$1" pin="CS"/>
+<wire x1="317.5" y1="109.22" x2="322.58" y2="109.22" width="0.1524" layer="91"/>
+<label x="332.74" y="109.22" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="DIO33" class="0">
 <segment>
 <pinref part="U$3" gate="G$1" pin="DIO33"/>
 <wire x1="226.06" y1="-20.32" x2="223.52" y2="-20.32" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="U3" gate="G$1" pin="CS"/>
-<wire x1="317.5" y1="109.22" x2="322.58" y2="109.22" width="0.1524" layer="91"/>
-<label x="332.74" y="109.22" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="N$37" class="0">
@@ -8830,21 +8835,11 @@ Source: http://www.infineon.com/dgdl/BTS716G.pdf</description>
 <pinref part="U$3" gate="G$1" pin="DIO34"/>
 <wire x1="226.06" y1="-15.24" x2="223.52" y2="-15.24" width="0.1524" layer="91"/>
 </segment>
-<segment>
-<pinref part="U3" gate="G$1" pin="INT1"/>
-<wire x1="317.5" y1="101.6" x2="322.58" y2="101.6" width="0.1524" layer="91"/>
-<label x="325.12" y="101.6" size="1.778" layer="95"/>
-</segment>
 </net>
 <net name="DIO35" class="0">
 <segment>
 <pinref part="U$3" gate="G$1" pin="DIO35"/>
 <wire x1="226.06" y1="-12.7" x2="223.52" y2="-12.7" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="U3" gate="G$1" pin="INT2"/>
-<wire x1="317.5" y1="104.14" x2="322.58" y2="104.14" width="0.1524" layer="91"/>
-<label x="332.74" y="104.14" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="DIO36" class="0">
@@ -9014,8 +9009,8 @@ Source: http://www.infineon.com/dgdl/BTS716G.pdf</description>
 <label x="-86.36" y="-5.08" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<wire x1="297.18" y1="-251.46" x2="297.18" y2="-213.36" width="0.1524" layer="91"/>
-<label x="297.18" y="-213.36" size="1.778" layer="95" rot="R90" xref="yes"/>
+<wire x1="233.68" y1="-205.74" x2="233.68" y2="-167.64" width="0.1524" layer="91"/>
+<label x="233.68" y="-167.64" size="1.778" layer="95" rot="R90" xref="yes"/>
 <pinref part="TUB_CONN" gate="-16" pin="KL"/>
 </segment>
 </net>
@@ -9110,8 +9105,8 @@ Source: http://www.infineon.com/dgdl/BTS716G.pdf</description>
 <pinref part="IC3" gate="G$1" pin="OUT1"/>
 </segment>
 <segment>
-<wire x1="274.32" y1="-251.46" x2="274.32" y2="-195.58" width="0.1524" layer="91"/>
-<label x="274.32" y="-195.58" size="1.778" layer="95" rot="R90" xref="yes"/>
+<wire x1="210.82" y1="-205.74" x2="210.82" y2="-149.86" width="0.1524" layer="91"/>
+<label x="210.82" y="-149.86" size="1.778" layer="95" rot="R90" xref="yes"/>
 <pinref part="TUB_CONN" gate="-7" pin="KL"/>
 </segment>
 </net>
@@ -9121,13 +9116,6 @@ Source: http://www.infineon.com/dgdl/BTS716G.pdf</description>
 <pinref part="D5" gate="G$1" pin="C"/>
 <wire x1="66.04" y1="-165.1" x2="66.04" y2="-45.72" width="0.1524" layer="91"/>
 <pinref part="F7" gate="G$1" pin="2"/>
-</segment>
-</net>
-<net name="DI02" class="0">
-<segment>
-<wire x1="261.62" y1="-251.46" x2="261.62" y2="-213.36" width="0.1524" layer="91"/>
-<label x="261.62" y="-213.36" size="1.778" layer="95" rot="R90" xref="yes"/>
-<pinref part="TUB_CONN" gate="-2" pin="KL"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -9630,18 +9618,40 @@ Source: http://www.infineon.com/dgdl/BTS716G.pdf</description>
 <wire x1="226.06" y1="22.86" x2="223.52" y2="22.86" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$7" class="0">
+<net name="N$16" class="0">
 <segment>
-<pinref part="F11" gate="G$1" pin="1"/>
-<wire x1="264.16" y1="-251.46" x2="264.16" y2="-241.3" width="0.1524" layer="91"/>
+<pinref part="F9" gate="G$1" pin="1"/>
+<wire x1="200.66" y1="-205.74" x2="200.66" y2="-198.12" width="0.1524" layer="91"/>
 <pinref part="TUB_CONN" gate="-3" pin="KL"/>
 </segment>
 </net>
-<net name="N$8" class="0">
+<net name="N$17" class="0">
 <segment>
-<pinref part="F12" gate="G$1" pin="1"/>
-<wire x1="259.08" y1="-233.68" x2="259.08" y2="-251.46" width="0.1524" layer="91"/>
+<pinref part="F10" gate="G$1" pin="1"/>
+<wire x1="195.58" y1="-187.96" x2="195.58" y2="-205.74" width="0.1524" layer="91"/>
 <pinref part="TUB_CONN" gate="-1" pin="KL"/>
+</segment>
+</net>
+<net name="DIO64" class="0">
+<segment>
+<pinref part="U$3" gate="G$1" pin="DIO64"/>
+<wire x1="213.36" y1="-25.4" x2="218.44" y2="-25.4" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U3" gate="G$1" pin="INT2"/>
+<wire x1="317.5" y1="104.14" x2="322.58" y2="104.14" width="0.1524" layer="91"/>
+<label x="332.74" y="104.14" size="1.778" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="DIO65" class="0">
+<segment>
+<pinref part="U$3" gate="G$1" pin="DIO65"/>
+<wire x1="213.36" y1="-22.86" x2="218.44" y2="-22.86" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U3" gate="G$1" pin="INT1"/>
+<wire x1="317.5" y1="101.6" x2="322.58" y2="101.6" width="0.1524" layer="91"/>
+<label x="325.12" y="101.6" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
