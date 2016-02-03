@@ -9566,11 +9566,21 @@ Source: http://www.infineon.com/dgdl/BTS716G.pdf</description>
 <pinref part="U$3" gate="G$1" pin="DIO93"/>
 <wire x1="144.78" y1="20.32" x2="139.7" y2="20.32" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="SBRIO_AUX" gate="G$1" pin="DIO14"/>
+<wire x1="-66.04" y1="33.02" x2="-73.66" y2="33.02" width="0.1524" layer="91"/>
+<label x="-73.66" y="33.02" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="DIO92" class="0">
 <segment>
 <pinref part="U$3" gate="G$1" pin="DIO92"/>
 <wire x1="144.78" y1="15.24" x2="142.24" y2="15.24" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="SBRIO_AUX" gate="G$1" pin="DIO15"/>
+<wire x1="-66.04" y1="30.48" x2="-73.66" y2="30.48" width="0.1524" layer="91"/>
+<label x="-73.66" y="30.48" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="DIO91" class="0">
@@ -9578,11 +9588,21 @@ Source: http://www.infineon.com/dgdl/BTS716G.pdf</description>
 <pinref part="U$3" gate="G$1" pin="DIO91"/>
 <wire x1="144.78" y1="12.7" x2="142.24" y2="12.7" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="SBRIO_AUX" gate="G$1" pin="DIO38"/>
+<wire x1="-66.04" y1="17.78" x2="-73.66" y2="17.78" width="0.1524" layer="91"/>
+<label x="-73.66" y="17.78" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="DIO90" class="0">
 <segment>
 <pinref part="U$3" gate="G$1" pin="DIO90"/>
 <wire x1="144.78" y1="7.62" x2="139.7" y2="7.62" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="SBRIO_AUX" gate="G$1" pin="DIO19"/>
+<wire x1="-66.04" y1="20.32" x2="-73.66" y2="20.32" width="0.1524" layer="91"/>
+<label x="-73.66" y="20.32" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="DIO45" class="0">
@@ -9685,6 +9705,13 @@ Source: http://www.infineon.com/dgdl/BTS716G.pdf</description>
 <segment>
 <pinref part="U$3" gate="G$1" pin="DIO40"/>
 <wire x1="226.06" y1="7.62" x2="223.52" y2="7.62" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="DIO89" class="0">
+<segment>
+<pinref part="SBRIO_AUX" gate="G$1" pin="DIO18"/>
+<wire x1="-66.04" y1="22.86" x2="-73.66" y2="22.86" width="0.1524" layer="91"/>
+<label x="-73.66" y="22.86" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 </nets>
