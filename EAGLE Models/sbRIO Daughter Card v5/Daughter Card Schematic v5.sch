@@ -7803,6 +7803,72 @@ Source: http://www.infineon.com/dgdl/BTS716G.pdf</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="con-molex">
+<description>&lt;b&gt;Molex Connectors&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="5566-2">
+<description>&lt;b&gt;Mini FIT connector 2 pol&lt;/b&gt;&lt;p&gt;
+Source: http://www.molex.com</description>
+<wire x1="-2.6" y1="4.5" x2="2.6" y2="4.5" width="0.254" layer="21"/>
+<wire x1="2.6" y1="4.5" x2="2.6" y2="-2.2" width="0.254" layer="21"/>
+<wire x1="2.6" y1="-3.3" x2="2.6" y2="-4.9" width="0.254" layer="21"/>
+<wire x1="2.6" y1="-4.9" x2="-2.6" y2="-4.9" width="0.254" layer="21"/>
+<wire x1="-2.6" y1="-4.9" x2="-2.6" y2="4.5" width="0.254" layer="21"/>
+<wire x1="-6.1" y1="3.2" x2="-3.3" y2="3.2" width="0.254" layer="21" curve="-114.529547"/>
+<wire x1="-6.1" y1="1.4" x2="-3.3" y2="1.4" width="0.254" layer="21" curve="114.529547"/>
+<wire x1="-6.1" y1="3.2" x2="-6.1" y2="1.4" width="0.254" layer="21"/>
+<wire x1="-3.4" y1="3.3" x2="-2.7" y2="3.3" width="0.254" layer="21"/>
+<wire x1="-3.4" y1="1.3" x2="-2.7" y2="1.3" width="0.254" layer="21"/>
+<wire x1="3.3" y1="1.4" x2="6.1" y2="1.4" width="0.254" layer="21" curve="114.529547"/>
+<wire x1="3.3" y1="3.2" x2="6.1" y2="3.2" width="0.254" layer="21" curve="-114.529547"/>
+<wire x1="6.1" y1="1.4" x2="6.1" y2="3.2" width="0.254" layer="21"/>
+<wire x1="3.4" y1="1.3" x2="2.7" y2="1.3" width="0.254" layer="21"/>
+<wire x1="3.4" y1="3.3" x2="2.7" y2="3.3" width="0.254" layer="21"/>
+<wire x1="2.6" y1="-2.2" x2="2.6" y2="-3.3" width="0.254" layer="21" curve="-180"/>
+<pad name="1" x="0" y="-2.75" drill="1.4" shape="square"/>
+<pad name="2" x="0" y="2.75" drill="1.4" shape="square"/>
+<text x="-1.27" y="5.08" size="1.27" layer="25">&gt;NAME</text>
+<text x="-2.54" y="-6.35" size="1.27" layer="27">&gt;VALUE</text>
+<hole x="4.7" y="2.29" drill="3"/>
+<hole x="-4.7" y="2.29" drill="3"/>
+</package>
+</packages>
+<symbols>
+<symbol name="MV">
+<wire x1="1.27" y1="0" x2="0" y2="0" width="0.6096" layer="94"/>
+<text x="2.54" y="-0.762" size="1.524" layer="95">&gt;NAME</text>
+<text x="-0.762" y="1.397" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="S" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="5566-2" prefix="X">
+<description>&lt;b&gt;Mini FIT connector 2 pol&lt;/b&gt;&lt;p&gt;
+Source: http://www.molex.com</description>
+<gates>
+<gate name="-1" symbol="MV" x="0" y="2.54" addlevel="always"/>
+<gate name="-2" symbol="MV" x="0" y="-2.54" addlevel="always"/>
+</gates>
+<devices>
+<device name="" package="5566-2">
+<connects>
+<connect gate="-1" pin="S" pad="1"/>
+<connect gate="-2" pin="S" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="1822072" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -7881,6 +7947,7 @@ Source: http://www.infineon.com/dgdl/BTS716G.pdf</description>
 <part name="F14" library="resistor" deviceset="R-EU_" device="R0402"/>
 <part name="F9" library="resistor" deviceset="R-EU_" device="R0402"/>
 <part name="F10" library="resistor" deviceset="R-EU_" device="R0402"/>
+<part name="X1" library="con-molex" deviceset="5566-2" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -7892,10 +7959,10 @@ Source: http://www.infineon.com/dgdl/BTS716G.pdf</description>
 <instance part="U$2" gate="G$1" x="35.56" y="-55.88" rot="R180"/>
 <instance part="U$3" gate="G$1" x="200.66" y="7.62"/>
 <instance part="5V_REG" gate="G$1" x="35.56" y="91.44" rot="R270"/>
-<instance part="D3" gate="G$1" x="-38.1" y="7.62" rot="R90"/>
+<instance part="D3" gate="G$1" x="-27.94" y="17.78" rot="R90"/>
 <instance part="D1" gate="G$1" x="-91.44" y="50.8"/>
 <instance part="SHTDWN_CONN" gate="G$1" x="416.56" y="-71.12" rot="R180"/>
-<instance part="D6" gate="G$1" x="68.58" y="-53.34" rot="R270"/>
+<instance part="D6" gate="G$1" x="71.12" y="-38.1" rot="R270"/>
 <instance part="D5" gate="G$1" x="66.04" y="-43.18" rot="R270"/>
 <instance part="R36" gate="G$1" x="228.6" y="-88.9" rot="R270"/>
 <instance part="3.3V_REG" gate="G$1" x="109.22" y="93.98"/>
@@ -7917,7 +7984,7 @@ Source: http://www.infineon.com/dgdl/BTS716G.pdf</description>
 <instance part="SBRIO_AUX" gate="G$1" x="-60.96" y="12.7"/>
 <instance part="D2" gate="G$1" x="-93.98" y="38.1"/>
 <instance part="R8" gate="G$1" x="71.12" y="-25.4" rot="R180"/>
-<instance part="R9" gate="G$1" x="73.66" y="-33.02"/>
+<instance part="R9" gate="G$1" x="76.2" y="-30.48" rot="R90"/>
 <instance part="F3" gate="G$1" x="403.86" y="-35.56" rot="MR0"/>
 <instance part="F4" gate="G$1" x="403.86" y="-40.64" rot="MR0"/>
 <instance part="F5" gate="G$1" x="403.86" y="-45.72" rot="MR0"/>
@@ -7988,6 +8055,8 @@ Source: http://www.infineon.com/dgdl/BTS716G.pdf</description>
 <instance part="IC2" gate="G$1" x="289.56" y="-63.5"/>
 <instance part="F9" gate="G$1" x="200.66" y="-193.04" rot="R90"/>
 <instance part="F10" gate="G$1" x="195.58" y="-182.88" rot="R90"/>
+<instance part="X1" gate="-1" x="299.72" y="-167.64" rot="R270"/>
+<instance part="X1" gate="-2" x="294.64" y="-167.64" rot="R270"/>
 </instances>
 <busses>
 </busses>
@@ -8049,9 +8118,9 @@ Source: http://www.infineon.com/dgdl/BTS716G.pdf</description>
 <junction x="162.56" y="86.36"/>
 <junction x="195.58" y="86.36"/>
 <pinref part="5V_REG" gate="G$1" pin="GND"/>
-<wire x1="45.72" y1="88.9" x2="43.18" y2="88.9" width="0.1524" layer="91"/>
-<wire x1="2.54" y1="45.72" x2="2.54" y2="48.26" width="0.1524" layer="91"/>
 <label x="119.38" y="68.58" size="1.778" layer="95" xref="yes"/>
+<junction x="20.32" y="99.06"/>
+<junction x="129.54" y="86.36"/>
 </segment>
 <segment>
 <pinref part="U3" gate="G$1" pin="RSVDG@0"/>
@@ -8082,6 +8151,7 @@ Source: http://www.infineon.com/dgdl/BTS716G.pdf</description>
 <wire x1="261.62" y1="104.14" x2="271.78" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="271.78" y1="104.14" x2="281.94" y2="104.14" width="0.1524" layer="91"/>
 <junction x="271.78" y="104.14"/>
+<junction x="261.62" y="104.14"/>
 </segment>
 <segment>
 <pinref part="C14" gate="G$1" pin="1"/>
@@ -8099,10 +8169,8 @@ Source: http://www.infineon.com/dgdl/BTS716G.pdf</description>
 <segment>
 <pinref part="R9" gate="G$1" pin="2"/>
 <pinref part="R8" gate="G$1" pin="1"/>
-<wire x1="78.74" y1="-33.02" x2="78.74" y2="-25.4" width="0.1524" layer="91"/>
-<wire x1="78.74" y1="-25.4" x2="76.2" y2="-25.4" width="0.1524" layer="91"/>
-<wire x1="78.74" y1="-25.4" x2="86.36" y2="-25.4" width="0.1524" layer="91"/>
-<junction x="78.74" y="-25.4"/>
+<wire x1="76.2" y1="-25.4" x2="86.36" y2="-25.4" width="0.1524" layer="91"/>
+<junction x="76.2" y="-25.4"/>
 <label x="86.36" y="-25.4" size="1.778" layer="95"/>
 </segment>
 <segment>
@@ -8187,8 +8255,8 @@ Source: http://www.infineon.com/dgdl/BTS716G.pdf</description>
 <net name="12V" class="0">
 <segment>
 <pinref part="D3" gate="G$1" pin="C"/>
-<wire x1="-38.1" y1="10.16" x2="-38.1" y2="104.14" width="0.1524" layer="91"/>
-<wire x1="-38.1" y1="104.14" x2="58.42" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="-27.94" y1="20.32" x2="-27.94" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="-27.94" y1="104.14" x2="58.42" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="58.42" y1="104.14" x2="58.42" y2="93.98" width="0.1524" layer="91"/>
 <pinref part="3.3V_REG" gate="G$1" pin="IN"/>
 <wire x1="58.42" y1="93.98" x2="60.96" y2="93.98" width="0.1524" layer="91"/>
@@ -8201,6 +8269,7 @@ Source: http://www.infineon.com/dgdl/BTS716G.pdf</description>
 <pinref part="5V_REG" gate="G$1" pin="12V"/>
 <wire x1="45.72" y1="93.98" x2="58.42" y2="93.98" width="0.1524" layer="91"/>
 <junction x="58.42" y="93.98"/>
+<junction x="99.06" y="93.98"/>
 </segment>
 <segment>
 <pinref part="Q7" gate="G$1" pin="E"/>
@@ -8220,7 +8289,6 @@ Source: http://www.infineon.com/dgdl/BTS716G.pdf</description>
 <segment>
 <wire x1="264.16" y1="-165.1" x2="264.16" y2="-170.18" width="0.1524" layer="91"/>
 <label x="264.16" y="-170.18" size="1.778" layer="95" rot="R270" xref="yes"/>
-<wire x1="264.16" y1="-165.1" x2="261.62" y2="-167.64" width="0.1524" layer="91"/>
 <wire x1="264.16" y1="-165.1" x2="269.24" y2="-165.1" width="0.1524" layer="91"/>
 <wire x1="269.24" y1="-165.1" x2="271.78" y2="-165.1" width="0.1524" layer="91"/>
 <wire x1="271.78" y1="-165.1" x2="274.32" y2="-165.1" width="0.1524" layer="91"/>
@@ -8229,9 +8297,10 @@ Source: http://www.infineon.com/dgdl/BTS716G.pdf</description>
 <wire x1="279.4" y1="-165.1" x2="281.94" y2="-165.1" width="0.1524" layer="91"/>
 <wire x1="281.94" y1="-165.1" x2="284.48" y2="-165.1" width="0.1524" layer="91"/>
 <wire x1="284.48" y1="-165.1" x2="287.02" y2="-165.1" width="0.1524" layer="91"/>
-<wire x1="287.02" y1="-165.1" x2="302.26" y2="-165.1" width="0.1524" layer="91"/>
+<wire x1="287.02" y1="-165.1" x2="294.64" y2="-165.1" width="0.1524" layer="91"/>
+<wire x1="294.64" y1="-165.1" x2="299.72" y2="-165.1" width="0.1524" layer="91"/>
+<wire x1="299.72" y1="-165.1" x2="302.26" y2="-165.1" width="0.1524" layer="91"/>
 <wire x1="302.26" y1="-165.1" x2="304.8" y2="-162.56" width="0.1524" layer="91"/>
-<junction x="264.16" y="-165.1"/>
 <wire x1="304.8" y1="-162.56" x2="304.8" y2="-157.48" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="G$2" pin="VBB@1"/>
 <junction x="287.02" y="-165.1"/>
@@ -8271,6 +8340,11 @@ Source: http://www.infineon.com/dgdl/BTS716G.pdf</description>
 <wire x1="304.8" y1="-142.24" x2="304.8" y2="-139.7" width="0.1524" layer="91"/>
 <junction x="304.8" y="-142.24"/>
 <pinref part="IC3" gate="G$2" pin="VBB@8"/>
+<junction x="304.8" y="-139.7"/>
+<pinref part="X1" gate="-1" pin="S"/>
+<junction x="299.72" y="-165.1"/>
+<pinref part="X1" gate="-2" pin="S"/>
+<junction x="294.64" y="-165.1"/>
 </segment>
 <segment>
 <pinref part="IC2" gate="G$2" pin="VBB@1"/>
@@ -8290,7 +8364,21 @@ Source: http://www.infineon.com/dgdl/BTS716G.pdf</description>
 <wire x1="345.44" y1="-71.12" x2="345.44" y2="-73.66" width="0.1524" layer="91"/>
 <wire x1="345.44" y1="-73.66" x2="347.98" y2="-73.66" width="0.1524" layer="91"/>
 <label x="347.98" y="-73.66" size="1.778" layer="95" xref="yes"/>
-<wire x1="345.44" y1="-73.66" x2="345.44" y2="-55.88" width="0.1524" layer="91"/>
+<wire x1="345.44" y1="-73.66" x2="345.44" y2="-71.12" width="0.1524" layer="91"/>
+<junction x="345.44" y="-55.88"/>
+<junction x="345.44" y="-58.42"/>
+<wire x1="345.44" y1="-71.12" x2="345.44" y2="-68.58" width="0.1524" layer="91"/>
+<wire x1="345.44" y1="-68.58" x2="345.44" y2="-66.04" width="0.1524" layer="91"/>
+<wire x1="345.44" y1="-66.04" x2="345.44" y2="-63.5" width="0.1524" layer="91"/>
+<wire x1="345.44" y1="-63.5" x2="345.44" y2="-60.96" width="0.1524" layer="91"/>
+<wire x1="345.44" y1="-60.96" x2="345.44" y2="-58.42" width="0.1524" layer="91"/>
+<wire x1="345.44" y1="-58.42" x2="345.44" y2="-55.88" width="0.1524" layer="91"/>
+<junction x="345.44" y="-60.96"/>
+<junction x="345.44" y="-63.5"/>
+<junction x="345.44" y="-66.04"/>
+<junction x="345.44" y="-68.58"/>
+<junction x="345.44" y="-71.12"/>
+<junction x="345.44" y="-73.66"/>
 </segment>
 <segment>
 <wire x1="411.48" y1="-66.04" x2="383.54" y2="-66.04" width="0.1524" layer="91"/>
@@ -8307,9 +8395,8 @@ Source: http://www.infineon.com/dgdl/BTS716G.pdf</description>
 <segment>
 <pinref part="D3" gate="G$1" pin="A"/>
 <pinref part="SBRIO_ANALOG" gate="G$1" pin="AI0"/>
-<wire x1="-38.1" y1="5.08" x2="-27.94" y2="5.08" width="0.1524" layer="91"/>
+<wire x1="-27.94" y1="15.24" x2="-27.94" y2="5.08" width="0.1524" layer="91"/>
 <wire x1="-27.94" y1="5.08" x2="2.54" y2="5.08" width="0.1524" layer="91"/>
-<wire x1="-38.1" y1="5.08" x2="-38.1" y2="7.62" width="0.1524" layer="91"/>
 <pinref part="R13" gate="G$1" pin="2"/>
 <wire x1="-27.94" y1="2.54" x2="-27.94" y2="5.08" width="0.1524" layer="91"/>
 <junction x="-27.94" y="5.08"/>
@@ -8321,6 +8408,8 @@ Source: http://www.infineon.com/dgdl/BTS716G.pdf</description>
 <pinref part="C12" gate="G$1" pin="2"/>
 <pinref part="5V_REG" gate="G$1" pin="5V"/>
 <wire x1="27.94" y1="91.44" x2="30.48" y2="91.44" width="0.1524" layer="91"/>
+<junction x="20.32" y="91.44"/>
+<junction x="27.94" y="91.44"/>
 </segment>
 <segment>
 <pinref part="F16" gate="G$1" pin="1"/>
@@ -8383,7 +8472,7 @@ Source: http://www.infineon.com/dgdl/BTS716G.pdf</description>
 <net name="AMS_OK" class="0">
 <segment>
 <pinref part="D6" gate="G$1" pin="C"/>
-<wire x1="68.58" y1="-149.86" x2="68.58" y2="-55.88" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="-149.86" x2="71.12" y2="-40.64" width="0.1524" layer="91"/>
 <label x="71.12" y="-129.54" size="1.778" layer="95" rot="R270"/>
 <pinref part="F8" gate="G$1" pin="2"/>
 </segment>
@@ -8462,16 +8551,21 @@ Source: http://www.infineon.com/dgdl/BTS716G.pdf</description>
 <wire x1="60.96" y1="-187.96" x2="60.96" y2="-185.42" width="0.1524" layer="91"/>
 <pinref part="ACCUMULATOR_CONN" gate="G$1" pin="S@1"/>
 <wire x1="60.96" y1="-185.42" x2="60.96" y2="-182.88" width="0.1524" layer="91"/>
+<junction x="60.96" y="-182.88"/>
+<junction x="60.96" y="-185.42"/>
+<junction x="60.96" y="-187.96"/>
+<junction x="60.96" y="-190.5"/>
+<junction x="83.82" y="-180.34"/>
 </segment>
 </net>
 <net name="SHIELD" class="0">
 <segment>
 <wire x1="33.02" y1="-111.76" x2="33.02" y2="-78.74" width="0.1524" layer="91"/>
 <wire x1="33.02" y1="-78.74" x2="22.86" y2="-78.74" width="0.1524" layer="91"/>
-<wire x1="22.86" y1="-78.74" x2="22.86" y2="-38.1" width="0.1524" layer="91"/>
-<wire x1="22.86" y1="-38.1" x2="40.64" y2="-38.1" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="-78.74" x2="22.86" y2="-40.64" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="-40.64" x2="40.64" y2="-40.64" width="0.1524" layer="91"/>
 <pinref part="U$2" gate="G$1" pin="SHIELD"/>
-<wire x1="40.64" y1="-38.1" x2="40.64" y2="-48.26" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="-40.64" x2="40.64" y2="-48.26" width="0.1524" layer="91"/>
 <label x="33.02" y="-111.76" size="1.778" layer="95" rot="R270"/>
 </segment>
 <segment>
@@ -8754,6 +8848,8 @@ Source: http://www.infineon.com/dgdl/BTS716G.pdf</description>
 <junction x="195.58" y="116.84"/>
 <pinref part="C8" gate="G$1" pin="1"/>
 <junction x="162.56" y="114.3"/>
+<junction x="129.54" y="93.98"/>
+<junction x="119.38" y="93.98"/>
 </segment>
 <segment>
 <pinref part="U3" gate="G$1" pin="RSVDV@0"/>
@@ -8774,6 +8870,7 @@ Source: http://www.infineon.com/dgdl/BTS716G.pdf</description>
 <wire x1="271.78" y1="111.76" x2="281.94" y2="111.76" width="0.1524" layer="91"/>
 <junction x="271.78" y="111.76"/>
 <junction x="281.94" y="111.76"/>
+<junction x="261.62" y="111.76"/>
 </segment>
 </net>
 <net name="DIO29" class="0">
@@ -8820,6 +8917,7 @@ Source: http://www.infineon.com/dgdl/BTS716G.pdf</description>
 <pinref part="C14" gate="G$1" pin="2"/>
 <wire x1="325.12" y1="96.52" x2="335.28" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="335.28" y1="96.52" x2="335.28" y2="81.28" width="0.1524" layer="91"/>
+<junction x="325.12" y="96.52"/>
 </segment>
 </net>
 <net name="N$38" class="0">
@@ -9463,12 +9561,6 @@ Source: http://www.infineon.com/dgdl/BTS716G.pdf</description>
 <pinref part="SHTDWN_CONN" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="N$5" class="0">
-<segment>
-<pinref part="U$3" gate="G$1" pin="VCC"/>
-<wire x1="172.72" y1="-30.48" x2="175.26" y2="-30.48" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="DIO95" class="0">
 <segment>
 <pinref part="U$3" gate="G$1" pin="DIO95"/>
@@ -9554,11 +9646,12 @@ Source: http://www.infineon.com/dgdl/BTS716G.pdf</description>
 </segment>
 <segment>
 <pinref part="D6" gate="G$1" pin="A"/>
-<wire x1="68.58" y1="-50.8" x2="68.58" y2="-33.02" width="0.1524" layer="91"/>
-<wire x1="68.58" y1="-33.02" x2="68.58" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="-35.56" x2="76.2" y2="-35.56" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="-35.56" x2="83.82" y2="-35.56" width="0.1524" layer="91"/>
 <pinref part="R9" gate="G$1" pin="1"/>
-<junction x="68.58" y="-33.02"/>
-<label x="68.58" y="38.1" size="1.778" layer="95" xref="yes"/>
+<junction x="76.2" y="-35.56"/>
+<label x="83.82" y="-35.56" size="1.778" layer="95" xref="yes"/>
+<junction x="71.12" y="-35.56"/>
 </segment>
 </net>
 <net name="DIO93" class="0">
@@ -9718,15 +9811,127 @@ Source: http://www.infineon.com/dgdl/BTS716G.pdf</description>
 </sheet>
 </sheets>
 <errors>
+<approved hash="102,1,2.54,-7.62,AO_GND,GND,,,,"/>
+<approved hash="102,1,2.54,-20.32,DIO_GND,GND,,,,"/>
+<approved hash="104,1,33.02,-48.26,U$2,V-_(GND),CAN_GND,,,"/>
+<approved hash="204,1,172.72,-30.48,U$3,VCC,,,,"/>
 <approved hash="202,1,276.86,-55.88,IC2,ST1/2,,,,"/>
 <approved hash="202,1,276.86,-68.58,IC2,ST3/4,,,,"/>
+<approved hash="104,1,345.44,-55.88,IC2G$2,VBB,12V,,,"/>
+<approved hash="104,1,345.44,-58.42,IC2G$2,VBB,12V,,,"/>
+<approved hash="104,1,345.44,-60.96,IC2G$2,VBB,12V,,,"/>
+<approved hash="104,1,345.44,-63.5,IC2G$2,VBB,12V,,,"/>
+<approved hash="104,1,345.44,-66.04,IC2G$2,VBB,12V,,,"/>
+<approved hash="104,1,345.44,-68.58,IC2G$2,VBB,12V,,,"/>
+<approved hash="104,1,345.44,-71.12,IC2G$2,VBB,12V,,,"/>
+<approved hash="104,1,345.44,-73.66,IC2G$2,VBB,12V,,,"/>
 <approved hash="202,1,147.32,-81.28,IC1,ST1/2,,,,"/>
 <approved hash="202,1,134.62,-81.28,IC1,ST3/4,,,,"/>
+<approved hash="104,1,287.02,-165.1,IC1G$2,VBB,12V,,,"/>
+<approved hash="104,1,284.48,-165.1,IC1G$2,VBB,12V,,,"/>
+<approved hash="104,1,281.94,-165.1,IC1G$2,VBB,12V,,,"/>
+<approved hash="104,1,279.4,-165.1,IC1G$2,VBB,12V,,,"/>
+<approved hash="104,1,276.86,-165.1,IC1G$2,VBB,12V,,,"/>
+<approved hash="104,1,274.32,-165.1,IC1G$2,VBB,12V,,,"/>
+<approved hash="104,1,271.78,-165.1,IC1G$2,VBB,12V,,,"/>
+<approved hash="104,1,269.24,-165.1,IC1G$2,VBB,12V,,,"/>
 <approved hash="202,1,215.9,-71.12,IC3,ST1/2,,,,"/>
 <approved hash="202,1,203.2,-71.12,IC3,ST3/4,,,,"/>
+<approved hash="104,1,304.8,-157.48,IC3G$2,VBB,12V,,,"/>
+<approved hash="104,1,304.8,-154.94,IC3G$2,VBB,12V,,,"/>
+<approved hash="104,1,304.8,-152.4,IC3G$2,VBB,12V,,,"/>
+<approved hash="104,1,304.8,-149.86,IC3G$2,VBB,12V,,,"/>
+<approved hash="104,1,304.8,-147.32,IC3G$2,VBB,12V,,,"/>
+<approved hash="104,1,304.8,-144.78,IC3G$2,VBB,12V,,,"/>
+<approved hash="104,1,304.8,-142.24,IC3G$2,VBB,12V,,,"/>
+<approved hash="104,1,304.8,-139.7,IC3G$2,VBB,12V,,,"/>
+<approved hash="106,1,254,-17.78,DIO2,,,,,"/>
+<approved hash="106,1,254,-12.7,DIO3,,,,,"/>
+<approved hash="106,1,254,-10.16,DIO4,,,,,"/>
+<approved hash="106,1,254,-5.08,DIO5,,,,,"/>
+<approved hash="106,1,254,33.02,DIO15,,,,,"/>
+<approved hash="106,1,185.42,-17.78,DIO19,,,,,"/>
+<approved hash="106,1,185.42,-12.7,DIO20,,,,,"/>
+<approved hash="106,1,185.42,-10.16,DIO21,,,,,"/>
+<approved hash="106,1,185.42,-5.08,DIO22,,,,,"/>
+<approved hash="106,1,185.42,-2.54,DIO23,,,,,"/>
+<approved hash="106,1,185.42,2.54,DIO24,,,,,"/>
+<approved hash="106,1,185.42,5.08,DIO25,,,,,"/>
+<approved hash="106,1,185.42,10.16,DIO26,,,,,"/>
+<approved hash="106,1,185.42,12.7,DIO27,,,,,"/>
+<approved hash="106,1,185.42,17.78,DIO28,,,,,"/>
+<approved hash="106,1,185.42,20.32,DIO29,,,,,"/>
+<approved hash="106,1,185.42,25.4,DIO30,,,,,"/>
+<approved hash="106,1,185.42,27.94,DIO31,,,,,"/>
+<approved hash="106,1,226.06,-20.32,DIO33,,,,,"/>
+<approved hash="106,1,226.06,-15.24,DIO34,,,,,"/>
+<approved hash="106,1,226.06,-12.7,DIO35,,,,,"/>
+<approved hash="106,1,226.06,-7.62,DIO36,,,,,"/>
+<approved hash="106,1,226.06,-5.08,DIO37,,,,,"/>
+<approved hash="106,1,144.78,-22.86,DIO82,,,,,"/>
+<approved hash="106,1,144.78,-17.78,DIO83,,,,,"/>
+<approved hash="106,1,144.78,-10.16,DIO85,,,,,"/>
+<approved hash="106,1,144.78,-7.62,DIO86,,,,,"/>
+<approved hash="106,1,144.78,-2.54,DIO87,,,,,"/>
+<approved hash="106,1,-66.04,22.86,DIO89,,,,,"/>
+<approved hash="106,1,144.78,0,N$24,,,,,"/>
 <approved hash="108,1,335.28,66.04,GND,,,,,"/>
-<approved hash="108,1,60.96,-190.5,CAN_GND,,,,,"/>
-<approved hash="108,1,60.96,-187.96,CAN_GND,,,,,"/>
+<approved hash="113,1,403.86,-34.5652,F3,,,,,"/>
+<approved hash="113,1,403.86,-39.6452,F4,,,,,"/>
+<approved hash="113,1,403.86,-44.7252,F5,,,,,"/>
+<approved hash="113,1,403.86,-49.8052,F6,,,,,"/>
+<approved hash="113,1,65.0452,-170.18,F7,,,,,"/>
+<approved hash="113,1,67.5852,-154.94,F8,,,,,"/>
+<approved hash="113,1,133.075,-162.56,F16,,,,,"/>
+<approved hash="113,1,-76.2,34.5652,F17,,,,,"/>
+<approved hash="113,1,-81.28,14.2452,F18,,,,,"/>
+<approved hash="113,1,135.615,-167.64,F19,,,,,"/>
+<approved hash="113,1,150.855,-162.56,F15,,,,,"/>
+<approved hash="113,1,153.395,-172.72,F20,,,,,"/>
+<approved hash="113,1,155.935,-162.56,F21,,,,,"/>
+<approved hash="113,1,158.475,-172.72,F22,,,,,"/>
+<approved hash="113,1,401.32,-70.1252,F1,,,,,"/>
+<approved hash="113,1,401.32,-75.2052,F2,,,,,"/>
+<approved hash="113,1,401.32,-80.2852,F14,,,,,"/>
+<approved hash="113,1,199.665,-193.04,F9,,,,,"/>
+<approved hash="113,1,194.585,-182.88,F10,,,,,"/>
+<approved hash="115,1,142.24,-25.4,DIO81,,,,,"/>
+<approved hash="115,1,142.24,7.62,DIO90,,,,,"/>
+<approved hash="115,1,143.51,12.7,DIO91,,,,,"/>
+<approved hash="115,1,124.46,93.98,3.3V,,,,,"/>
+<approved hash="115,1,143.51,15.24,DIO92,,,,,"/>
+<approved hash="115,1,142.24,20.32,DIO93,,,,,"/>
+<approved hash="115,1,143.51,22.86,DIO94,,,,,"/>
+<approved hash="115,1,142.24,27.94,DIO95,,,,,"/>
+<approved hash="115,1,320.04,116.84,DIO0,,,,,"/>
+<approved hash="115,1,256.54,-25.4,DIO0,,,,,"/>
+<approved hash="115,1,256.54,-20.32,DIO1,,,,,"/>
+<approved hash="115,1,255.27,-2.54,DIO6,,,,,"/>
+<approved hash="115,1,255.27,2.54,DIO7,,,,,"/>
+<approved hash="115,1,255.27,5.08,DIO8,,,,,"/>
+<approved hash="115,1,255.27,10.16,DIO9,,,,,"/>
+<approved hash="115,1,24.13,91.44,5V,,,,,"/>
+<approved hash="115,1,255.27,12.7,DIO10,,,,,"/>
+<approved hash="115,1,255.27,17.78,DIO11,,,,,"/>
+<approved hash="115,1,255.27,20.32,DIO12,,,,,"/>
+<approved hash="115,1,255.27,25.4,DIO13,,,,,"/>
+<approved hash="115,1,255.27,27.94,DIO14,,,,,"/>
+<approved hash="115,1,184.15,-27.94,DIO16,,,,,"/>
+<approved hash="115,1,184.15,-25.4,DIO17,,,,,"/>
+<approved hash="115,1,184.15,-20.32,DIO18,,,,,"/>
+<approved hash="115,1,224.79,-22.86,DIO32,,,,,"/>
+<approved hash="115,1,224.79,0,DIO38,,,,,"/>
+<approved hash="115,1,224.79,2.54,DIO39,,,,,"/>
+<approved hash="115,1,224.79,7.62,DIO40,,,,,"/>
+<approved hash="115,1,224.79,10.16,DIO41,,,,,"/>
+<approved hash="115,1,224.79,15.24,DIO42,,,,,"/>
+<approved hash="115,1,224.79,17.78,DIO43,,,,,"/>
+<approved hash="115,1,224.79,22.86,DIO44,,,,,"/>
+<approved hash="115,1,224.79,25.4,DIO45,,,,,"/>
+<approved hash="115,1,16.51,-5.08,AO3,,,,,"/>
+<approved hash="115,1,175.26,-27.94,DIO48,,,,,"/>
+<approved hash="115,1,215.9,-25.4,DIO64,,,,,"/>
+<approved hash="115,1,215.9,-22.86,DIO65,,,,,"/>
 </errors>
 </schematic>
 </drawing>
