@@ -8272,16 +8272,6 @@ Source: http://www.molex.com</description>
 <junction x="99.06" y="93.98"/>
 </segment>
 <segment>
-<pinref part="Q7" gate="G$1" pin="E"/>
-<wire x1="-111.76" y1="48.26" x2="-111.76" y2="50.8" width="0.1524" layer="91"/>
-<label x="-111.76" y="50.8" size="1.778" layer="95" rot="R90" xref="yes"/>
-</segment>
-<segment>
-<pinref part="Q8" gate="G$1" pin="E"/>
-<wire x1="-111.76" y1="25.4" x2="-111.76" y2="27.94" width="0.1524" layer="91"/>
-<label x="-111.76" y="27.94" size="1.778" layer="95" rot="R90" xref="yes"/>
-</segment>
-<segment>
 <pinref part="F19" gate="G$1" pin="1"/>
 <wire x1="134.62" y1="-162.56" x2="134.62" y2="-154.94" width="0.1524" layer="91"/>
 <label x="134.62" y="-154.94" size="1.778" layer="95" rot="R90" xref="yes"/>
@@ -8420,6 +8410,16 @@ Source: http://www.molex.com</description>
 <pinref part="F10" gate="G$1" pin="2"/>
 <wire x1="195.58" y1="-177.8" x2="195.58" y2="-149.86" width="0.1524" layer="91"/>
 <label x="195.58" y="-149.86" size="1.778" layer="95" rot="R90" xref="yes"/>
+</segment>
+<segment>
+<pinref part="Q7" gate="G$1" pin="E"/>
+<wire x1="-111.76" y1="48.26" x2="-111.76" y2="50.8" width="0.1524" layer="91"/>
+<label x="-111.76" y="50.8" size="1.778" layer="95" rot="R90" xref="yes"/>
+</segment>
+<segment>
+<pinref part="Q8" gate="G$1" pin="E"/>
+<wire x1="-111.76" y1="25.4" x2="-111.76" y2="27.94" width="0.1524" layer="91"/>
+<label x="-111.76" y="27.94" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
 <net name="DIO3" class="0">
