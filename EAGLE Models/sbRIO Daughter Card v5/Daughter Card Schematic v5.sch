@@ -8166,17 +8166,17 @@ RJ45 Jack connectors&lt;br&gt;
 <part name="D2" library="formula electric" deviceset="MMBZ5238B-7-F" device=""/>
 <part name="R8" library="resistor" deviceset="R-US_" device="R0402" value="10k"/>
 <part name="R9" library="resistor" deviceset="R-US_" device="R0402" value="10k"/>
-<part name="F3" library="resistor" deviceset="R-EU_" device="R0402"/>
-<part name="F4" library="resistor" deviceset="R-EU_" device="R0402"/>
-<part name="F5" library="resistor" deviceset="R-EU_" device="R0402"/>
-<part name="F6" library="resistor" deviceset="R-EU_" device="R0402"/>
-<part name="F7" library="resistor" deviceset="R-EU_" device="R0402"/>
-<part name="F8" library="resistor" deviceset="R-EU_" device="R0402"/>
-<part name="F16" library="resistor" deviceset="R-EU_" device="R0402"/>
-<part name="F17" library="resistor" deviceset="R-EU_" device="R0402"/>
+<part name="F3" library="resistor" deviceset="R-EU_" device="R0402" value="1mA PTC"/>
+<part name="F4" library="resistor" deviceset="R-EU_" device="R0402" value="1mA PTC"/>
+<part name="F5" library="resistor" deviceset="R-EU_" device="R0402" value="1mA PTC"/>
+<part name="F6" library="resistor" deviceset="R-EU_" device="R0402" value="0.25A PTC"/>
+<part name="F7" library="resistor" deviceset="R-EU_" device="R0402" value="0.25A PTC"/>
+<part name="F8" library="resistor" deviceset="R-EU_" device="R0402" value="0.25A PTC"/>
+<part name="F16" library="resistor" deviceset="R-EU_" device="R0402" value="0.5A PTC"/>
+<part name="F17" library="resistor" deviceset="R-EU_" device="R0402" value="1A PTC"/>
 <part name="Q7" library="formula electric" deviceset="MMBT4403-7-F" device=""/>
 <part name="Q8" library="formula electric" deviceset="MMBT4403-7-F" device=""/>
-<part name="F18" library="resistor" deviceset="R-EU_" device="R0402"/>
+<part name="F18" library="resistor" deviceset="R-EU_" device="R0402" value="1A PTC"/>
 <part name="R13" library="resistor" deviceset="R-US_" device="R0402" value="10k"/>
 <part name="R14" library="resistor" deviceset="R-US_" device="R0402" value="10k"/>
 <part name="U$15" library="formula electric" deviceset="MMBT4401-7-F" device=""/>
@@ -8188,21 +8188,21 @@ RJ45 Jack connectors&lt;br&gt;
 <part name="R34" library="resistor" deviceset="R-US_" device="R0402" value="10k"/>
 <part name="R17" library="resistor" deviceset="R-US_" device="R0402" value="10k"/>
 <part name="ACCUMULATOR_CONN" library="con-tycoelectronics" deviceset="RJ45*2" device="1-S" technology="-6L"/>
-<part name="F19" library="resistor" deviceset="R-EU_" device="R0402"/>
+<part name="F19" library="resistor" deviceset="R-EU_" device="R0402" value="1A PTC"/>
 <part name="AIO_PO_CONN" library="con-3m" deviceset="2516-" device="5"/>
-<part name="F15" library="resistor" deviceset="R-EU_" device="R0402"/>
-<part name="F20" library="resistor" deviceset="R-EU_" device="R0402"/>
-<part name="F21" library="resistor" deviceset="R-EU_" device="R0402"/>
-<part name="F22" library="resistor" deviceset="R-EU_" device="R0402"/>
+<part name="F15" library="resistor" deviceset="R-EU_" device="R0402" value="0.01A PTC"/>
+<part name="F20" library="resistor" deviceset="R-EU_" device="R0402" value="0.01A PTC"/>
+<part name="F21" library="resistor" deviceset="R-EU_" device="R0402" value="0.01A PTC"/>
+<part name="F22" library="resistor" deviceset="R-EU_" device="R0402" value="0.01A PTC"/>
 <part name="TUB_CONN" library="con-3m" deviceset="2516-" device="5"/>
 <part name="IC2" library="infineon" deviceset="BTS716G" device=""/>
 <part name="IC1" library="infineon" deviceset="BTS716G" device=""/>
 <part name="IC3" library="infineon" deviceset="BTS716G" device=""/>
-<part name="F1" library="resistor" deviceset="R-EU_" device="R0402"/>
-<part name="F2" library="resistor" deviceset="R-EU_" device="R0402"/>
-<part name="F14" library="resistor" deviceset="R-EU_" device="R0402"/>
-<part name="F9" library="resistor" deviceset="R-EU_" device="R0402"/>
-<part name="F10" library="resistor" deviceset="R-EU_" device="R0402"/>
+<part name="F1" library="resistor" deviceset="R-EU_" device="R0402" value="0.25A PTC"/>
+<part name="F2" library="resistor" deviceset="R-EU_" device="R0402" value="0.25A PTC"/>
+<part name="F14" library="resistor" deviceset="R-EU_" device="R0402" value="0.25A PTC"/>
+<part name="F9" library="resistor" deviceset="R-EU_" device="R0402" value="1A PTC"/>
+<part name="F10" library="resistor" deviceset="R-EU_" device="R0402" value="0.5A PTC"/>
 <part name="X1" library="con-molex" deviceset="5566-2" device=""/>
 <part name="U1" library="SparkFun-DigitalIC" deviceset="TXB0104PWR" device=""/>
 <part name="X2" library="con-amp" deviceset="FTOP-4" device=""/>
