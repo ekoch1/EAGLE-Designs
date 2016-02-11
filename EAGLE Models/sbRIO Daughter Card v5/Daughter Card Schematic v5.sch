@@ -8190,10 +8190,10 @@ RJ45 Jack connectors&lt;br&gt;
 <part name="ACCUMULATOR_CONN" library="con-tycoelectronics" deviceset="RJ45*2" device="1-S" technology="-6L"/>
 <part name="F19" library="resistor" deviceset="R-EU_" device="R0603" value="1A PTC"/>
 <part name="AIO_PO_CONN" library="con-3m" deviceset="2516-" device="5"/>
-<part name="F15" library="resistor" deviceset="R-EU_" device="R0603" value="0.01A PTC"/>
-<part name="F20" library="resistor" deviceset="R-EU_" device="R0603" value="0.01A PTC"/>
-<part name="F21" library="resistor" deviceset="R-EU_" device="R0603" value="0.01A PTC"/>
-<part name="F22" library="resistor" deviceset="R-EU_" device="R0603" value="0.01A PTC"/>
+<part name="F15" library="resistor" deviceset="R-EU_" device="R0402" value="0.01A PTC"/>
+<part name="F20" library="resistor" deviceset="R-EU_" device="R0402" value="0.01A PTC"/>
+<part name="F21" library="resistor" deviceset="R-EU_" device="R0402" value="0.01A PTC"/>
+<part name="F22" library="resistor" deviceset="R-EU_" device="R0402" value="0.01A PTC"/>
 <part name="TUB_CONN" library="con-3m" deviceset="2516-" device="5"/>
 <part name="IC2" library="infineon" deviceset="BTS716G" device=""/>
 <part name="IC1" library="infineon" deviceset="BTS716G" device=""/>
