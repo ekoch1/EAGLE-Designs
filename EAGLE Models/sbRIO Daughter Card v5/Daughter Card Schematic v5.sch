@@ -8,20 +8,20 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="1" fill="1" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="4" fill="1" visible="no" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="1" name="Top" color="1" fill="1" visible="yes" active="no"/>
+<layer number="16" name="Bottom" color="4" fill="1" visible="yes" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -30,8 +30,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="1" fill="10" visible="no" active="no"/>
@@ -39,16 +39,16 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="yes" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
@@ -8166,17 +8166,17 @@ RJ45 Jack connectors&lt;br&gt;
 <part name="D2" library="formula electric" deviceset="MMBZ5238B-7-F" device=""/>
 <part name="R8" library="resistor" deviceset="R-US_" device="R0402" value="10k"/>
 <part name="R9" library="resistor" deviceset="R-US_" device="R0402" value="10k"/>
-<part name="F3" library="resistor" deviceset="R-EU_" device="R0402" value="1mA PTC"/>
-<part name="F4" library="resistor" deviceset="R-EU_" device="R0402" value="1mA PTC"/>
-<part name="F5" library="resistor" deviceset="R-EU_" device="R0402" value="1mA PTC"/>
-<part name="F6" library="resistor" deviceset="R-EU_" device="R0402" value="0.25A PTC"/>
-<part name="F7" library="resistor" deviceset="R-EU_" device="R0402" value="0.25A PTC"/>
-<part name="F8" library="resistor" deviceset="R-EU_" device="R0402" value="0.25A PTC"/>
-<part name="F16" library="resistor" deviceset="R-EU_" device="R0402" value="0.5A PTC"/>
-<part name="F17" library="resistor" deviceset="R-EU_" device="R0402" value="1A PTC"/>
+<part name="F3" library="resistor" deviceset="R-EU_" device="R0603" value="1mA PTC"/>
+<part name="F4" library="resistor" deviceset="R-EU_" device="R0603" value="1mA PTC"/>
+<part name="F5" library="resistor" deviceset="R-EU_" device="R0603" value="1mA PTC"/>
+<part name="F6" library="resistor" deviceset="R-EU_" device="R0603" value="0.25A PTC"/>
+<part name="F7" library="resistor" deviceset="R-EU_" device="R0603" value="0.25A PTC"/>
+<part name="F8" library="resistor" deviceset="R-EU_" device="R0603" value="0.25A PTC"/>
+<part name="F16" library="resistor" deviceset="R-EU_" device="R0603" value="0.5A PTC"/>
+<part name="F17" library="resistor" deviceset="R-EU_" device="R0603" value="1A PTC"/>
 <part name="Q7" library="formula electric" deviceset="MMBT4403-7-F" device=""/>
 <part name="Q8" library="formula electric" deviceset="MMBT4403-7-F" device=""/>
-<part name="F18" library="resistor" deviceset="R-EU_" device="R0402" value="1A PTC"/>
+<part name="F18" library="resistor" deviceset="R-EU_" device="R0603" value="1A PTC"/>
 <part name="R13" library="resistor" deviceset="R-US_" device="R0402" value="10k"/>
 <part name="R14" library="resistor" deviceset="R-US_" device="R0402" value="10k"/>
 <part name="U$15" library="formula electric" deviceset="MMBT4401-7-F" device=""/>
@@ -8188,21 +8188,21 @@ RJ45 Jack connectors&lt;br&gt;
 <part name="R34" library="resistor" deviceset="R-US_" device="R0402" value="10k"/>
 <part name="R17" library="resistor" deviceset="R-US_" device="R0402" value="10k"/>
 <part name="ACCUMULATOR_CONN" library="con-tycoelectronics" deviceset="RJ45*2" device="1-S" technology="-6L"/>
-<part name="F19" library="resistor" deviceset="R-EU_" device="R0402" value="1A PTC"/>
+<part name="F19" library="resistor" deviceset="R-EU_" device="R0603" value="1A PTC"/>
 <part name="AIO_PO_CONN" library="con-3m" deviceset="2516-" device="5"/>
-<part name="F15" library="resistor" deviceset="R-EU_" device="R0402" value="0.01A PTC"/>
-<part name="F20" library="resistor" deviceset="R-EU_" device="R0402" value="0.01A PTC"/>
-<part name="F21" library="resistor" deviceset="R-EU_" device="R0402" value="0.01A PTC"/>
-<part name="F22" library="resistor" deviceset="R-EU_" device="R0402" value="0.01A PTC"/>
+<part name="F15" library="resistor" deviceset="R-EU_" device="R0603" value="0.01A PTC"/>
+<part name="F20" library="resistor" deviceset="R-EU_" device="R0603" value="0.01A PTC"/>
+<part name="F21" library="resistor" deviceset="R-EU_" device="R0603" value="0.01A PTC"/>
+<part name="F22" library="resistor" deviceset="R-EU_" device="R0603" value="0.01A PTC"/>
 <part name="TUB_CONN" library="con-3m" deviceset="2516-" device="5"/>
 <part name="IC2" library="infineon" deviceset="BTS716G" device=""/>
 <part name="IC1" library="infineon" deviceset="BTS716G" device=""/>
 <part name="IC3" library="infineon" deviceset="BTS716G" device=""/>
-<part name="F1" library="resistor" deviceset="R-EU_" device="R0402" value="0.25A PTC"/>
-<part name="F2" library="resistor" deviceset="R-EU_" device="R0402" value="0.25A PTC"/>
-<part name="F14" library="resistor" deviceset="R-EU_" device="R0402" value="0.25A PTC"/>
-<part name="F9" library="resistor" deviceset="R-EU_" device="R0402" value="1A PTC"/>
-<part name="F10" library="resistor" deviceset="R-EU_" device="R0402" value="0.5A PTC"/>
+<part name="F1" library="resistor" deviceset="R-EU_" device="R0603" value="0.25A PTC"/>
+<part name="F2" library="resistor" deviceset="R-EU_" device="R0603" value="0.25A PTC"/>
+<part name="F14" library="resistor" deviceset="R-EU_" device="R0603" value="0.25A PTC"/>
+<part name="F9" library="resistor" deviceset="R-EU_" device="R0603" value="1A PTC"/>
+<part name="F10" library="resistor" deviceset="R-EU_" device="R0603" value="0.5A PTC"/>
 <part name="X1" library="con-molex" deviceset="5566-2" device=""/>
 <part name="U1" library="SparkFun-DigitalIC" deviceset="TXB0104PWR" device=""/>
 <part name="X2" library="con-amp" deviceset="FTOP-4" device=""/>
