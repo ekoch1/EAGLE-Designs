@@ -634,9 +634,9 @@
 <devices>
 <device name="" package="SOT-23-3">
 <connects>
-<connect gate="G$1" pin="3.3V_OUT" pad="P$2"/>
-<connect gate="G$1" pin="3~16V_IN" pad="P$3"/>
-<connect gate="G$1" pin="GND" pad="P$1"/>
+<connect gate="G$1" pin="3.3V_OUT" pad="P$3"/>
+<connect gate="G$1" pin="3~16V_IN" pad="P$1"/>
+<connect gate="G$1" pin="GND" pad="P$2"/>
 </connects>
 <technologies>
 <technology name="">
@@ -8205,7 +8205,6 @@ RJ45 Jack connectors&lt;br&gt;
 <part name="U$16" library="formula electric" deviceset="MMBT4401-7-F" device=""/>
 <part name="R16" library="resistor" deviceset="R-US_" device="R0402" value="4.7k"/>
 <part name="ACCUMULATOR_CONN" library="con-tycoelectronics" deviceset="RJ45*2" device="1-S" technology="-6L"/>
-<part name="F19" library="resistor" deviceset="R-EU_" device="R0603" value="1A PTC"/>
 <part name="AIO_PO_CONN" library="con-3m" deviceset="2516-" device="5"/>
 <part name="F15" library="resistor" deviceset="R-EU_" device="R0402" value="0.01A PTC"/>
 <part name="F20" library="resistor" deviceset="R-EU_" device="R0402" value="0.01A PTC"/>
@@ -8352,7 +8351,6 @@ RJ45 Jack connectors&lt;br&gt;
 <instance part="U$16" gate="G$1" x="177.8" y="-63.5"/>
 <instance part="R16" gate="G$1" x="170.18" y="-63.5"/>
 <instance part="ACCUMULATOR_CONN" gate="G$1" x="469.9" y="-152.4"/>
-<instance part="F19" gate="G$1" x="454.66" y="-99.06"/>
 <instance part="AIO_PO_CONN" gate="-1" x="467.36" y="-104.14" rot="R180"/>
 <instance part="AIO_PO_CONN" gate="-2" x="467.36" y="-101.6" rot="R180"/>
 <instance part="AIO_PO_CONN" gate="-3" x="467.36" y="-99.06" rot="R180"/>
@@ -8531,11 +8529,6 @@ RJ45 Jack connectors&lt;br&gt;
 <label x="320.04" y="-5.08" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="419.1" y1="-104.14" x2="462.28" y2="-104.14" width="0.1524" layer="91"/>
-<label x="419.1" y="-104.14" size="1.778" layer="95" rot="R180" xref="yes"/>
-<pinref part="AIO_PO_CONN" gate="-1" pin="KL"/>
-</segment>
-<segment>
 <pinref part="R13" gate="G$1" pin="1"/>
 <wire x1="5.08" y1="-17.78" x2="5.08" y2="-22.86" width="0.1524" layer="91"/>
 <label x="5.08" y="-22.86" size="1.778" layer="95" rot="R270" xref="yes"/>
@@ -8660,11 +8653,6 @@ RJ45 Jack connectors&lt;br&gt;
 <junction x="71.12" y="96.52"/>
 <label x="55.88" y="111.76" size="1.778" layer="95" rot="R90" xref="yes"/>
 <label x="5.08" y="30.48" size="1.778" layer="95" xref="yes"/>
-</segment>
-<segment>
-<pinref part="F19" gate="G$1" pin="1"/>
-<wire x1="449.58" y1="-99.06" x2="436.88" y2="-99.06" width="0.1524" layer="91"/>
-<label x="436.88" y="-99.06" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <wire x1="294.64" y1="-66.04" x2="294.64" y2="-38.1" width="0.1524" layer="91"/>
@@ -9156,11 +9144,6 @@ RJ45 Jack connectors&lt;br&gt;
 <wire x1="477.52" y1="43.18" x2="467.36" y2="43.18" width="0.1524" layer="91"/>
 <label x="467.36" y="43.18" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
-<segment>
-<wire x1="424.18" y1="-96.52" x2="462.28" y2="-96.52" width="0.1524" layer="91"/>
-<label x="424.18" y="-96.52" size="1.778" layer="95" rot="R180" xref="yes"/>
-<pinref part="AIO_PO_CONN" gate="-4" pin="KL"/>
-</segment>
 </net>
 <net name="AI10" class="0">
 <segment>
@@ -9330,13 +9313,13 @@ RJ45 Jack connectors&lt;br&gt;
 <label x="375.92" y="83.82" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$5" gate="G$1" pin="3~16V_IN"/>
-<wire x1="203.2" y1="2.54" x2="223.52" y2="2.54" width="0.1524" layer="91"/>
-<label x="223.52" y="2.54" size="1.778" layer="95" xref="yes"/>
-<pinref part="R2" gate="G$1" pin="1"/>
-<wire x1="203.2" y1="2.54" x2="203.2" y2="7.62" width="0.1524" layer="91"/>
-<junction x="203.2" y="7.62"/>
-<junction x="203.2" y="2.54"/>
+<pinref part="U$7" gate="G$1" pin="3~16V_IN"/>
+<wire x1="203.2" y1="27.94" x2="223.52" y2="27.94" width="0.1524" layer="91"/>
+<label x="223.52" y="27.94" size="1.778" layer="95" xref="yes"/>
+<pinref part="R4" gate="G$1" pin="1"/>
+<wire x1="203.2" y1="27.94" x2="203.2" y2="33.02" width="0.1524" layer="91"/>
+<junction x="203.2" y="33.02"/>
+<junction x="203.2" y="27.94"/>
 </segment>
 </net>
 <net name="DIO10" class="0">
@@ -9535,11 +9518,6 @@ RJ45 Jack connectors&lt;br&gt;
 <wire x1="477.52" y1="33.02" x2="467.36" y2="33.02" width="0.1524" layer="91"/>
 <label x="467.36" y="33.02" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
-<segment>
-<wire x1="462.28" y1="-86.36" x2="424.18" y2="-86.36" width="0.1524" layer="91"/>
-<label x="424.18" y="-86.36" size="1.778" layer="95" rot="R180" xref="yes"/>
-<pinref part="AIO_PO_CONN" gate="-8" pin="KL"/>
-</segment>
 </net>
 <net name="AO0" class="0">
 <segment>
@@ -9628,13 +9606,13 @@ RJ45 Jack connectors&lt;br&gt;
 <label x="447.04" y="-160.02" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="3~16V_IN"/>
-<wire x1="203.2" y1="-22.86" x2="223.52" y2="-22.86" width="0.1524" layer="91"/>
-<label x="223.52" y="-22.86" size="1.778" layer="95" xref="yes"/>
-<pinref part="R5" gate="G$1" pin="1"/>
-<wire x1="203.2" y1="-22.86" x2="203.2" y2="-17.78" width="0.1524" layer="91"/>
-<junction x="203.2" y="-22.86"/>
-<junction x="203.2" y="-17.78"/>
+<pinref part="U$5" gate="G$1" pin="3~16V_IN"/>
+<wire x1="203.2" y1="2.54" x2="223.52" y2="2.54" width="0.1524" layer="91"/>
+<label x="223.52" y="2.54" size="1.778" layer="95" xref="yes"/>
+<pinref part="R2" gate="G$1" pin="1"/>
+<wire x1="203.2" y1="2.54" x2="203.2" y2="7.62" width="0.1524" layer="91"/>
+<junction x="203.2" y="7.62"/>
+<junction x="203.2" y="2.54"/>
 </segment>
 </net>
 <net name="DIO20" class="0">
@@ -9732,7 +9710,6 @@ RJ45 Jack connectors&lt;br&gt;
 </net>
 <net name="N$29" class="0">
 <segment>
-<pinref part="F19" gate="G$1" pin="2"/>
 <pinref part="AIO_PO_CONN" gate="-3" pin="KL"/>
 <wire x1="462.28" y1="-99.06" x2="459.74" y2="-99.06" width="0.1524" layer="91"/>
 </segment>
@@ -10233,16 +10210,26 @@ RJ45 Jack connectors&lt;br&gt;
 <junction x="203.2" y="15.24"/>
 <junction x="203.2" y="20.32"/>
 </segment>
+<segment>
+<wire x1="424.18" y1="-96.52" x2="462.28" y2="-96.52" width="0.1524" layer="91"/>
+<label x="424.18" y="-96.52" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="AIO_PO_CONN" gate="-4" pin="KL"/>
+</segment>
 </net>
 <net name="LATCH_OK" class="0">
 <segment>
-<pinref part="U$7" gate="G$1" pin="3~16V_IN"/>
-<wire x1="203.2" y1="27.94" x2="223.52" y2="27.94" width="0.1524" layer="91"/>
-<label x="223.52" y="27.94" size="1.778" layer="95" xref="yes"/>
-<pinref part="R4" gate="G$1" pin="1"/>
-<wire x1="203.2" y1="27.94" x2="203.2" y2="33.02" width="0.1524" layer="91"/>
-<junction x="203.2" y="33.02"/>
-<junction x="203.2" y="27.94"/>
+<wire x1="462.28" y1="-86.36" x2="424.18" y2="-86.36" width="0.1524" layer="91"/>
+<label x="424.18" y="-86.36" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="AIO_PO_CONN" gate="-8" pin="KL"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="3~16V_IN"/>
+<wire x1="203.2" y1="-22.86" x2="223.52" y2="-22.86" width="0.1524" layer="91"/>
+<label x="223.52" y="-22.86" size="1.778" layer="95" xref="yes"/>
+<pinref part="R5" gate="G$1" pin="1"/>
+<wire x1="203.2" y1="-22.86" x2="203.2" y2="-17.78" width="0.1524" layer="91"/>
+<junction x="203.2" y="-22.86"/>
+<junction x="203.2" y="-17.78"/>
 </segment>
 </net>
 <net name="5V_IO_1" class="0">
@@ -10257,6 +10244,20 @@ RJ45 Jack connectors&lt;br&gt;
 <pinref part="F18" gate="G$1" pin="1"/>
 <wire x1="210.82" y1="-93.98" x2="218.44" y2="-93.98" width="0.1524" layer="91"/>
 <label x="218.44" y="-93.98" size="1.778" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="N$1" class="0">
+<segment>
+<pinref part="TUB_CONN" gate="-3" pin="KL"/>
+<wire x1="462.28" y1="-35.56" x2="421.64" y2="-35.56" width="0.1524" layer="91"/>
+<label x="421.64" y="-35.56" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="N$2" class="0">
+<segment>
+<pinref part="TUB_CONN" gate="-1" pin="KL"/>
+<wire x1="462.28" y1="-40.64" x2="421.64" y2="-40.64" width="0.1524" layer="91"/>
+<label x="421.64" y="-40.64" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 </nets>

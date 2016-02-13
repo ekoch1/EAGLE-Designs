@@ -2788,9 +2788,9 @@ Source: http://www.schrack.com/.. 5815.pdf</description>
 <devices>
 <device name="" package="SOT-23-3">
 <connects>
-<connect gate="G$1" pin="3.3V_OUT" pad="P$2"/>
-<connect gate="G$1" pin="3~16V_IN" pad="P$3"/>
-<connect gate="G$1" pin="GND" pad="P$1"/>
+<connect gate="G$1" pin="3.3V_OUT" pad="P$3"/>
+<connect gate="G$1" pin="3~16V_IN" pad="P$1"/>
+<connect gate="G$1" pin="GND" pad="P$2"/>
 </connects>
 <technologies>
 <technology name="">
