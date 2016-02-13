@@ -8425,7 +8425,9 @@ RJ45 Jack connectors&lt;br&gt;
 <net name="GND" class="0">
 <segment>
 <wire x1="109.22" y1="35.56" x2="109.22" y2="83.82" width="0.1524" layer="91"/>
-<wire x1="109.22" y1="83.82" x2="48.26" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="109.22" y1="83.82" x2="101.6" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="83.82" x2="81.28" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="81.28" y1="83.82" x2="48.26" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="48.26" y1="83.82" x2="40.64" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="40.64" y1="83.82" x2="40.64" y2="91.44" width="0.1524" layer="91"/>
 <pinref part="SBRIO_ANALOG" gate="G$1" pin="AI_GND"/>
@@ -8478,6 +8480,9 @@ RJ45 Jack connectors&lt;br&gt;
 <label x="109.22" y="35.56" size="1.778" layer="95" xref="yes"/>
 <label x="58.42" y="83.82" size="1.778" layer="95" rot="R270" xref="yes"/>
 <label x="139.7" y="88.9" size="1.778" layer="95" rot="R270" xref="yes"/>
+<junction x="40.64" y="91.44"/>
+<junction x="81.28" y="83.82"/>
+<junction x="101.6" y="83.82"/>
 </segment>
 <segment>
 <pinref part="U3" gate="G$1" pin="RSVDG@0"/>
@@ -8517,6 +8522,8 @@ RJ45 Jack connectors&lt;br&gt;
 <wire x1="317.5" y1="78.74" x2="317.5" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="317.5" y1="78.74" x2="307.34" y2="78.74" width="0.1524" layer="91"/>
 <label x="317.5" y="73.66" size="1.778" layer="95" rot="R270" xref="yes"/>
+<junction x="307.34" y="78.74"/>
+<junction x="317.5" y="78.74"/>
 </segment>
 <segment>
 <pinref part="SBRIO_AUX" gate="G$1" pin="GND"/>
@@ -8537,11 +8544,13 @@ RJ45 Jack connectors&lt;br&gt;
 <pinref part="U$15" gate="G$1" pin="E"/>
 <wire x1="180.34" y1="-99.06" x2="182.88" y2="-99.06" width="0.1524" layer="91"/>
 <label x="182.88" y="-99.06" size="1.778" layer="95" xref="yes"/>
+<junction x="180.34" y="-99.06"/>
 </segment>
 <segment>
 <pinref part="U$16" gate="G$1" pin="E"/>
 <wire x1="180.34" y1="-68.58" x2="182.88" y2="-68.58" width="0.1524" layer="91"/>
 <label x="182.88" y="-68.58" size="1.778" layer="95" xref="yes"/>
+<junction x="180.34" y="-68.58"/>
 </segment>
 <segment>
 <label x="264.16" y="-88.9" size="1.778" layer="95" rot="R90" xref="yes"/>
@@ -8580,6 +8589,7 @@ RJ45 Jack connectors&lt;br&gt;
 <pinref part="U1" gate="G$1" pin="GND"/>
 <wire x1="195.58" y1="-167.64" x2="218.44" y2="-167.64" width="0.1524" layer="91"/>
 <label x="218.44" y="-167.64" size="1.778" layer="95" xref="yes"/>
+<junction x="195.58" y="-167.64"/>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="GND"/>
@@ -8653,6 +8663,7 @@ RJ45 Jack connectors&lt;br&gt;
 <junction x="71.12" y="96.52"/>
 <label x="55.88" y="111.76" size="1.778" layer="95" rot="R90" xref="yes"/>
 <label x="5.08" y="30.48" size="1.778" layer="95" xref="yes"/>
+<junction x="40.64" y="96.52"/>
 </segment>
 <segment>
 <wire x1="294.64" y1="-66.04" x2="294.64" y2="-38.1" width="0.1524" layer="91"/>
@@ -8767,6 +8778,7 @@ RJ45 Jack connectors&lt;br&gt;
 <junction x="17.78" y="91.44"/>
 <junction x="22.86" y="93.98"/>
 <label x="12.7" y="93.98" size="1.778" layer="95" rot="R180" xref="yes"/>
+<junction x="17.78" y="93.98"/>
 </segment>
 <segment>
 <pinref part="F16" gate="G$1" pin="1"/>
@@ -8777,11 +8789,13 @@ RJ45 Jack connectors&lt;br&gt;
 <pinref part="Q7" gate="G$1" pin="E"/>
 <wire x1="195.58" y1="-53.34" x2="203.2" y2="-53.34" width="0.1524" layer="91"/>
 <label x="203.2" y="-53.34" size="1.778" layer="95" xref="yes"/>
+<junction x="195.58" y="-53.34"/>
 </segment>
 <segment>
 <pinref part="Q8" gate="G$1" pin="E"/>
 <wire x1="195.58" y1="-83.82" x2="203.2" y2="-83.82" width="0.1524" layer="91"/>
 <label x="203.2" y="-83.82" size="1.778" layer="95" xref="yes"/>
+<junction x="195.58" y="-83.82"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="VCCB"/>
@@ -9285,12 +9299,14 @@ RJ45 Jack connectors&lt;br&gt;
 <pinref part="C14" gate="G$1" pin="2"/>
 <wire x1="297.18" y1="86.36" x2="317.5" y2="86.36" width="0.1524" layer="91"/>
 <junction x="297.18" y="86.36"/>
+<junction x="317.5" y="86.36"/>
 </segment>
 </net>
 <net name="N$38" class="0">
 <segment>
 <pinref part="C13" gate="G$1" pin="1"/>
 <pinref part="R35" gate="G$1" pin="2"/>
+<junction x="297.18" y="78.74"/>
 </segment>
 </net>
 <net name="DIO34" class="0">
@@ -9667,6 +9683,7 @@ RJ45 Jack connectors&lt;br&gt;
 <pinref part="F17" gate="G$1" pin="2"/>
 <pinref part="Q7" gate="G$1" pin="C"/>
 <wire x1="200.66" y1="-63.5" x2="195.58" y2="-63.5" width="0.1524" layer="91"/>
+<junction x="195.58" y="-63.5"/>
 </segment>
 </net>
 <net name="N$58" class="0">
@@ -9682,6 +9699,7 @@ RJ45 Jack connectors&lt;br&gt;
 <pinref part="Q8" gate="G$1" pin="C"/>
 <pinref part="F18" gate="G$1" pin="2"/>
 <wire x1="195.58" y1="-93.98" x2="200.66" y2="-93.98" width="0.1524" layer="91"/>
+<junction x="195.58" y="-93.98"/>
 </segment>
 </net>
 <net name="N$60" class="0">
@@ -9694,6 +9712,7 @@ RJ45 Jack connectors&lt;br&gt;
 <segment>
 <pinref part="U$15" gate="G$1" pin="C"/>
 <pinref part="R12" gate="G$1" pin="1"/>
+<junction x="180.34" y="-88.9"/>
 </segment>
 </net>
 <net name="N$62" class="0">
@@ -9706,6 +9725,7 @@ RJ45 Jack connectors&lt;br&gt;
 <segment>
 <pinref part="R11" gate="G$1" pin="1"/>
 <pinref part="U$16" gate="G$1" pin="C"/>
+<junction x="180.34" y="-58.42"/>
 </segment>
 </net>
 <net name="N$29" class="0">
@@ -10260,131 +10280,20 @@ RJ45 Jack connectors&lt;br&gt;
 </sheet>
 </sheets>
 <errors>
-<approved hash="102,1,2.54,-7.62,AO_GND,GND,,,,"/>
-<approved hash="102,1,2.54,-20.32,DIO_GND,GND,,,,"/>
-<approved hash="104,1,33.02,-48.26,U$2,V-_(GND),CAN_GND,,,"/>
-<approved hash="204,1,172.72,-30.48,U$3,VCC,,,,"/>
-<approved hash="202,1,276.86,-55.88,IC2,ST1/2,,,,"/>
-<approved hash="202,1,276.86,-68.58,IC2,ST3/4,,,,"/>
-<approved hash="104,1,345.44,-55.88,IC2G$2,VBB,12V,,,"/>
-<approved hash="104,1,345.44,-58.42,IC2G$2,VBB,12V,,,"/>
-<approved hash="104,1,345.44,-60.96,IC2G$2,VBB,12V,,,"/>
-<approved hash="104,1,345.44,-63.5,IC2G$2,VBB,12V,,,"/>
-<approved hash="104,1,345.44,-66.04,IC2G$2,VBB,12V,,,"/>
-<approved hash="104,1,345.44,-68.58,IC2G$2,VBB,12V,,,"/>
-<approved hash="104,1,345.44,-71.12,IC2G$2,VBB,12V,,,"/>
-<approved hash="104,1,345.44,-73.66,IC2G$2,VBB,12V,,,"/>
-<approved hash="202,1,147.32,-81.28,IC1,ST1/2,,,,"/>
-<approved hash="202,1,134.62,-81.28,IC1,ST3/4,,,,"/>
-<approved hash="104,1,287.02,-165.1,IC1G$2,VBB,12V,,,"/>
-<approved hash="104,1,284.48,-165.1,IC1G$2,VBB,12V,,,"/>
-<approved hash="104,1,281.94,-165.1,IC1G$2,VBB,12V,,,"/>
-<approved hash="104,1,279.4,-165.1,IC1G$2,VBB,12V,,,"/>
-<approved hash="104,1,276.86,-165.1,IC1G$2,VBB,12V,,,"/>
-<approved hash="104,1,274.32,-165.1,IC1G$2,VBB,12V,,,"/>
-<approved hash="104,1,271.78,-165.1,IC1G$2,VBB,12V,,,"/>
-<approved hash="104,1,269.24,-165.1,IC1G$2,VBB,12V,,,"/>
-<approved hash="202,1,215.9,-71.12,IC3,ST1/2,,,,"/>
-<approved hash="202,1,203.2,-71.12,IC3,ST3/4,,,,"/>
-<approved hash="104,1,304.8,-157.48,IC3G$2,VBB,12V,,,"/>
-<approved hash="104,1,304.8,-154.94,IC3G$2,VBB,12V,,,"/>
-<approved hash="104,1,304.8,-152.4,IC3G$2,VBB,12V,,,"/>
-<approved hash="104,1,304.8,-149.86,IC3G$2,VBB,12V,,,"/>
-<approved hash="104,1,304.8,-147.32,IC3G$2,VBB,12V,,,"/>
-<approved hash="104,1,304.8,-144.78,IC3G$2,VBB,12V,,,"/>
-<approved hash="104,1,304.8,-142.24,IC3G$2,VBB,12V,,,"/>
-<approved hash="104,1,304.8,-139.7,IC3G$2,VBB,12V,,,"/>
-<approved hash="106,1,254,-17.78,DIO2,,,,,"/>
-<approved hash="106,1,254,-12.7,DIO3,,,,,"/>
-<approved hash="106,1,254,-10.16,DIO4,,,,,"/>
-<approved hash="106,1,254,-5.08,DIO5,,,,,"/>
-<approved hash="106,1,254,33.02,DIO15,,,,,"/>
-<approved hash="106,1,185.42,-17.78,DIO19,,,,,"/>
-<approved hash="106,1,185.42,-12.7,DIO20,,,,,"/>
-<approved hash="106,1,185.42,-10.16,DIO21,,,,,"/>
-<approved hash="106,1,185.42,-5.08,DIO22,,,,,"/>
-<approved hash="106,1,185.42,-2.54,DIO23,,,,,"/>
-<approved hash="106,1,185.42,2.54,DIO24,,,,,"/>
-<approved hash="106,1,185.42,5.08,DIO25,,,,,"/>
-<approved hash="106,1,185.42,10.16,DIO26,,,,,"/>
-<approved hash="106,1,185.42,12.7,DIO27,,,,,"/>
-<approved hash="106,1,185.42,17.78,DIO28,,,,,"/>
-<approved hash="106,1,185.42,20.32,DIO29,,,,,"/>
-<approved hash="106,1,185.42,25.4,DIO30,,,,,"/>
-<approved hash="106,1,185.42,27.94,DIO31,,,,,"/>
-<approved hash="106,1,226.06,-20.32,DIO33,,,,,"/>
-<approved hash="106,1,226.06,-15.24,DIO34,,,,,"/>
-<approved hash="106,1,226.06,-12.7,DIO35,,,,,"/>
-<approved hash="106,1,226.06,-7.62,DIO36,,,,,"/>
-<approved hash="106,1,226.06,-5.08,DIO37,,,,,"/>
-<approved hash="106,1,144.78,-30.48,DIO80,,,,,"/>
-<approved hash="106,1,144.78,-22.86,DIO82,,,,,"/>
-<approved hash="106,1,144.78,-15.24,DIO84,,,,,"/>
-<approved hash="106,1,-66.04,22.86,DIO89,,,,,"/>
-<approved hash="108,1,335.28,66.04,GND,,,,,"/>
-<approved hash="113,1,403.86,-34.5652,F3,,,,,"/>
-<approved hash="113,1,403.86,-39.6452,F4,,,,,"/>
-<approved hash="113,1,403.86,-44.7252,F5,,,,,"/>
-<approved hash="113,1,403.86,-49.8052,F6,,,,,"/>
-<approved hash="113,1,65.0452,-170.18,F7,,,,,"/>
-<approved hash="113,1,67.5852,-154.94,F8,,,,,"/>
-<approved hash="113,1,133.075,-162.56,F16,,,,,"/>
-<approved hash="113,1,-76.2,34.5652,F17,,,,,"/>
-<approved hash="113,1,-81.28,14.2452,F18,,,,,"/>
-<approved hash="113,1,135.615,-167.64,F19,,,,,"/>
-<approved hash="113,1,150.855,-162.56,F15,,,,,"/>
-<approved hash="113,1,153.395,-172.72,F20,,,,,"/>
-<approved hash="113,1,155.935,-162.56,F21,,,,,"/>
-<approved hash="113,1,158.475,-172.72,F22,,,,,"/>
-<approved hash="113,1,401.32,-70.1252,F1,,,,,"/>
-<approved hash="113,1,401.32,-75.2052,F2,,,,,"/>
-<approved hash="113,1,401.32,-80.2852,F14,,,,,"/>
-<approved hash="113,1,199.665,-193.04,F9,,,,,"/>
-<approved hash="113,1,194.585,-182.88,F10,,,,,"/>
-<approved hash="113,1,375.92,-140.97,U1,,,,,"/>
-<approved hash="113,1,414.924,-139.7,X2,,,,,"/>
-<approved hash="115,1,255.27,-2.54,DIO6,,,,,"/>
-<approved hash="115,1,255.27,2.54,DIO7,,,,,"/>
-<approved hash="115,1,255.27,5.08,DIO8,,,,,"/>
-<approved hash="115,1,255.27,10.16,DIO9,,,,,"/>
-<approved hash="115,1,224.79,-22.86,DIO32,,,,,"/>
-<approved hash="115,1,224.79,0,DIO38,,,,,"/>
-<approved hash="115,1,224.79,2.54,DIO39,,,,,"/>
-<approved hash="115,1,224.79,7.62,DIO40,,,,,"/>
-<approved hash="115,1,224.79,10.16,DIO41,,,,,"/>
-<approved hash="115,1,224.79,15.24,DIO42,,,,,"/>
-<approved hash="115,1,224.79,17.78,DIO43,,,,,"/>
-<approved hash="115,1,224.79,22.86,DIO44,,,,,"/>
-<approved hash="115,1,224.79,25.4,DIO45,,,,,"/>
-<approved hash="115,1,175.26,-27.94,DIO48,,,,,"/>
-<approved hash="115,1,215.9,-25.4,DIO64,,,,,"/>
-<approved hash="115,1,215.9,-22.86,DIO65,,,,,"/>
-<approved hash="115,1,142.24,-25.4,DIO81,,,,,"/>
-<approved hash="115,1,142.24,-17.78,DIO83,,,,,"/>
-<approved hash="115,1,142.24,-10.16,DIO85,,,,,"/>
-<approved hash="115,1,142.24,-7.62,DIO86,,,,,"/>
-<approved hash="115,1,142.24,-2.54,DIO87,,,,,"/>
-<approved hash="115,1,143.51,0,DIO88,,,,,"/>
-<approved hash="115,1,142.24,7.62,DIO90,,,,,"/>
-<approved hash="115,1,143.51,12.7,DIO91,,,,,"/>
-<approved hash="115,1,143.51,15.24,DIO92,,,,,"/>
-<approved hash="115,1,142.24,20.32,DIO93,,,,,"/>
-<approved hash="115,1,143.51,22.86,DIO94,,,,,"/>
-<approved hash="115,1,142.24,27.94,DIO95,,,,,"/>
-<approved hash="115,1,124.46,93.98,3.3V,,,,,"/>
-<approved hash="115,1,16.51,-5.08,AO3,,,,,"/>
-<approved hash="115,1,24.13,91.44,5V,,,,,"/>
-<approved hash="115,1,255.27,12.7,DIO10,,,,,"/>
-<approved hash="115,1,255.27,17.78,DIO11,,,,,"/>
-<approved hash="115,1,255.27,20.32,DIO12,,,,,"/>
-<approved hash="115,1,255.27,25.4,DIO13,,,,,"/>
-<approved hash="115,1,255.27,27.94,DIO14,,,,,"/>
-<approved hash="115,1,184.15,-27.94,DIO16,,,,,"/>
-<approved hash="115,1,184.15,-25.4,DIO17,,,,,"/>
-<approved hash="115,1,184.15,-20.32,DIO18,,,,,"/>
-<approved hash="115,1,320.04,116.84,DIO0,,,,,"/>
-<approved hash="115,1,256.54,-25.4,DIO0,,,,,"/>
-<approved hash="115,1,256.54,-20.32,DIO1,,,,,"/>
+<approved hash="204,1,33.02,-132.08,U$3,VCC,,,,"/>
+<approved hash="202,1,317.5,-111.76,IC2,ST1/2,,,,"/>
+<approved hash="202,1,304.8,-111.76,IC2,ST3/4,,,,"/>
+<approved hash="202,1,281.94,-111.76,IC1,ST1/2,,,,"/>
+<approved hash="202,1,269.24,-111.76,IC1,ST3/4,,,,"/>
+<approved hash="202,1,353.06,-111.76,IC3,ST1/2,,,,"/>
+<approved hash="202,1,340.36,-111.76,IC3,ST3/4,,,,"/>
+<approved hash="106,1,114.3,-119.38,DIO2,,,,,"/>
+<approved hash="106,1,114.3,-76.2,DIO13,,,,,"/>
+<approved hash="106,1,114.3,-73.66,DIO14,,,,,"/>
+<approved hash="106,1,114.3,-68.58,DIO15,,,,,"/>
+<approved hash="106,1,45.72,-119.38,DIO19,,,,,"/>
+<approved hash="106,1,45.72,-114.3,DIO20,,,,,"/>
+<approved hash="106,1,45.72,-111.76,DIO21,,,,,"/>
 </errors>
 </schematic>
 </drawing>
