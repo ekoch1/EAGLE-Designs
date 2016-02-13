@@ -8166,8 +8166,8 @@ RJ45 Jack connectors&lt;br&gt;
 </classes>
 <parts>
 <part name="SBRIO_ANALOG" library="formula electric" deviceset="SBRIO_MIO" device=""/>
-<part name="U$2" library="formula electric" deviceset="SBRIO_W500" device=""/>
-<part name="U$3" library="SEAM-40-XX.X-XX-06-X-A" deviceset="SBRIO_RMC" device=""/>
+<part name="SBRIO_CAN" library="formula electric" deviceset="SBRIO_W500" device=""/>
+<part name="SBRIO_MEZZANINE" library="SEAM-40-XX.X-XX-06-X-A" deviceset="SBRIO_RMC" device=""/>
 <part name="5V_REG" library="formula electric" deviceset="V78XX-1500" device=""/>
 <part name="D3" library="formula electric" deviceset="MMBZ5238B-7-F" device=""/>
 <part name="SHTDWN_CONN" library="formula electric" deviceset="CONN_5" device=""/>
@@ -8177,10 +8177,10 @@ RJ45 Jack connectors&lt;br&gt;
 <part name="C9" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="22uF"/>
 <part name="C11" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="10uF"/>
 <part name="C12" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="22uF"/>
-<part name="U2" library="SparkFun-Sensors" deviceset="ADXL345" device=""/>
+<part name="ACCEL" library="SparkFun-Sensors" deviceset="ADXL345" device=""/>
 <part name="C7" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value=".1uF"/>
 <part name="C8" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="1uF"/>
-<part name="U3" library="SparkFun-Sensors" deviceset="L3G4200D" device=""/>
+<part name="GYRO" library="SparkFun-Sensors" deviceset="L3G4200D" device=""/>
 <part name="C6" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="10uF"/>
 <part name="C5" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value=".1uF"/>
 <part name="C13" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="470nF"/>
@@ -8214,11 +8214,11 @@ RJ45 Jack connectors&lt;br&gt;
 <part name="IC2" library="infineon" deviceset="BTS716G" device=""/>
 <part name="IC1" library="infineon" deviceset="BTS716G" device=""/>
 <part name="IC3" library="infineon" deviceset="BTS716G" device=""/>
-<part name="F1" library="resistor" deviceset="R-EU_" device="R0603" value="0.25A PTC"/>
-<part name="F2" library="resistor" deviceset="R-EU_" device="R0603" value="0.25A PTC"/>
+<part name="F1" library="resistor" deviceset="R-EU_" device="R0603" value="250mA"/>
+<part name="F2" library="resistor" deviceset="R-EU_" device="R0603" value="250mA"/>
 <part name="F14" library="resistor" deviceset="R-EU_" device="R0603" value="0.25A PTC"/>
 <part name="X1" library="con-molex" deviceset="5566-2" device=""/>
-<part name="U1" library="SparkFun-DigitalIC" deviceset="TXB0104PWR" device=""/>
+<part name="LEVEL_SHIFTER" library="SparkFun-DigitalIC" deviceset="TXB0104PWR" device=""/>
 <part name="WHEEL" library="con-amp" deviceset="FTOP-4" device=""/>
 <part name="U$1" library="formula electric" deviceset="MIC5225-3.3YM5-TR" device=""/>
 <part name="U$4" library="formula electric" deviceset="MIC5225-3.3YM5-TR" device=""/>
@@ -8312,8 +8312,8 @@ RJ45 Jack connectors&lt;br&gt;
 </plain>
 <instances>
 <instance part="SBRIO_ANALOG" gate="G$1" x="43.18" y="15.24" rot="R90"/>
-<instance part="U$2" gate="G$1" x="60.96" y="-167.64" rot="R270"/>
-<instance part="U$3" gate="G$1" x="60.96" y="-93.98"/>
+<instance part="SBRIO_CAN" gate="G$1" x="60.96" y="-167.64" rot="R270"/>
+<instance part="SBRIO_MEZZANINE" gate="G$1" x="60.96" y="-93.98"/>
 <instance part="5V_REG" gate="G$1" x="30.48" y="93.98" rot="R270"/>
 <instance part="D3" gate="G$1" x="5.08" y="7.62" rot="R90"/>
 <instance part="SHTDWN_CONN" gate="G$1" x="411.48" y="43.18" rot="R180"/>
@@ -8323,10 +8323,10 @@ RJ45 Jack connectors&lt;br&gt;
 <instance part="C9" gate="G$1" x="101.6" y="91.44"/>
 <instance part="C11" gate="G$1" x="48.26" y="91.44"/>
 <instance part="C12" gate="G$1" x="17.78" y="88.9" rot="R180"/>
-<instance part="U2" gate="G$1" x="177.8" y="99.06"/>
+<instance part="ACCEL" gate="G$1" x="177.8" y="99.06"/>
 <instance part="C7" gate="G$1" x="154.94" y="104.14"/>
 <instance part="C8" gate="G$1" x="147.32" y="91.44"/>
-<instance part="U3" gate="G$1" x="276.86" y="93.98"/>
+<instance part="GYRO" gate="G$1" x="276.86" y="93.98"/>
 <instance part="C6" gate="G$1" x="246.38" y="96.52"/>
 <instance part="C5" gate="G$1" x="238.76" y="96.52"/>
 <instance part="C13" gate="G$1" x="297.18" y="83.82" rot="R180"/>
@@ -8398,7 +8398,7 @@ RJ45 Jack connectors&lt;br&gt;
 <instance part="IC2" gate="G$1" x="309.88" y="-124.46" rot="R270"/>
 <instance part="X1" gate="-1" x="284.48" y="-45.72" rot="R90"/>
 <instance part="X1" gate="-2" x="289.56" y="-45.72" rot="R90"/>
-<instance part="U1" gate="G$1" x="195.58" y="-152.4"/>
+<instance part="LEVEL_SHIFTER" gate="G$1" x="195.58" y="-152.4"/>
 <instance part="WHEEL" gate="-1" x="220.98" y="-149.86"/>
 <instance part="WHEEL" gate="-2" x="220.98" y="-152.4"/>
 <instance part="WHEEL" gate="-3" x="220.98" y="-154.94"/>
@@ -8457,15 +8457,15 @@ RJ45 Jack connectors&lt;br&gt;
 <pinref part="C12" gate="G$1" pin="1"/>
 <wire x1="17.78" y1="83.82" x2="48.26" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="101.6" y1="88.9" x2="147.32" y2="88.9" width="0.1524" layer="91"/>
-<pinref part="U2" gate="G$1" pin="GND@2"/>
+<pinref part="ACCEL" gate="G$1" pin="GND@2"/>
 <wire x1="147.32" y1="88.9" x2="154.94" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="154.94" y1="88.9" x2="160.02" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="160.02" y1="86.36" x2="160.02" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="160.02" y1="88.9" x2="160.02" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="160.02" y1="91.44" x2="167.64" y2="91.44" width="0.1524" layer="91"/>
-<pinref part="U2" gate="G$1" pin="GND@4"/>
+<pinref part="ACCEL" gate="G$1" pin="GND@4"/>
 <wire x1="167.64" y1="88.9" x2="160.02" y2="88.9" width="0.1524" layer="91"/>
-<pinref part="U2" gate="G$1" pin="GND@5"/>
+<pinref part="ACCEL" gate="G$1" pin="GND@5"/>
 <wire x1="167.64" y1="86.36" x2="160.02" y2="86.36" width="0.1524" layer="91"/>
 <junction x="160.02" y="88.9"/>
 <junction x="160.02" y="86.36"/>
@@ -8485,22 +8485,22 @@ RJ45 Jack connectors&lt;br&gt;
 <junction x="101.6" y="83.82"/>
 </segment>
 <segment>
-<pinref part="U3" gate="G$1" pin="RSVDG@0"/>
+<pinref part="GYRO" gate="G$1" pin="RSVDG@0"/>
 <wire x1="261.62" y1="96.52" x2="254" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="254" y1="96.52" x2="254" y2="93.98" width="0.1524" layer="91"/>
-<pinref part="U3" gate="G$1" pin="GND"/>
+<pinref part="GYRO" gate="G$1" pin="GND"/>
 <wire x1="254" y1="93.98" x2="254" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="254" y1="91.44" x2="254" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="254" y1="88.9" x2="254" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="254" y1="86.36" x2="254" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="254" y1="83.82" x2="261.62" y2="83.82" width="0.1524" layer="91"/>
-<pinref part="U3" gate="G$1" pin="RSVDG@4"/>
+<pinref part="GYRO" gate="G$1" pin="RSVDG@4"/>
 <wire x1="261.62" y1="86.36" x2="254" y2="86.36" width="0.1524" layer="91"/>
-<pinref part="U3" gate="G$1" pin="RSDVG@3"/>
+<pinref part="GYRO" gate="G$1" pin="RSDVG@3"/>
 <wire x1="261.62" y1="88.9" x2="254" y2="88.9" width="0.1524" layer="91"/>
-<pinref part="U3" gate="G$1" pin="RSVDG@2"/>
+<pinref part="GYRO" gate="G$1" pin="RSVDG@2"/>
 <wire x1="261.62" y1="91.44" x2="254" y2="91.44" width="0.1524" layer="91"/>
-<pinref part="U3" gate="G$1" pin="RSVDG@1"/>
+<pinref part="GYRO" gate="G$1" pin="RSVDG@1"/>
 <wire x1="261.62" y1="93.98" x2="254" y2="93.98" width="0.1524" layer="91"/>
 <junction x="254" y="93.98"/>
 <junction x="254" y="91.44"/>
@@ -8574,7 +8574,7 @@ RJ45 Jack connectors&lt;br&gt;
 <pinref part="SHTDWN_CONN" gate="G$1" pin="5"/>
 </segment>
 <segment>
-<pinref part="U$3" gate="G$1" pin="GND"/>
+<pinref part="SBRIO_MEZZANINE" gate="G$1" pin="GND"/>
 <wire x1="45.72" y1="-132.08" x2="43.18" y2="-132.08" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -8586,7 +8586,7 @@ RJ45 Jack connectors&lt;br&gt;
 <label x="299.72" y="-88.9" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U1" gate="G$1" pin="GND"/>
+<pinref part="LEVEL_SHIFTER" gate="G$1" pin="GND"/>
 <wire x1="195.58" y1="-167.64" x2="218.44" y2="-167.64" width="0.1524" layer="91"/>
 <label x="218.44" y="-167.64" size="1.778" layer="95" xref="yes"/>
 <junction x="195.58" y="-167.64"/>
@@ -8798,7 +8798,7 @@ RJ45 Jack connectors&lt;br&gt;
 <junction x="195.58" y="-83.82"/>
 </segment>
 <segment>
-<pinref part="U1" gate="G$1" pin="VCCB"/>
+<pinref part="LEVEL_SHIFTER" gate="G$1" pin="VCCB"/>
 <wire x1="198.12" y1="-134.62" x2="198.12" y2="-132.08" width="0.1524" layer="91"/>
 <label x="198.12" y="-132.08" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
@@ -8806,19 +8806,19 @@ RJ45 Jack connectors&lt;br&gt;
 <net name="DIO3" class="0">
 <segment>
 <wire x1="119.38" y1="-114.3" x2="114.3" y2="-114.3" width="0.1524" layer="91"/>
-<pinref part="U$3" gate="G$1" pin="DIO3"/>
+<pinref part="SBRIO_MEZZANINE" gate="G$1" pin="DIO3"/>
 </segment>
 </net>
 <net name="DIO2" class="0">
 <segment>
 <wire x1="119.38" y1="-119.38" x2="114.3" y2="-119.38" width="0.1524" layer="91"/>
-<pinref part="U$3" gate="G$1" pin="DIO2"/>
+<pinref part="SBRIO_MEZZANINE" gate="G$1" pin="DIO2"/>
 </segment>
 </net>
 <net name="DIO1" class="0">
 <segment>
 <wire x1="119.38" y1="-121.92" x2="114.3" y2="-121.92" width="0.1524" layer="91"/>
-<pinref part="U$3" gate="G$1" pin="DIO1"/>
+<pinref part="SBRIO_MEZZANINE" gate="G$1" pin="DIO1"/>
 </segment>
 <segment>
 <pinref part="U$7" gate="G$1" pin="3.3V_OUT"/>
@@ -8835,22 +8835,22 @@ RJ45 Jack connectors&lt;br&gt;
 <net name="DIO0" class="0">
 <segment>
 <wire x1="119.38" y1="-127" x2="114.3" y2="-127" width="0.1524" layer="91"/>
-<pinref part="U$3" gate="G$1" pin="DIO0"/>
+<pinref part="SBRIO_MEZZANINE" gate="G$1" pin="DIO0"/>
 </segment>
 <segment>
-<pinref part="U2" gate="G$1" pin="SCL"/>
+<pinref part="ACCEL" gate="G$1" pin="SCL"/>
 <wire x1="190.5" y1="99.06" x2="208.28" y2="99.06" width="0.1524" layer="91"/>
 <label x="208.28" y="99.06" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U3" gate="G$1" pin="SCL"/>
+<pinref part="GYRO" gate="G$1" pin="SCL"/>
 <wire x1="289.56" y1="106.68" x2="294.64" y2="106.68" width="0.1524" layer="91"/>
 <label x="294.64" y="106.68" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="DIO22" class="0">
 <segment>
-<pinref part="U$3" gate="G$1" pin="DIO22"/>
+<pinref part="SBRIO_MEZZANINE" gate="G$1" pin="DIO22"/>
 <wire x1="45.72" y1="-106.68" x2="43.18" y2="-106.68" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -8872,13 +8872,13 @@ RJ45 Jack connectors&lt;br&gt;
 </net>
 <net name="DIO4" class="0">
 <segment>
-<pinref part="U$3" gate="G$1" pin="DIO4"/>
+<pinref part="SBRIO_MEZZANINE" gate="G$1" pin="DIO4"/>
 <wire x1="114.3" y1="-111.76" x2="116.84" y2="-111.76" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="DIO5" class="0">
 <segment>
-<pinref part="U$3" gate="G$1" pin="DIO5"/>
+<pinref part="SBRIO_MEZZANINE" gate="G$1" pin="DIO5"/>
 <wire x1="114.3" y1="-106.68" x2="116.84" y2="-106.68" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -8889,7 +8889,7 @@ RJ45 Jack connectors&lt;br&gt;
 </net>
 <net name="CAN_H" class="0">
 <segment>
-<pinref part="U$2" gate="G$1" pin="CAN_H"/>
+<pinref part="SBRIO_CAN" gate="G$1" pin="CAN_H"/>
 <wire x1="63.5" y1="-162.56" x2="78.74" y2="-162.56" width="0.1524" layer="91"/>
 <label x="78.74" y="-162.56" size="1.778" layer="95" xref="yes"/>
 </segment>
@@ -8906,7 +8906,7 @@ RJ45 Jack connectors&lt;br&gt;
 </net>
 <net name="CAN_L" class="0">
 <segment>
-<pinref part="U$2" gate="G$1" pin="CAN_L"/>
+<pinref part="SBRIO_CAN" gate="G$1" pin="CAN_L"/>
 <wire x1="63.5" y1="-170.18" x2="78.74" y2="-170.18" width="0.1524" layer="91"/>
 <label x="78.74" y="-170.18" size="1.778" layer="95" xref="yes"/>
 </segment>
@@ -8923,7 +8923,7 @@ RJ45 Jack connectors&lt;br&gt;
 </net>
 <net name="CAN_GND" class="0">
 <segment>
-<pinref part="U$2" gate="G$1" pin="V-_(GND)"/>
+<pinref part="SBRIO_CAN" gate="G$1" pin="V-_(GND)"/>
 <wire x1="38.1" y1="-170.18" x2="53.34" y2="-170.18" width="0.1524" layer="91"/>
 <label x="38.1" y="-170.18" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -8958,7 +8958,7 @@ RJ45 Jack connectors&lt;br&gt;
 <net name="SHIELD" class="0">
 <segment>
 <wire x1="38.1" y1="-162.56" x2="53.34" y2="-162.56" width="0.1524" layer="91"/>
-<pinref part="U$2" gate="G$1" pin="SHIELD"/>
+<pinref part="SBRIO_CAN" gate="G$1" pin="SHIELD"/>
 <label x="38.1" y="-162.56" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
@@ -9056,7 +9056,7 @@ RJ45 Jack connectors&lt;br&gt;
 </net>
 <net name="DIO8" class="0">
 <segment>
-<pinref part="U$3" gate="G$1" pin="DIO8"/>
+<pinref part="SBRIO_MEZZANINE" gate="G$1" pin="DIO8"/>
 <wire x1="116.84" y1="-96.52" x2="114.3" y2="-96.52" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -9067,7 +9067,7 @@ RJ45 Jack connectors&lt;br&gt;
 </net>
 <net name="DIO7" class="0">
 <segment>
-<pinref part="U$3" gate="G$1" pin="DIO7"/>
+<pinref part="SBRIO_MEZZANINE" gate="G$1" pin="DIO7"/>
 <wire x1="114.3" y1="-99.06" x2="116.84" y2="-99.06" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -9084,7 +9084,7 @@ RJ45 Jack connectors&lt;br&gt;
 </net>
 <net name="DIO6" class="0">
 <segment>
-<pinref part="U$3" gate="G$1" pin="DIO6"/>
+<pinref part="SBRIO_MEZZANINE" gate="G$1" pin="DIO6"/>
 <wire x1="114.3" y1="-104.14" x2="116.84" y2="-104.14" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -9095,7 +9095,7 @@ RJ45 Jack connectors&lt;br&gt;
 </net>
 <net name="DIO9" class="0">
 <segment>
-<pinref part="U$3" gate="G$1" pin="DIO9"/>
+<pinref part="SBRIO_MEZZANINE" gate="G$1" pin="DIO9"/>
 <wire x1="114.3" y1="-91.44" x2="116.84" y2="-91.44" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -9142,19 +9142,19 @@ RJ45 Jack connectors&lt;br&gt;
 </net>
 <net name="DIO23" class="0">
 <segment>
-<pinref part="U$3" gate="G$1" pin="DIO23"/>
+<pinref part="SBRIO_MEZZANINE" gate="G$1" pin="DIO23"/>
 <wire x1="45.72" y1="-104.14" x2="43.18" y2="-104.14" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="DIO24" class="0">
 <segment>
-<pinref part="U$3" gate="G$1" pin="DIO24"/>
+<pinref part="SBRIO_MEZZANINE" gate="G$1" pin="DIO24"/>
 <wire x1="45.72" y1="-99.06" x2="43.18" y2="-99.06" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="DIO27" class="0">
 <segment>
-<pinref part="U$3" gate="G$1" pin="DIO27"/>
+<pinref part="SBRIO_MEZZANINE" gate="G$1" pin="DIO27"/>
 <wire x1="45.72" y1="-88.9" x2="43.18" y2="-88.9" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -9211,10 +9211,10 @@ RJ45 Jack connectors&lt;br&gt;
 <pinref part="3.3V_REG" gate="G$1" pin="OUT"/>
 <pinref part="C9" gate="G$1" pin="1"/>
 <wire x1="91.44" y1="96.52" x2="101.6" y2="96.52" width="0.1524" layer="91"/>
-<pinref part="U2" gate="G$1" pin="VSS"/>
+<pinref part="ACCEL" gate="G$1" pin="VSS"/>
 <wire x1="101.6" y1="96.52" x2="139.7" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="139.7" y1="96.52" x2="147.32" y2="96.52" width="0.1524" layer="91"/>
-<pinref part="U2" gate="G$1" pin="VDD"/>
+<pinref part="ACCEL" gate="G$1" pin="VDD"/>
 <wire x1="147.32" y1="96.52" x2="147.32" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="147.32" y1="106.68" x2="167.64" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="167.64" y1="109.22" x2="154.94" y2="109.22" width="0.1524" layer="91"/>
@@ -9230,14 +9230,14 @@ RJ45 Jack connectors&lt;br&gt;
 <label x="139.7" y="109.22" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U3" gate="G$1" pin="RSVDV@0"/>
+<pinref part="GYRO" gate="G$1" pin="RSVDV@0"/>
 <wire x1="261.62" y1="101.6" x2="254" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="254" y1="101.6" x2="254" y2="104.14" width="0.1524" layer="91"/>
-<pinref part="U3" gate="G$1" pin="VDD"/>
+<pinref part="GYRO" gate="G$1" pin="VDD"/>
 <wire x1="254" y1="104.14" x2="254" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="254" y1="106.68" x2="254" y2="111.76" width="0.1524" layer="91"/>
 <wire x1="261.62" y1="104.14" x2="254" y2="104.14" width="0.1524" layer="91"/>
-<pinref part="U3" gate="G$1" pin="VDDIO"/>
+<pinref part="GYRO" gate="G$1" pin="VDDIO"/>
 <wire x1="261.62" y1="106.68" x2="254" y2="106.68" width="0.1524" layer="91"/>
 <junction x="254" y="106.68"/>
 <junction x="254" y="104.14"/>
@@ -9251,49 +9251,49 @@ RJ45 Jack connectors&lt;br&gt;
 <label x="254" y="111.76" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U1" gate="G$1" pin="VCCA"/>
+<pinref part="LEVEL_SHIFTER" gate="G$1" pin="VCCA"/>
 <wire x1="193.04" y1="-134.62" x2="193.04" y2="-132.08" width="0.1524" layer="91"/>
 <label x="193.04" y="-132.08" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
 <net name="DIO29" class="0">
 <segment>
-<pinref part="U$3" gate="G$1" pin="DIO29"/>
+<pinref part="SBRIO_MEZZANINE" gate="G$1" pin="DIO29"/>
 <wire x1="45.72" y1="-81.28" x2="43.18" y2="-81.28" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="DIO30" class="0">
 <segment>
-<pinref part="U$3" gate="G$1" pin="DIO30"/>
+<pinref part="SBRIO_MEZZANINE" gate="G$1" pin="DIO30"/>
 <wire x1="45.72" y1="-76.2" x2="43.18" y2="-76.2" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="DIO31" class="0">
 <segment>
-<pinref part="U$3" gate="G$1" pin="DIO31"/>
+<pinref part="SBRIO_MEZZANINE" gate="G$1" pin="DIO31"/>
 <wire x1="45.72" y1="-73.66" x2="43.18" y2="-73.66" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="DIO32" class="0">
 <segment>
-<pinref part="U$3" gate="G$1" pin="DIO32"/>
+<pinref part="SBRIO_MEZZANINE" gate="G$1" pin="DIO32"/>
 <wire x1="86.36" y1="-124.46" x2="83.82" y2="-124.46" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U3" gate="G$1" pin="CS"/>
+<pinref part="GYRO" gate="G$1" pin="CS"/>
 <wire x1="289.56" y1="99.06" x2="304.8" y2="99.06" width="0.1524" layer="91"/>
 <label x="304.8" y="99.06" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="DIO33" class="0">
 <segment>
-<pinref part="U$3" gate="G$1" pin="DIO33"/>
+<pinref part="SBRIO_MEZZANINE" gate="G$1" pin="DIO33"/>
 <wire x1="86.36" y1="-121.92" x2="83.82" y2="-121.92" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$37" class="0">
 <segment>
-<pinref part="U3" gate="G$1" pin="PLL"/>
+<pinref part="GYRO" gate="G$1" pin="PLL"/>
 <pinref part="C13" gate="G$1" pin="2"/>
 <wire x1="289.56" y1="86.36" x2="297.18" y2="86.36" width="0.1524" layer="91"/>
 <pinref part="C14" gate="G$1" pin="2"/>
@@ -9311,25 +9311,25 @@ RJ45 Jack connectors&lt;br&gt;
 </net>
 <net name="DIO34" class="0">
 <segment>
-<pinref part="U$3" gate="G$1" pin="DIO34"/>
+<pinref part="SBRIO_MEZZANINE" gate="G$1" pin="DIO34"/>
 <wire x1="86.36" y1="-116.84" x2="83.82" y2="-116.84" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="DIO35" class="0">
 <segment>
-<pinref part="U$3" gate="G$1" pin="DIO35"/>
+<pinref part="SBRIO_MEZZANINE" gate="G$1" pin="DIO35"/>
 <wire x1="86.36" y1="-114.3" x2="83.82" y2="-114.3" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="DIO36" class="0">
 <segment>
-<pinref part="U$3" gate="G$1" pin="DIO36"/>
+<pinref part="SBRIO_MEZZANINE" gate="G$1" pin="DIO36"/>
 <wire x1="86.36" y1="-109.22" x2="83.82" y2="-109.22" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="DIO37" class="0">
 <segment>
-<pinref part="U$3" gate="G$1" pin="DIO37"/>
+<pinref part="SBRIO_MEZZANINE" gate="G$1" pin="DIO37"/>
 <wire x1="86.36" y1="-106.68" x2="83.82" y2="-106.68" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -9356,7 +9356,7 @@ RJ45 Jack connectors&lt;br&gt;
 </net>
 <net name="DIO10" class="0">
 <segment>
-<pinref part="U$3" gate="G$1" pin="DIO10"/>
+<pinref part="SBRIO_MEZZANINE" gate="G$1" pin="DIO10"/>
 <wire x1="114.3" y1="-88.9" x2="116.84" y2="-88.9" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -9367,7 +9367,7 @@ RJ45 Jack connectors&lt;br&gt;
 </net>
 <net name="DIO11" class="0">
 <segment>
-<pinref part="U$3" gate="G$1" pin="DIO11"/>
+<pinref part="SBRIO_MEZZANINE" gate="G$1" pin="DIO11"/>
 <wire x1="114.3" y1="-83.82" x2="116.84" y2="-83.82" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -9378,7 +9378,7 @@ RJ45 Jack connectors&lt;br&gt;
 </net>
 <net name="DIO12" class="0">
 <segment>
-<pinref part="U$3" gate="G$1" pin="DIO12"/>
+<pinref part="SBRIO_MEZZANINE" gate="G$1" pin="DIO12"/>
 <wire x1="114.3" y1="-81.28" x2="116.84" y2="-81.28" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -9394,69 +9394,69 @@ RJ45 Jack connectors&lt;br&gt;
 </net>
 <net name="DIO13" class="0">
 <segment>
-<pinref part="U$3" gate="G$1" pin="DIO13"/>
+<pinref part="SBRIO_MEZZANINE" gate="G$1" pin="DIO13"/>
 <wire x1="114.3" y1="-76.2" x2="116.84" y2="-76.2" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="DIO14" class="0">
 <segment>
-<pinref part="U$3" gate="G$1" pin="DIO14"/>
+<pinref part="SBRIO_MEZZANINE" gate="G$1" pin="DIO14"/>
 <wire x1="114.3" y1="-73.66" x2="116.84" y2="-73.66" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="DIO15" class="0">
 <segment>
-<pinref part="U$3" gate="G$1" pin="DIO15"/>
+<pinref part="SBRIO_MEZZANINE" gate="G$1" pin="DIO15"/>
 <wire x1="114.3" y1="-68.58" x2="116.84" y2="-68.58" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="DIO16" class="0">
 <segment>
-<pinref part="U$3" gate="G$1" pin="DIO16"/>
+<pinref part="SBRIO_MEZZANINE" gate="G$1" pin="DIO16"/>
 <wire x1="45.72" y1="-129.54" x2="43.18" y2="-129.54" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U2" gate="G$1" pin="CS"/>
+<pinref part="ACCEL" gate="G$1" pin="CS"/>
 <wire x1="190.5" y1="109.22" x2="198.12" y2="109.22" width="0.1524" layer="91"/>
 <label x="198.12" y="109.22" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="DIO17" class="0">
 <segment>
-<pinref part="U$3" gate="G$1" pin="DIO17"/>
+<pinref part="SBRIO_MEZZANINE" gate="G$1" pin="DIO17"/>
 <wire x1="45.72" y1="-127" x2="43.18" y2="-127" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U2" gate="G$1" pin="INT2"/>
+<pinref part="ACCEL" gate="G$1" pin="INT2"/>
 <wire x1="190.5" y1="91.44" x2="205.74" y2="91.44" width="0.1524" layer="91"/>
 <label x="205.74" y="91.44" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="DIO18" class="0">
 <segment>
-<pinref part="U$3" gate="G$1" pin="DIO18"/>
+<pinref part="SBRIO_MEZZANINE" gate="G$1" pin="DIO18"/>
 <wire x1="45.72" y1="-121.92" x2="43.18" y2="-121.92" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U3" gate="G$1" pin="SDA/SDI"/>
+<pinref part="GYRO" gate="G$1" pin="SDA/SDI"/>
 <wire x1="289.56" y1="104.14" x2="304.8" y2="104.14" width="0.1524" layer="91"/>
 <label x="304.8" y="104.14" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U2" gate="G$1" pin="SDA"/>
+<pinref part="ACCEL" gate="G$1" pin="SDA"/>
 <wire x1="190.5" y1="101.6" x2="198.12" y2="101.6" width="0.1524" layer="91"/>
 <label x="198.12" y="101.6" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="DIO19" class="0">
 <segment>
-<pinref part="U$3" gate="G$1" pin="DIO19"/>
+<pinref part="SBRIO_MEZZANINE" gate="G$1" pin="DIO19"/>
 <wire x1="45.72" y1="-119.38" x2="43.18" y2="-119.38" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="DIO38" class="0">
 <segment>
-<pinref part="U$3" gate="G$1" pin="DIO38"/>
+<pinref part="SBRIO_MEZZANINE" gate="G$1" pin="DIO38"/>
 <wire x1="86.36" y1="-101.6" x2="83.82" y2="-101.6" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -9467,7 +9467,7 @@ RJ45 Jack connectors&lt;br&gt;
 </net>
 <net name="DIO39" class="0">
 <segment>
-<pinref part="U$3" gate="G$1" pin="DIO39"/>
+<pinref part="SBRIO_MEZZANINE" gate="G$1" pin="DIO39"/>
 <wire x1="86.36" y1="-99.06" x2="83.82" y2="-99.06" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -9633,7 +9633,7 @@ RJ45 Jack connectors&lt;br&gt;
 </net>
 <net name="DIO20" class="0">
 <segment>
-<pinref part="U$3" gate="G$1" pin="DIO20"/>
+<pinref part="SBRIO_MEZZANINE" gate="G$1" pin="DIO20"/>
 <wire x1="45.72" y1="-114.3" x2="43.18" y2="-114.3" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -9812,25 +9812,25 @@ RJ45 Jack connectors&lt;br&gt;
 </net>
 <net name="DIO25" class="0">
 <segment>
-<pinref part="U$3" gate="G$1" pin="DIO25"/>
+<pinref part="SBRIO_MEZZANINE" gate="G$1" pin="DIO25"/>
 <wire x1="45.72" y1="-96.52" x2="43.18" y2="-96.52" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="DIO26" class="0">
 <segment>
-<pinref part="U$3" gate="G$1" pin="DIO26"/>
+<pinref part="SBRIO_MEZZANINE" gate="G$1" pin="DIO26"/>
 <wire x1="45.72" y1="-91.44" x2="43.18" y2="-91.44" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="DIO28" class="0">
 <segment>
-<pinref part="U$3" gate="G$1" pin="DIO28"/>
+<pinref part="SBRIO_MEZZANINE" gate="G$1" pin="DIO28"/>
 <wire x1="45.72" y1="-83.82" x2="43.18" y2="-83.82" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="DIO21" class="0">
 <segment>
-<pinref part="U$3" gate="G$1" pin="DIO21"/>
+<pinref part="SBRIO_MEZZANINE" gate="G$1" pin="DIO21"/>
 <wire x1="45.72" y1="-111.76" x2="43.18" y2="-111.76" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -9905,7 +9905,7 @@ RJ45 Jack connectors&lt;br&gt;
 </net>
 <net name="DIO95" class="0">
 <segment>
-<pinref part="U$3" gate="G$1" pin="DIO95"/>
+<pinref part="SBRIO_MEZZANINE" gate="G$1" pin="DIO95"/>
 <wire x1="5.08" y1="-73.66" x2="0" y2="-73.66" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -9922,95 +9922,95 @@ RJ45 Jack connectors&lt;br&gt;
 </net>
 <net name="DIO81" class="0">
 <segment>
-<pinref part="U$3" gate="G$1" pin="DIO81"/>
+<pinref part="SBRIO_MEZZANINE" gate="G$1" pin="DIO81"/>
 <wire x1="5.08" y1="-127" x2="0" y2="-127" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U2" gate="G$1" pin="SDO"/>
+<pinref part="ACCEL" gate="G$1" pin="SDO"/>
 <wire x1="190.5" y1="104.14" x2="208.28" y2="104.14" width="0.1524" layer="91"/>
 <label x="208.28" y="104.14" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U3" gate="G$1" pin="SDO"/>
+<pinref part="GYRO" gate="G$1" pin="SDO"/>
 <wire x1="289.56" y1="101.6" x2="294.64" y2="101.6" width="0.1524" layer="91"/>
 <label x="294.64" y="101.6" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="DIO48" class="0">
 <segment>
-<pinref part="U$3" gate="G$1" pin="DIO48"/>
+<pinref part="SBRIO_MEZZANINE" gate="G$1" pin="DIO48"/>
 <wire x1="33.02" y1="-129.54" x2="38.1" y2="-129.54" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U2" gate="G$1" pin="INT1"/>
+<pinref part="ACCEL" gate="G$1" pin="INT1"/>
 <wire x1="190.5" y1="93.98" x2="195.58" y2="93.98" width="0.1524" layer="91"/>
 <label x="195.58" y="93.98" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="DIO82" class="0">
 <segment>
-<pinref part="U$3" gate="G$1" pin="DIO82"/>
+<pinref part="SBRIO_MEZZANINE" gate="G$1" pin="DIO82"/>
 <wire x1="5.08" y1="-124.46" x2="0" y2="-124.46" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="DIO83" class="0">
 <segment>
-<pinref part="U$3" gate="G$1" pin="DIO83"/>
+<pinref part="SBRIO_MEZZANINE" gate="G$1" pin="DIO83"/>
 <wire x1="5.08" y1="-119.38" x2="0" y2="-119.38" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U1" gate="G$1" pin="OE"/>
+<pinref part="LEVEL_SHIFTER" gate="G$1" pin="OE"/>
 <wire x1="180.34" y1="-144.78" x2="172.72" y2="-144.78" width="0.1524" layer="91"/>
 <label x="172.72" y="-144.78" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="DIO85" class="0">
 <segment>
-<pinref part="U$3" gate="G$1" pin="DIO85"/>
+<pinref part="SBRIO_MEZZANINE" gate="G$1" pin="DIO85"/>
 <wire x1="5.08" y1="-111.76" x2="0" y2="-111.76" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U1" gate="G$1" pin="A4"/>
+<pinref part="LEVEL_SHIFTER" gate="G$1" pin="A4"/>
 <wire x1="180.34" y1="-157.48" x2="167.64" y2="-157.48" width="0.1524" layer="91"/>
 <label x="167.64" y="-157.48" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="DIO86" class="0">
 <segment>
-<pinref part="U$3" gate="G$1" pin="DIO86"/>
+<pinref part="SBRIO_MEZZANINE" gate="G$1" pin="DIO86"/>
 <wire x1="5.08" y1="-109.22" x2="0" y2="-109.22" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U1" gate="G$1" pin="A3"/>
+<pinref part="LEVEL_SHIFTER" gate="G$1" pin="A3"/>
 <wire x1="180.34" y1="-154.94" x2="177.8" y2="-154.94" width="0.1524" layer="91"/>
 <label x="177.8" y="-154.94" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="DIO87" class="0">
 <segment>
-<pinref part="U$3" gate="G$1" pin="DIO87"/>
+<pinref part="SBRIO_MEZZANINE" gate="G$1" pin="DIO87"/>
 <wire x1="5.08" y1="-104.14" x2="0" y2="-104.14" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U1" gate="G$1" pin="A2"/>
+<pinref part="LEVEL_SHIFTER" gate="G$1" pin="A2"/>
 <wire x1="180.34" y1="-152.4" x2="167.64" y2="-152.4" width="0.1524" layer="91"/>
 <label x="167.64" y="-152.4" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="DIO88" class="0">
 <segment>
-<pinref part="U$3" gate="G$1" pin="DIO88"/>
+<pinref part="SBRIO_MEZZANINE" gate="G$1" pin="DIO88"/>
 <wire x1="5.08" y1="-101.6" x2="2.54" y2="-101.6" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U1" gate="G$1" pin="A1"/>
+<pinref part="LEVEL_SHIFTER" gate="G$1" pin="A1"/>
 <wire x1="180.34" y1="-149.86" x2="177.8" y2="-149.86" width="0.1524" layer="91"/>
 <label x="177.8" y="-149.86" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="DIO94" class="0">
 <segment>
-<pinref part="U$3" gate="G$1" pin="DIO94"/>
+<pinref part="SBRIO_MEZZANINE" gate="G$1" pin="DIO94"/>
 <wire x1="5.08" y1="-78.74" x2="2.54" y2="-78.74" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -10027,7 +10027,7 @@ RJ45 Jack connectors&lt;br&gt;
 </net>
 <net name="DIO93" class="0">
 <segment>
-<pinref part="U$3" gate="G$1" pin="DIO93"/>
+<pinref part="SBRIO_MEZZANINE" gate="G$1" pin="DIO93"/>
 <wire x1="5.08" y1="-81.28" x2="0" y2="-81.28" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -10038,7 +10038,7 @@ RJ45 Jack connectors&lt;br&gt;
 </net>
 <net name="DIO92" class="0">
 <segment>
-<pinref part="U$3" gate="G$1" pin="DIO92"/>
+<pinref part="SBRIO_MEZZANINE" gate="G$1" pin="DIO92"/>
 <wire x1="5.08" y1="-86.36" x2="2.54" y2="-86.36" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -10049,7 +10049,7 @@ RJ45 Jack connectors&lt;br&gt;
 </net>
 <net name="DIO91" class="0">
 <segment>
-<pinref part="U$3" gate="G$1" pin="DIO91"/>
+<pinref part="SBRIO_MEZZANINE" gate="G$1" pin="DIO91"/>
 <wire x1="5.08" y1="-88.9" x2="2.54" y2="-88.9" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -10060,7 +10060,7 @@ RJ45 Jack connectors&lt;br&gt;
 </net>
 <net name="DIO90" class="0">
 <segment>
-<pinref part="U$3" gate="G$1" pin="DIO90"/>
+<pinref part="SBRIO_MEZZANINE" gate="G$1" pin="DIO90"/>
 <wire x1="5.08" y1="-93.98" x2="0" y2="-93.98" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -10076,7 +10076,7 @@ RJ45 Jack connectors&lt;br&gt;
 <pinref part="R15" gate="G$1" pin="1"/>
 </segment>
 <segment>
-<pinref part="U$3" gate="G$1" pin="DIO45"/>
+<pinref part="SBRIO_MEZZANINE" gate="G$1" pin="DIO45"/>
 <wire x1="86.36" y1="-76.2" x2="83.82" y2="-76.2" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -10087,28 +10087,28 @@ RJ45 Jack connectors&lt;br&gt;
 <pinref part="R16" gate="G$1" pin="1"/>
 </segment>
 <segment>
-<pinref part="U$3" gate="G$1" pin="DIO44"/>
+<pinref part="SBRIO_MEZZANINE" gate="G$1" pin="DIO44"/>
 <wire x1="86.36" y1="-78.74" x2="83.82" y2="-78.74" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="DIO64" class="0">
 <segment>
-<pinref part="U$3" gate="G$1" pin="DIO64"/>
+<pinref part="SBRIO_MEZZANINE" gate="G$1" pin="DIO64"/>
 <wire x1="73.66" y1="-127" x2="78.74" y2="-127" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U3" gate="G$1" pin="INT2"/>
+<pinref part="GYRO" gate="G$1" pin="INT2"/>
 <wire x1="289.56" y1="93.98" x2="294.64" y2="93.98" width="0.1524" layer="91"/>
 <label x="294.64" y="93.98" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="DIO65" class="0">
 <segment>
-<pinref part="U$3" gate="G$1" pin="DIO65"/>
+<pinref part="SBRIO_MEZZANINE" gate="G$1" pin="DIO65"/>
 <wire x1="73.66" y1="-124.46" x2="78.74" y2="-124.46" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U3" gate="G$1" pin="INT1"/>
+<pinref part="GYRO" gate="G$1" pin="INT1"/>
 <wire x1="289.56" y1="91.44" x2="304.8" y2="91.44" width="0.1524" layer="91"/>
 <label x="304.8" y="91.44" size="1.778" layer="95" xref="yes"/>
 </segment>
@@ -10120,7 +10120,7 @@ RJ45 Jack connectors&lt;br&gt;
 <pinref part="IC3" gate="G$1" pin="IN2"/>
 </segment>
 <segment>
-<pinref part="U$3" gate="G$1" pin="DIO43"/>
+<pinref part="SBRIO_MEZZANINE" gate="G$1" pin="DIO43"/>
 <wire x1="86.36" y1="-83.82" x2="83.82" y2="-83.82" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -10131,7 +10131,7 @@ RJ45 Jack connectors&lt;br&gt;
 <pinref part="IC3" gate="G$1" pin="IN3"/>
 </segment>
 <segment>
-<pinref part="U$3" gate="G$1" pin="DIO42"/>
+<pinref part="SBRIO_MEZZANINE" gate="G$1" pin="DIO42"/>
 <wire x1="86.36" y1="-86.36" x2="83.82" y2="-86.36" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -10142,7 +10142,7 @@ RJ45 Jack connectors&lt;br&gt;
 <pinref part="IC1" gate="G$1" pin="IN2"/>
 </segment>
 <segment>
-<pinref part="U$3" gate="G$1" pin="DIO41"/>
+<pinref part="SBRIO_MEZZANINE" gate="G$1" pin="DIO41"/>
 <wire x1="86.36" y1="-91.44" x2="83.82" y2="-91.44" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -10153,7 +10153,7 @@ RJ45 Jack connectors&lt;br&gt;
 <pinref part="IC1" gate="G$1" pin="IN3"/>
 </segment>
 <segment>
-<pinref part="U$3" gate="G$1" pin="DIO40"/>
+<pinref part="SBRIO_MEZZANINE" gate="G$1" pin="DIO40"/>
 <wire x1="86.36" y1="-93.98" x2="83.82" y2="-93.98" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -10166,7 +10166,7 @@ RJ45 Jack connectors&lt;br&gt;
 </net>
 <net name="WS1" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="B1"/>
+<pinref part="LEVEL_SHIFTER" gate="G$1" pin="B1"/>
 <wire x1="210.82" y1="-149.86" x2="218.44" y2="-149.86" width="0.1524" layer="91"/>
 <label x="218.44" y="-149.86" size="1.778" layer="95" xref="yes"/>
 <pinref part="WHEEL" gate="-1" pin="1"/>
@@ -10174,7 +10174,7 @@ RJ45 Jack connectors&lt;br&gt;
 </net>
 <net name="WS2" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="B2"/>
+<pinref part="LEVEL_SHIFTER" gate="G$1" pin="B2"/>
 <wire x1="210.82" y1="-152.4" x2="218.44" y2="-152.4" width="0.1524" layer="91"/>
 <label x="218.44" y="-152.4" size="1.778" layer="95" xref="yes"/>
 <pinref part="WHEEL" gate="-2" pin="1"/>
@@ -10182,7 +10182,7 @@ RJ45 Jack connectors&lt;br&gt;
 </net>
 <net name="WS3" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="B3"/>
+<pinref part="LEVEL_SHIFTER" gate="G$1" pin="B3"/>
 <wire x1="210.82" y1="-154.94" x2="218.44" y2="-154.94" width="0.1524" layer="91"/>
 <label x="218.44" y="-154.94" size="1.778" layer="95" xref="yes"/>
 <pinref part="WHEEL" gate="-3" pin="1"/>
@@ -10190,7 +10190,7 @@ RJ45 Jack connectors&lt;br&gt;
 </net>
 <net name="WS4" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="B4"/>
+<pinref part="LEVEL_SHIFTER" gate="G$1" pin="B4"/>
 <wire x1="210.82" y1="-157.48" x2="218.44" y2="-157.48" width="0.1524" layer="91"/>
 <label x="218.44" y="-157.48" size="1.778" layer="95" xref="yes"/>
 <pinref part="WHEEL" gate="-4" pin="1"/>
@@ -10198,13 +10198,13 @@ RJ45 Jack connectors&lt;br&gt;
 </net>
 <net name="DIO84" class="0">
 <segment>
-<pinref part="U$3" gate="G$1" pin="DIO84"/>
+<pinref part="SBRIO_MEZZANINE" gate="G$1" pin="DIO84"/>
 <wire x1="5.08" y1="-116.84" x2="2.54" y2="-116.84" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="DIO80" class="0">
 <segment>
-<pinref part="U$3" gate="G$1" pin="DIO80"/>
+<pinref part="SBRIO_MEZZANINE" gate="G$1" pin="DIO80"/>
 <wire x1="5.08" y1="-132.08" x2="2.54" y2="-132.08" width="0.1524" layer="91"/>
 </segment>
 </net>
