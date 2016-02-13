@@ -8867,6 +8867,11 @@ RJ45 Jack connectors&lt;br&gt;
 <pinref part="U$3" gate="G$1" pin="DIO5"/>
 <wire x1="114.3" y1="-106.68" x2="116.84" y2="-106.68" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<wire x1="307.34" y1="-111.76" x2="307.34" y2="-106.68" width="0.1524" layer="91"/>
+<label x="307.34" y="-106.68" size="1.778" layer="95" rot="R90" xref="yes"/>
+<pinref part="IC2" gate="G$1" pin="IN3"/>
+</segment>
 </net>
 <net name="CAN_H" class="0">
 <segment>
@@ -9052,9 +9057,15 @@ RJ45 Jack connectors&lt;br&gt;
 <wire x1="114.3" y1="-99.06" x2="116.84" y2="-99.06" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="320.04" y1="-111.76" x2="320.04" y2="-106.68" width="0.1524" layer="91"/>
-<label x="320.04" y="-106.68" size="1.778" layer="95" rot="R90" xref="yes"/>
-<pinref part="IC2" gate="G$1" pin="IN1"/>
+<pinref part="U$1" gate="G$1" pin="3.3V_OUT"/>
+<wire x1="180.34" y1="-25.4" x2="170.18" y2="-25.4" width="0.1524" layer="91"/>
+<label x="162.56" y="-25.4" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="C20" gate="G$1" pin="1"/>
+<wire x1="170.18" y1="-25.4" x2="162.56" y2="-25.4" width="0.1524" layer="91"/>
+<wire x1="170.18" y1="-20.32" x2="170.18" y2="-25.4" width="0.1524" layer="91"/>
+<junction x="170.18" y="-20.32"/>
+<junction x="170.18" y="-25.4"/>
+<junction x="180.34" y="-25.4"/>
 </segment>
 </net>
 <net name="DIO6" class="0">
@@ -9063,9 +9074,9 @@ RJ45 Jack connectors&lt;br&gt;
 <wire x1="114.3" y1="-104.14" x2="116.84" y2="-104.14" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="302.26" y1="-111.76" x2="302.26" y2="-106.68" width="0.1524" layer="91"/>
-<label x="302.26" y="-106.68" size="1.778" layer="95" rot="R90" xref="yes"/>
-<pinref part="IC2" gate="G$1" pin="IN4"/>
+<wire x1="314.96" y1="-111.76" x2="314.96" y2="-106.68" width="0.1524" layer="91"/>
+<label x="314.96" y="-106.68" size="1.778" layer="95" rot="R90" xref="yes"/>
+<pinref part="IC2" gate="G$1" pin="IN2"/>
 </segment>
 </net>
 <net name="DIO9" class="0">
@@ -9305,6 +9316,11 @@ RJ45 Jack connectors&lt;br&gt;
 <pinref part="U$3" gate="G$1" pin="DIO37"/>
 <wire x1="86.36" y1="-106.68" x2="83.82" y2="-106.68" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<wire x1="302.26" y1="-111.76" x2="302.26" y2="-106.68" width="0.1524" layer="91"/>
+<label x="302.26" y="-106.68" size="1.778" layer="95" rot="R90" xref="yes"/>
+<pinref part="IC2" gate="G$1" pin="IN4"/>
+</segment>
 </net>
 <net name="BSPD_OK_IN" class="0">
 <segment>
@@ -9365,33 +9381,11 @@ RJ45 Jack connectors&lt;br&gt;
 <pinref part="U$3" gate="G$1" pin="DIO13"/>
 <wire x1="114.3" y1="-76.2" x2="116.84" y2="-76.2" width="0.1524" layer="91"/>
 </segment>
-<segment>
-<pinref part="U$6" gate="G$1" pin="3.3V_OUT"/>
-<wire x1="180.34" y1="12.7" x2="170.18" y2="12.7" width="0.1524" layer="91"/>
-<label x="162.56" y="12.7" size="1.778" layer="95" rot="R180" xref="yes"/>
-<pinref part="C17" gate="G$1" pin="1"/>
-<wire x1="170.18" y1="12.7" x2="162.56" y2="12.7" width="0.1524" layer="91"/>
-<wire x1="170.18" y1="17.78" x2="170.18" y2="12.7" width="0.1524" layer="91"/>
-<junction x="170.18" y="17.78"/>
-<junction x="170.18" y="12.7"/>
-<junction x="180.34" y="12.7"/>
-</segment>
 </net>
 <net name="DIO14" class="0">
 <segment>
 <pinref part="U$3" gate="G$1" pin="DIO14"/>
 <wire x1="114.3" y1="-73.66" x2="116.84" y2="-73.66" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="U$5" gate="G$1" pin="3.3V_OUT"/>
-<wire x1="180.34" y1="0" x2="170.18" y2="0" width="0.1524" layer="91"/>
-<label x="162.56" y="0" size="1.778" layer="95" rot="R180" xref="yes"/>
-<pinref part="C18" gate="G$1" pin="1"/>
-<wire x1="170.18" y1="0" x2="162.56" y2="0" width="0.1524" layer="91"/>
-<wire x1="170.18" y1="5.08" x2="170.18" y2="0" width="0.1524" layer="91"/>
-<junction x="170.18" y="5.08"/>
-<junction x="170.18" y="0"/>
-<junction x="180.34" y="0"/>
 </segment>
 </net>
 <net name="DIO15" class="0">
@@ -9450,9 +9444,9 @@ RJ45 Jack connectors&lt;br&gt;
 <wire x1="86.36" y1="-101.6" x2="83.82" y2="-101.6" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="307.34" y1="-111.76" x2="307.34" y2="-106.68" width="0.1524" layer="91"/>
-<label x="307.34" y="-106.68" size="1.778" layer="95" rot="R90" xref="yes"/>
-<pinref part="IC2" gate="G$1" pin="IN3"/>
+<wire x1="320.04" y1="-111.76" x2="320.04" y2="-106.68" width="0.1524" layer="91"/>
+<label x="320.04" y="-106.68" size="1.778" layer="95" rot="R90" xref="yes"/>
+<pinref part="IC2" gate="G$1" pin="IN1"/>
 </segment>
 </net>
 <net name="DIO39" class="0">
@@ -9461,9 +9455,15 @@ RJ45 Jack connectors&lt;br&gt;
 <wire x1="86.36" y1="-99.06" x2="83.82" y2="-99.06" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="314.96" y1="-111.76" x2="314.96" y2="-106.68" width="0.1524" layer="91"/>
-<label x="314.96" y="-106.68" size="1.778" layer="95" rot="R90" xref="yes"/>
-<pinref part="IC2" gate="G$1" pin="IN2"/>
+<pinref part="U$6" gate="G$1" pin="3.3V_OUT"/>
+<wire x1="180.34" y1="12.7" x2="170.18" y2="12.7" width="0.1524" layer="91"/>
+<label x="162.56" y="12.7" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="C17" gate="G$1" pin="1"/>
+<wire x1="170.18" y1="12.7" x2="162.56" y2="12.7" width="0.1524" layer="91"/>
+<wire x1="170.18" y1="17.78" x2="170.18" y2="12.7" width="0.1524" layer="91"/>
+<junction x="170.18" y="17.78"/>
+<junction x="170.18" y="12.7"/>
+<junction x="180.34" y="12.7"/>
 </segment>
 </net>
 <net name="AI12" class="0">
@@ -9889,15 +9889,15 @@ RJ45 Jack connectors&lt;br&gt;
 <wire x1="5.08" y1="-73.66" x2="0" y2="-73.66" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="3.3V_OUT"/>
-<wire x1="180.34" y1="-25.4" x2="170.18" y2="-25.4" width="0.1524" layer="91"/>
-<label x="162.56" y="-25.4" size="1.778" layer="95" rot="R180" xref="yes"/>
-<pinref part="C20" gate="G$1" pin="1"/>
-<wire x1="170.18" y1="-25.4" x2="162.56" y2="-25.4" width="0.1524" layer="91"/>
-<wire x1="170.18" y1="-20.32" x2="170.18" y2="-25.4" width="0.1524" layer="91"/>
-<junction x="170.18" y="-20.32"/>
-<junction x="170.18" y="-25.4"/>
-<junction x="180.34" y="-25.4"/>
+<pinref part="U$5" gate="G$1" pin="3.3V_OUT"/>
+<wire x1="180.34" y1="0" x2="170.18" y2="0" width="0.1524" layer="91"/>
+<label x="162.56" y="0" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="C18" gate="G$1" pin="1"/>
+<wire x1="170.18" y1="0" x2="162.56" y2="0" width="0.1524" layer="91"/>
+<wire x1="170.18" y1="5.08" x2="170.18" y2="0" width="0.1524" layer="91"/>
+<junction x="170.18" y="5.08"/>
+<junction x="170.18" y="0"/>
+<junction x="180.34" y="0"/>
 </segment>
 </net>
 <net name="DIO81" class="0">
@@ -10238,6 +10238,11 @@ RJ45 Jack connectors&lt;br&gt;
 <wire x1="210.82" y1="-63.5" x2="218.44" y2="-63.5" width="0.1524" layer="91"/>
 <label x="218.44" y="-63.5" size="1.778" layer="95" xref="yes"/>
 </segment>
+<segment>
+<pinref part="TUB_CONN" gate="-3" pin="KL"/>
+<wire x1="462.28" y1="-35.56" x2="421.64" y2="-35.56" width="0.1524" layer="91"/>
+<label x="421.64" y="-35.56" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="DC_DC_DISABLE" class="0">
 <segment>
@@ -10245,15 +10250,6 @@ RJ45 Jack connectors&lt;br&gt;
 <wire x1="210.82" y1="-93.98" x2="218.44" y2="-93.98" width="0.1524" layer="91"/>
 <label x="218.44" y="-93.98" size="1.778" layer="95" xref="yes"/>
 </segment>
-</net>
-<net name="N$1" class="0">
-<segment>
-<pinref part="TUB_CONN" gate="-3" pin="KL"/>
-<wire x1="462.28" y1="-35.56" x2="421.64" y2="-35.56" width="0.1524" layer="91"/>
-<label x="421.64" y="-35.56" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="N$2" class="0">
 <segment>
 <pinref part="TUB_CONN" gate="-1" pin="KL"/>
 <wire x1="462.28" y1="-40.64" x2="421.64" y2="-40.64" width="0.1524" layer="91"/>
