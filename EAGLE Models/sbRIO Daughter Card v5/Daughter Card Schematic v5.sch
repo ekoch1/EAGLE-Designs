@@ -1898,20 +1898,20 @@ We've spent an enormous amount of time creating and checking these footprints an
 <circle x="1" y="0" radius="0.1" width="0.2032" layer="21"/>
 <circle x="0.254" y="0.254" radius="0.127" width="0.0508" layer="51"/>
 <circle x="0.254" y="0.254" radius="0.0254" width="0.0508" layer="51"/>
-<smd name="6" x="-2" y="1.1" dx="0.5" dy="1.2" layer="1" rot="R180"/>
-<smd name="5" x="-1.2" y="1.1" dx="0.5" dy="1.2" layer="1" rot="R180"/>
-<smd name="4" x="-0.4" y="1.1" dx="0.5" dy="1.2" layer="1" rot="R180"/>
-<smd name="3" x="0.4" y="1.1" dx="0.5" dy="1.2" layer="1" rot="R180"/>
-<smd name="2" x="1.2" y="1.1" dx="0.5" dy="1.2" layer="1" rot="R180"/>
-<smd name="1" x="2" y="1.1" dx="0.5" dy="1.2" layer="1"/>
-<smd name="14" x="2.1" y="0" dx="0.5" dy="1.2" layer="1" rot="R90"/>
-<smd name="13" x="2" y="-1.1" dx="0.5" dy="1.2" layer="1"/>
-<smd name="12" x="1.2" y="-1.1" dx="0.5" dy="1.2" layer="1"/>
-<smd name="11" x="0.4" y="-1.1" dx="0.5" dy="1.2" layer="1"/>
-<smd name="10" x="-0.4" y="-1.1" dx="0.5" dy="1.2" layer="1"/>
-<smd name="9" x="-1.2" y="-1.1" dx="0.5" dy="1.2" layer="1" rot="R180"/>
-<smd name="8" x="-2" y="-1.1" dx="0.5" dy="1.2" layer="1" rot="R180"/>
-<smd name="7" x="-2.1" y="0" dx="0.5" dy="1.2" layer="1" rot="R270"/>
+<smd name="6" x="-2" y="1.3" dx="0.5" dy="1.6" layer="1" rot="R180"/>
+<smd name="5" x="-1.2" y="1.3" dx="0.5" dy="1.6" layer="1" rot="R180"/>
+<smd name="4" x="-0.4" y="1.3" dx="0.5" dy="1.6" layer="1" rot="R180"/>
+<smd name="3" x="0.4" y="1.3" dx="0.5" dy="1.6" layer="1" rot="R180"/>
+<smd name="2" x="1.2" y="1.3" dx="0.5" dy="1.6" layer="1" rot="R180"/>
+<smd name="1" x="2" y="1.3" dx="0.5" dy="1.6" layer="1"/>
+<smd name="14" x="2.3" y="0" dx="0.5" dy="1.6" layer="1" rot="R90"/>
+<smd name="13" x="2" y="-1.3" dx="0.5" dy="1.6" layer="1"/>
+<smd name="12" x="1.2" y="-1.3" dx="0.5" dy="1.6" layer="1"/>
+<smd name="11" x="0.4" y="-1.3" dx="0.5" dy="1.6" layer="1"/>
+<smd name="10" x="-0.4" y="-1.3" dx="0.5" dy="1.6" layer="1"/>
+<smd name="9" x="-1.2" y="-1.3" dx="0.5" dy="1.6" layer="1" rot="R180"/>
+<smd name="8" x="-2" y="-1.3" dx="0.5" dy="1.6" layer="1" rot="R180"/>
+<smd name="7" x="-2.3" y="0" dx="0.5" dy="1.6" layer="1" rot="R270"/>
 <text x="-2.032" y="2.159" size="0.4064" layer="25">&gt;Name</text>
 <text x="-2.032" y="-2.413" size="0.4064" layer="27">&gt;Value</text>
 <text x="-0.127" y="-0.254" size="0.3048" layer="51" ratio="15">X</text>
@@ -2668,9 +2668,9 @@ Package used by L3G4200D 3-axis gyro&lt;br&gt;
 &lt;br&gt;
 &lt;B&gt;***UNPROVEN***&lt;/b&gt;</description>
 <wire x1="2" y1="2" x2="2" y2="-2" width="0.127" layer="51"/>
-<wire x1="2" y1="-2" x2="-2" y2="-2" width="0.127" layer="51"/>
-<wire x1="-2" y1="-2" x2="-2" y2="2" width="0.127" layer="51"/>
-<wire x1="-2" y1="2" x2="2" y2="2" width="0.127" layer="51"/>
+<wire x1="2" y1="-2" x2="-1.95" y2="-2" width="0.127" layer="51"/>
+<wire x1="-1.95" y1="-2" x2="-1.95" y2="2" width="0.127" layer="51"/>
+<wire x1="-1.95" y1="2" x2="2" y2="2" width="0.127" layer="51"/>
 <wire x1="-2" y1="1.4" x2="-1.4" y2="2" width="0.1778" layer="21"/>
 <wire x1="-2" y1="-2" x2="-2" y2="-1.4" width="0.1778" layer="21"/>
 <wire x1="-2" y1="-2" x2="-1.4" y2="-2" width="0.1778" layer="21"/>
@@ -2693,22 +2693,22 @@ Package used by L3G4200D 3-axis gyro&lt;br&gt;
 <wire x1="-0.2286" y1="-0.9906" x2="-0.0762" y2="-1.143" width="0.127" layer="51"/>
 <wire x1="-0.2286" y1="0.3048" x2="-0.4064" y2="0.4064" width="0.127" layer="51"/>
 <wire x1="-0.2286" y1="0.3048" x2="-0.1016" y2="0.4826" width="0.127" layer="51"/>
-<smd name="1" x="-1.85" y="0.975" dx="1" dy="0.4" layer="1" rot="R180"/>
-<smd name="2" x="-1.85" y="0.325" dx="1" dy="0.4" layer="1" rot="R180"/>
-<smd name="3" x="-1.85" y="-0.325" dx="1" dy="0.4" layer="1" rot="R180"/>
-<smd name="4" x="-1.85" y="-0.975" dx="1" dy="0.4" layer="1" rot="R180"/>
-<smd name="5" x="-0.975" y="-1.85" dx="1" dy="0.4" layer="1" rot="R270"/>
-<smd name="6" x="-0.325" y="-1.85" dx="1" dy="0.4" layer="1" rot="R270"/>
-<smd name="7" x="0.325" y="-1.85" dx="1" dy="0.4" layer="1" rot="R270"/>
-<smd name="8" x="0.975" y="-1.85" dx="1" dy="0.4" layer="1" rot="R270"/>
-<smd name="9" x="1.85" y="-0.975" dx="1" dy="0.4" layer="1"/>
-<smd name="10" x="1.85" y="-0.325" dx="1" dy="0.4" layer="1"/>
-<smd name="11" x="1.85" y="0.325" dx="1" dy="0.4" layer="1"/>
-<smd name="12" x="1.85" y="0.975" dx="1" dy="0.4" layer="1"/>
-<smd name="13" x="0.975" y="1.85" dx="1" dy="0.4" layer="1" rot="R90"/>
-<smd name="14" x="0.325" y="1.85" dx="1" dy="0.4" layer="1" rot="R90"/>
-<smd name="15" x="-0.325" y="1.85" dx="1" dy="0.4" layer="1" rot="R90"/>
-<smd name="16" x="-0.975" y="1.85" dx="1" dy="0.4" layer="1" rot="R90"/>
+<smd name="1" x="-2.05" y="0.975" dx="1.4" dy="0.4" layer="1" rot="R180"/>
+<smd name="2" x="-2.05" y="0.325" dx="1.4" dy="0.4" layer="1" rot="R180"/>
+<smd name="3" x="-2.05" y="-0.325" dx="1.4" dy="0.4" layer="1" rot="R180"/>
+<smd name="4" x="-2.05" y="-0.975" dx="1.4" dy="0.4" layer="1" rot="R180"/>
+<smd name="5" x="-0.975" y="-2.05" dx="1.4" dy="0.4" layer="1" rot="R270"/>
+<smd name="6" x="-0.325" y="-2.05" dx="1.4" dy="0.4" layer="1" rot="R270"/>
+<smd name="7" x="0.325" y="-2.05" dx="1.4" dy="0.4" layer="1" rot="R270"/>
+<smd name="8" x="0.975" y="-2.05" dx="1.4" dy="0.4" layer="1" rot="R270"/>
+<smd name="9" x="2.05" y="-0.975" dx="1.4" dy="0.4" layer="1"/>
+<smd name="10" x="2.05" y="-0.325" dx="1.4" dy="0.4" layer="1"/>
+<smd name="11" x="2.05" y="0.325" dx="1.4" dy="0.4" layer="1"/>
+<smd name="12" x="2.05" y="0.975" dx="1.4" dy="0.4" layer="1"/>
+<smd name="13" x="0.975" y="2.05" dx="1.4" dy="0.4" layer="1" rot="R90"/>
+<smd name="14" x="0.325" y="2.05" dx="1.4" dy="0.4" layer="1" rot="R90"/>
+<smd name="15" x="-0.325" y="2.05" dx="1.4" dy="0.4" layer="1" rot="R90"/>
+<smd name="16" x="-0.975" y="2.05" dx="1.4" dy="0.4" layer="1" rot="R90"/>
 <text x="-1.2446" y="2.54" size="0.4064" layer="25">&gt;Name</text>
 <text x="-1.27" y="-2.9718" size="0.4064" layer="27">&gt;Value</text>
 <text x="0.3302" y="0.3302" size="0.4064" layer="51" ratio="15">Z</text>
