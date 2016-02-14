@@ -8235,6 +8235,10 @@ RJ45 Jack connectors&lt;br&gt;
 <part name="C18" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="1uF"/>
 <part name="C19" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="1uF"/>
 <part name="C20" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="1uF"/>
+<part name="R6" library="resistor" deviceset="R-US_" device="R0402" value="10k"/>
+<part name="R7" library="resistor" deviceset="R-US_" device="R0402" value="10k"/>
+<part name="R8" library="resistor" deviceset="R-US_" device="R0402" value="10k"/>
+<part name="R9" library="resistor" deviceset="R-US_" device="R0402" value="10k"/>
 </parts>
 <sheets>
 <sheet>
@@ -8418,6 +8422,10 @@ RJ45 Jack connectors&lt;br&gt;
 <instance part="C18" gate="G$1" x="175.26" y="5.08" rot="R90"/>
 <instance part="C19" gate="G$1" x="175.26" y="-7.62" rot="R90"/>
 <instance part="C20" gate="G$1" x="175.26" y="-20.32" rot="R90"/>
+<instance part="R6" gate="G$1" x="-83.82" y="-20.32" rot="R90"/>
+<instance part="R7" gate="G$1" x="-76.2" y="-20.32" rot="R90"/>
+<instance part="R8" gate="G$1" x="-68.58" y="-20.32" rot="R90"/>
+<instance part="R9" gate="G$1" x="-60.96" y="-20.32" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -8641,6 +8649,26 @@ RJ45 Jack connectors&lt;br&gt;
 <junction x="213.36" y="33.02"/>
 <junction x="213.36" y="38.1"/>
 <junction x="180.34" y="30.48"/>
+</segment>
+<segment>
+<pinref part="R6" gate="G$1" pin="1"/>
+<wire x1="-83.82" y1="-25.4" x2="-83.82" y2="-30.48" width="0.1524" layer="91"/>
+<label x="-83.82" y="-30.48" size="1.778" layer="95" rot="R270" xref="yes"/>
+</segment>
+<segment>
+<pinref part="R7" gate="G$1" pin="1"/>
+<wire x1="-76.2" y1="-25.4" x2="-76.2" y2="-30.48" width="0.1524" layer="91"/>
+<label x="-76.2" y="-30.48" size="1.778" layer="95" rot="R270" xref="yes"/>
+</segment>
+<segment>
+<pinref part="R8" gate="G$1" pin="1"/>
+<wire x1="-68.58" y1="-25.4" x2="-68.58" y2="-30.48" width="0.1524" layer="91"/>
+<label x="-68.58" y="-30.48" size="1.778" layer="95" rot="R270" xref="yes"/>
+</segment>
+<segment>
+<pinref part="R9" gate="G$1" pin="1"/>
+<wire x1="-60.96" y1="-25.4" x2="-60.96" y2="-30.48" width="0.1524" layer="91"/>
+<label x="-60.96" y="-30.48" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
 </net>
 <net name="12V" class="0">
@@ -10274,6 +10302,35 @@ RJ45 Jack connectors&lt;br&gt;
 <pinref part="TUB_CONN" gate="-1" pin="KL"/>
 <wire x1="462.28" y1="-40.64" x2="421.64" y2="-40.64" width="0.1524" layer="91"/>
 <label x="421.64" y="-40.64" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="N$1" class="0">
+<segment>
+<wire x1="25.4" y1="22.86" x2="25.4" y2="20.32" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$2" class="0">
+<segment>
+<pinref part="R6" gate="G$1" pin="2"/>
+<wire x1="-83.82" y1="-15.24" x2="-83.82" y2="-12.7" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$7" class="0">
+<segment>
+<pinref part="R7" gate="G$1" pin="2"/>
+<wire x1="-76.2" y1="-15.24" x2="-76.2" y2="-12.7" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$8" class="0">
+<segment>
+<pinref part="R8" gate="G$1" pin="2"/>
+<wire x1="-68.58" y1="-15.24" x2="-68.58" y2="-12.7" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$13" class="0">
+<segment>
+<pinref part="R9" gate="G$1" pin="2"/>
+<wire x1="-60.96" y1="-15.24" x2="-60.96" y2="-12.7" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
