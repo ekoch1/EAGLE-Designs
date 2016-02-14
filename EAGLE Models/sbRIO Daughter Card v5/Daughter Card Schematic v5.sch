@@ -49,6 +49,7 @@
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
@@ -68,12 +69,29 @@
 <layer number="107" name="Crop" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="108" name="tplace-old" color="10" fill="1" visible="yes" active="yes"/>
 <layer number="109" name="ref-old" color="11" fill="1" visible="yes" active="yes"/>
+<layer number="110" name="fp0" color="7" fill="1" visible="no" active="yes"/>
+<layer number="111" name="LPC17xx" color="7" fill="1" visible="no" active="yes"/>
+<layer number="112" name="tSilk" color="7" fill="1" visible="no" active="yes"/>
+<layer number="113" name="ReferenceLS" color="7" fill="1" visible="no" active="no"/>
 <layer number="116" name="Patch_BOT" color="9" fill="4" visible="yes" active="yes"/>
+<layer number="118" name="Rect_Pads" color="7" fill="1" visible="no" active="no"/>
 <layer number="121" name="_tsilk" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="122" name="_bsilk" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="123" name="tTestmark" color="7" fill="1" visible="no" active="yes"/>
+<layer number="124" name="bTestmark" color="7" fill="1" visible="no" active="yes"/>
 <layer number="125" name="_tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="126" name="_bNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="127" name="_tValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="128" name="_bValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="131" name="tAdjust" color="7" fill="1" visible="no" active="yes"/>
+<layer number="132" name="bAdjust" color="7" fill="1" visible="no" active="yes"/>
 <layer number="144" name="Drill_legend" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="150" name="Notes" color="7" fill="1" visible="no" active="yes"/>
 <layer number="151" name="HeatSink" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="152" name="_bDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="153" name="FabDoc1" color="6" fill="1" visible="no" active="no"/>
+<layer number="154" name="FabDoc2" color="2" fill="1" visible="no" active="no"/>
+<layer number="155" name="FabDoc3" color="7" fill="15" visible="no" active="no"/>
 <layer number="199" name="Contour" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="200" name="200bmp" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="201" name="201bmp" color="2" fill="10" visible="yes" active="yes"/>
@@ -100,6 +118,11 @@
 <layer number="222" name="222bmp" color="23" fill="1" visible="no" active="no"/>
 <layer number="223" name="223bmp" color="24" fill="1" visible="no" active="no"/>
 <layer number="224" name="224bmp" color="25" fill="1" visible="no" active="no"/>
+<layer number="231" name="Eagle3D_PG1" color="7" fill="1" visible="no" active="no"/>
+<layer number="232" name="Eagle3D_PG2" color="7" fill="1" visible="no" active="no"/>
+<layer number="233" name="Eagle3D_PG3" color="7" fill="1" visible="no" active="no"/>
+<layer number="248" name="Housing" color="7" fill="1" visible="no" active="yes"/>
+<layer number="249" name="Edge" color="7" fill="1" visible="no" active="yes"/>
 <layer number="250" name="Descript" color="3" fill="1" visible="no" active="no"/>
 <layer number="251" name="SMDround" color="12" fill="11" visible="no" active="no"/>
 <layer number="254" name="cooling" color="7" fill="1" visible="yes" active="yes"/>
@@ -8154,6 +8177,96 @@ RJ45 Jack connectors&lt;br&gt;
 </deviceset>
 </devicesets>
 </library>
+<library name="adafruit">
+<packages>
+<package name="VFSOP-8">
+<description>&lt;b&gt;VFSOP8&lt;/b&gt; - 0.5mm pitch, 2.0x2.3mm
+&lt;p&gt;Source: http://focus.ti.com/lit/ds/symlink/txs0102.pdf&lt;/p&gt;</description>
+<wire x1="1" y1="1.15" x2="1" y2="-1.15" width="0.127" layer="51"/>
+<wire x1="1" y1="-1.15" x2="-1" y2="-1.15" width="0.127" layer="51"/>
+<wire x1="-1" y1="-1.15" x2="-1" y2="1.15" width="0.127" layer="51"/>
+<wire x1="-1" y1="1.15" x2="1" y2="1.15" width="0.127" layer="51"/>
+<wire x1="-1" y1="-1.15" x2="-1" y2="1.15" width="0.127" layer="21"/>
+<wire x1="1" y1="-1.15" x2="1" y2="1.15" width="0.127" layer="21"/>
+<circle x="-1.55" y="-0.8" radius="0.15" width="0.3048" layer="21"/>
+<smd name="P$1" x="-0.75" y="-1.45" dx="0.65" dy="0.25" layer="1" rot="R90"/>
+<smd name="P$2" x="-0.25" y="-1.45" dx="0.65" dy="0.25" layer="1" rot="R90"/>
+<smd name="P$3" x="0.25" y="-1.45" dx="0.65" dy="0.25" layer="1" rot="R90"/>
+<smd name="P$4" x="0.75" y="-1.45" dx="0.65" dy="0.25" layer="1" rot="R90"/>
+<smd name="P$5" x="0.75" y="1.45" dx="0.65" dy="0.25" layer="1" rot="R270"/>
+<smd name="P$6" x="0.25" y="1.45" dx="0.65" dy="0.25" layer="1" rot="R270"/>
+<smd name="P$7" x="-0.25" y="1.45" dx="0.65" dy="0.25" layer="1" rot="R270"/>
+<smd name="P$8" x="-0.75" y="1.45" dx="0.65" dy="0.25" layer="1" rot="R270"/>
+<text x="-0.6" y="-0.9" size="0.254" layer="25" rot="R90">&gt;NAME</text>
+<text x="-0.25" y="-0.9" size="0.254" layer="25" rot="R90">&gt;VALUE</text>
+<rectangle x1="-0.35" y1="-1.55" x2="-0.15" y2="-1.15" layer="51"/>
+<rectangle x1="-0.85" y1="-1.55" x2="-0.65" y2="-1.15" layer="51"/>
+<rectangle x1="0.15" y1="-1.55" x2="0.35" y2="-1.15" layer="51"/>
+<rectangle x1="0.65" y1="-1.55" x2="0.85" y2="-1.15" layer="51"/>
+<rectangle x1="0.65" y1="1.15" x2="0.85" y2="1.55" layer="51"/>
+<rectangle x1="0.15" y1="1.15" x2="0.35" y2="1.55" layer="51"/>
+<rectangle x1="-0.35" y1="1.15" x2="-0.15" y2="1.55" layer="51"/>
+<rectangle x1="-0.85" y1="1.15" x2="-0.65" y2="1.55" layer="51"/>
+</package>
+</packages>
+<symbols>
+<symbol name="TXS0102">
+<wire x1="-12.7" y1="10.16" x2="12.7" y2="10.16" width="0.254" layer="94"/>
+<wire x1="12.7" y1="10.16" x2="12.7" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-12.7" x2="-12.7" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="-12.7" x2="-12.7" y2="10.16" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="-10.16" x2="-2.54" y2="-10.16" width="0.127" layer="97" style="shortdash"/>
+<wire x1="-2.54" y1="-10.16" x2="-2.54" y2="0" width="0.127" layer="97" style="shortdash"/>
+<wire x1="-2.54" y1="0" x2="-12.7" y2="0" width="0.127" layer="97" style="shortdash"/>
+<wire x1="12.7" y1="0" x2="2.54" y2="0" width="0.127" layer="97" style="shortdash"/>
+<wire x1="2.54" y1="0" x2="2.54" y2="-10.16" width="0.127" layer="97" style="shortdash"/>
+<wire x1="2.54" y1="-10.16" x2="12.7" y2="-10.16" width="0.127" layer="97" style="shortdash"/>
+<text x="-12.7" y="12.7" size="1.27" layer="95">&gt;NAME</text>
+<text x="-12.7" y="-15.24" size="1.27" layer="96">&gt;VALUE</text>
+<text x="-11.43" y="-8.89" size="1.27" layer="97">1.2-3.6V</text>
+<text x="3.175" y="-8.89" size="1.27" layer="97">1.65-5.5V</text>
+<pin name="VCCA" x="-2.54" y="12.7" length="short" rot="R270"/>
+<pin name="A1" x="-15.24" y="-2.54" length="short"/>
+<pin name="A2" x="-15.24" y="-5.08" length="short"/>
+<pin name="GND" x="0" y="-15.24" length="short" rot="R90"/>
+<pin name="VCCB" x="2.54" y="12.7" length="short" rot="R270"/>
+<pin name="B1" x="15.24" y="-2.54" length="short" rot="R180"/>
+<pin name="B2" x="15.24" y="-5.08" length="short" rot="R180"/>
+<pin name="OE" x="-15.24" y="2.54" length="short"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="TXS0102" prefix="U" uservalue="yes">
+<description>&lt;b&gt;2-Bit Bi-Directional Level Shifter (I2C, etc.)&lt;/b&gt;
+&lt;p&gt;Designed for I2C devices and has internal pullups.  Not to be confused with TX&lt;b&gt;B&lt;/b&gt;010x series.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;1.2V-3.6V (VCCA) to 1.65V-5.5V (VCCB) bi-directional level shifter with auto direction sensing.&lt;/li&gt;
+  &lt;li&gt;Max data rate - 24Mbps (Push Pull), 2Mbps (Open Drain)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Digikey: 296-21931-1-ND&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="TXS0102" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="VFSOP-8">
+<connects>
+<connect gate="G$1" pin="A1" pad="P$5"/>
+<connect gate="G$1" pin="A2" pad="P$4"/>
+<connect gate="G$1" pin="B1" pad="P$8"/>
+<connect gate="G$1" pin="B2" pad="P$1"/>
+<connect gate="G$1" pin="GND" pad="P$2"/>
+<connect gate="G$1" pin="OE" pad="P$6"/>
+<connect gate="G$1" pin="VCCA" pad="P$3"/>
+<connect gate="G$1" pin="VCCB" pad="P$7"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -8171,7 +8284,7 @@ RJ45 Jack connectors&lt;br&gt;
 <part name="5V_REG" library="formula electric" deviceset="V78XX-1500" device=""/>
 <part name="5238B-7-F" library="formula electric" deviceset="MMBZ5238B-7-F" device=""/>
 <part name="SHTDWN_CONN" library="formula electric" deviceset="CONN_5" device=""/>
-<part name="R36" library="resistor" deviceset="R-US_" device="R0402" value="10k"/>
+<part name="R36" library="resistor" deviceset="R-US_" device="R0402" value="4.7k"/>
 <part name="3.3V_REG" library="formula electric" deviceset="V7803-1000" device=""/>
 <part name="C10" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="10uF"/>
 <part name="C9" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="22uF"/>
@@ -8188,9 +8301,6 @@ RJ45 Jack connectors&lt;br&gt;
 <part name="R35" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="10K"/>
 <part name="BSPD_CONN" library="formula electric" deviceset="CONN_5" device=""/>
 <part name="SBRIO_AUX" library="formula electric" deviceset="SBRIO_AUX" device=""/>
-<part name="F3" library="resistor" deviceset="R-EU_" device="R0603" value="1mA PTC"/>
-<part name="F4" library="resistor" deviceset="R-EU_" device="R0603" value="1mA PTC"/>
-<part name="F5" library="resistor" deviceset="R-EU_" device="R0603" value="1mA PTC"/>
 <part name="F6" library="resistor" deviceset="R-EU_" device="R0603" value="250mA"/>
 <part name="F16" library="resistor" deviceset="R-EU_" device="R0603" value="0.5A PTC"/>
 <part name="F17" library="resistor" deviceset="R-EU_" device="R0603" value="1A PTC"/>
@@ -8239,6 +8349,18 @@ RJ45 Jack connectors&lt;br&gt;
 <part name="R7" library="resistor" deviceset="R-US_" device="R0402" value="10k"/>
 <part name="R8" library="resistor" deviceset="R-US_" device="R0402" value="10k"/>
 <part name="R9" library="resistor" deviceset="R-US_" device="R0402" value="10k"/>
+<part name="R10" library="resistor" deviceset="R-US_" device="R0402" value="10k"/>
+<part name="R14" library="resistor" deviceset="R-US_" device="R0402" value="10k"/>
+<part name="R17" library="resistor" deviceset="R-US_" device="R0402" value="10k"/>
+<part name="R18" library="resistor" deviceset="R-US_" device="R0402" value="10k"/>
+<part name="R19" library="resistor" deviceset="R-US_" device="R0402" value="10k"/>
+<part name="R20" library="resistor" deviceset="R-US_" device="R0402" value="10k"/>
+<part name="R21" library="resistor" deviceset="R-US_" device="R0402" value="10k"/>
+<part name="R22" library="resistor" deviceset="R-US_" device="R0402" value="10k"/>
+<part name="R24" library="resistor" deviceset="R-US_" device="R0402" value="10k"/>
+<part name="R25" library="resistor" deviceset="R-US_" device="R0402" value="10k"/>
+<part name="R26" library="resistor" deviceset="R-US_" device="R0402" value="10k"/>
+<part name="U1" library="adafruit" deviceset="TXS0102" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -8304,15 +8426,20 @@ RJ45 Jack connectors&lt;br&gt;
 <wire x1="502.92" y1="-185.42" x2="502.92" y2="10.16" width="0.1524" layer="94"/>
 <wire x1="502.92" y1="10.16" x2="386.08" y2="10.16" width="0.1524" layer="94"/>
 <wire x1="386.08" y1="10.16" x2="386.08" y2="-185.42" width="0.1524" layer="94"/>
-<wire x1="332.74" y1="5.08" x2="254" y2="5.08" width="0.1524" layer="94"/>
-<wire x1="254" y1="5.08" x2="254" y2="-17.78" width="0.1524" layer="94"/>
-<wire x1="254" y1="-17.78" x2="332.74" y2="-17.78" width="0.1524" layer="94"/>
-<wire x1="332.74" y1="-17.78" x2="332.74" y2="5.08" width="0.1524" layer="94"/>
+<wire x1="330.2" y1="55.88" x2="254" y2="55.88" width="0.1524" layer="94"/>
+<wire x1="254" y1="55.88" x2="254" y2="-15.24" width="0.1524" layer="94"/>
+<wire x1="254" y1="-15.24" x2="330.2" y2="-15.24" width="0.1524" layer="94"/>
+<wire x1="330.2" y1="-15.24" x2="330.2" y2="55.88" width="0.1524" layer="94"/>
 <text x="160.02" y="-177.8" size="1.778" layer="94">Wheel Speed input connector and Level Shifter</text>
 <text x="360.68" y="20.32" size="1.778" layer="94">Shutdown and BSPD Clamp Connectors </text>
 <text x="294.64" y="-180.34" size="1.778" layer="94">12V high side drivers</text>
-<text x="281.94" y="-12.7" size="1.778" layer="94">pull down resistor</text>
+<text x="287.02" y="-10.16" size="1.778" layer="94">Lap timer</text>
 <text x="411.48" y="-177.8" size="1.778" layer="94">Connectors for tub and accumulator outputs</text>
+<wire x1="-134.62" y1="-55.88" x2="-134.62" y2="25.4" width="0.1524" layer="94"/>
+<wire x1="-134.62" y1="25.4" x2="-48.26" y2="25.4" width="0.1524" layer="94"/>
+<wire x1="-48.26" y1="25.4" x2="-48.26" y2="-55.88" width="0.1524" layer="94"/>
+<wire x1="-48.26" y1="-55.88" x2="-134.62" y2="-55.88" width="0.1524" layer="94"/>
+<text x="-109.22" y="-50.8" size="1.778" layer="94">Pull down analog inputs</text>
 </plain>
 <instances>
 <instance part="SBRIO_ANALOG" gate="G$1" x="43.18" y="15.24" rot="R90"/>
@@ -8321,7 +8448,7 @@ RJ45 Jack connectors&lt;br&gt;
 <instance part="5V_REG" gate="G$1" x="30.48" y="93.98" rot="R270"/>
 <instance part="5238B-7-F" gate="G$1" x="5.08" y="7.62" rot="R90"/>
 <instance part="SHTDWN_CONN" gate="G$1" x="411.48" y="43.18" rot="R180"/>
-<instance part="R36" gate="G$1" x="292.1" y="-5.08" rot="R180"/>
+<instance part="R36" gate="G$1" x="294.64" y="0" rot="R180"/>
 <instance part="3.3V_REG" gate="G$1" x="81.28" y="96.52"/>
 <instance part="C10" gate="G$1" x="63.5" y="91.44"/>
 <instance part="C9" gate="G$1" x="101.6" y="91.44"/>
@@ -8338,9 +8465,6 @@ RJ45 Jack connectors&lt;br&gt;
 <instance part="R35" gate="G$1" x="302.26" y="78.74" rot="R180"/>
 <instance part="BSPD_CONN" gate="G$1" x="411.48" y="73.66" rot="MR0"/>
 <instance part="SBRIO_AUX" gate="G$1" x="482.6" y="53.34"/>
-<instance part="F3" gate="G$1" x="398.78" y="78.74" rot="MR0"/>
-<instance part="F4" gate="G$1" x="398.78" y="73.66" rot="MR0"/>
-<instance part="F5" gate="G$1" x="398.78" y="68.58" rot="MR0"/>
 <instance part="F6" gate="G$1" x="398.78" y="63.5" rot="MR0"/>
 <instance part="F16" gate="G$1" x="444.5" y="-101.6"/>
 <instance part="F17" gate="G$1" x="205.74" y="-63.5" rot="R180"/>
@@ -8422,10 +8546,22 @@ RJ45 Jack connectors&lt;br&gt;
 <instance part="C18" gate="G$1" x="175.26" y="5.08" rot="R90"/>
 <instance part="C19" gate="G$1" x="175.26" y="-7.62" rot="R90"/>
 <instance part="C20" gate="G$1" x="175.26" y="-20.32" rot="R90"/>
-<instance part="R6" gate="G$1" x="-83.82" y="-20.32" rot="R90"/>
-<instance part="R7" gate="G$1" x="-76.2" y="-20.32" rot="R90"/>
-<instance part="R8" gate="G$1" x="-68.58" y="-20.32" rot="R90"/>
-<instance part="R9" gate="G$1" x="-60.96" y="-20.32" rot="R90"/>
+<instance part="R6" gate="G$1" x="-96.52" y="-5.08" rot="R180"/>
+<instance part="R7" gate="G$1" x="-86.36" y="-5.08"/>
+<instance part="R8" gate="G$1" x="-96.52" y="2.54" rot="R180"/>
+<instance part="R9" gate="G$1" x="-86.36" y="2.54"/>
+<instance part="R10" gate="G$1" x="-96.52" y="10.16" rot="R180"/>
+<instance part="R14" gate="G$1" x="-86.36" y="10.16"/>
+<instance part="R17" gate="G$1" x="-96.52" y="17.78" rot="R180"/>
+<instance part="R18" gate="G$1" x="-86.36" y="17.78"/>
+<instance part="R19" gate="G$1" x="-96.52" y="-20.32" rot="R180"/>
+<instance part="R20" gate="G$1" x="-86.36" y="-20.32"/>
+<instance part="R21" gate="G$1" x="-96.52" y="-12.7" rot="R180"/>
+<instance part="R22" gate="G$1" x="-86.36" y="-12.7"/>
+<instance part="R24" gate="G$1" x="-86.36" y="-35.56"/>
+<instance part="R25" gate="G$1" x="-96.52" y="-27.94" rot="R180"/>
+<instance part="R26" gate="G$1" x="-86.36" y="-27.94"/>
+<instance part="U1" gate="G$1" x="294.64" y="30.48"/>
 </instances>
 <busses>
 </busses>
@@ -8539,11 +8675,6 @@ RJ45 Jack connectors&lt;br&gt;
 <label x="457.2" y="30.48" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<wire x1="297.18" y1="-5.08" x2="320.04" y2="-5.08" width="0.1524" layer="91"/>
-<pinref part="R36" gate="G$1" pin="1"/>
-<label x="320.04" y="-5.08" size="1.778" layer="95" xref="yes"/>
-</segment>
-<segment>
 <pinref part="R13" gate="G$1" pin="1"/>
 <wire x1="5.08" y1="-17.78" x2="5.08" y2="-22.86" width="0.1524" layer="91"/>
 <label x="5.08" y="-22.86" size="1.778" layer="95" rot="R270" xref="yes"/>
@@ -8651,24 +8782,51 @@ RJ45 Jack connectors&lt;br&gt;
 <junction x="180.34" y="30.48"/>
 </segment>
 <segment>
+<wire x1="-91.44" y1="-35.56" x2="-91.44" y2="-38.1" width="0.1524" layer="91"/>
+<label x="-91.44" y="-38.1" size="1.778" layer="95" rot="R270" xref="yes"/>
+<pinref part="R18" gate="G$1" pin="1"/>
+<pinref part="R24" gate="G$1" pin="1"/>
+<junction x="-91.44" y="-35.56"/>
+<wire x1="-91.44" y1="-35.56" x2="-91.44" y2="-27.94" width="0.1524" layer="91"/>
+<junction x="-91.44" y="-35.56"/>
+<pinref part="R25" gate="G$1" pin="1"/>
+<junction x="-91.44" y="-27.94"/>
+<pinref part="R26" gate="G$1" pin="1"/>
+<junction x="-91.44" y="-27.94"/>
+<wire x1="-91.44" y1="-27.94" x2="-91.44" y2="-20.32" width="0.1524" layer="91"/>
+<pinref part="R19" gate="G$1" pin="1"/>
+<junction x="-91.44" y="-20.32"/>
+<pinref part="R20" gate="G$1" pin="1"/>
+<junction x="-91.44" y="-20.32"/>
+<wire x1="-91.44" y1="-20.32" x2="-91.44" y2="-12.7" width="0.1524" layer="91"/>
+<pinref part="R21" gate="G$1" pin="1"/>
+<junction x="-91.44" y="-12.7"/>
+<pinref part="R22" gate="G$1" pin="1"/>
+<junction x="-91.44" y="-12.7"/>
+<wire x1="-91.44" y1="-12.7" x2="-91.44" y2="-5.08" width="0.1524" layer="91"/>
 <pinref part="R6" gate="G$1" pin="1"/>
-<wire x1="-83.82" y1="-25.4" x2="-83.82" y2="-30.48" width="0.1524" layer="91"/>
-<label x="-83.82" y="-30.48" size="1.778" layer="95" rot="R270" xref="yes"/>
-</segment>
-<segment>
+<junction x="-91.44" y="-5.08"/>
 <pinref part="R7" gate="G$1" pin="1"/>
-<wire x1="-76.2" y1="-25.4" x2="-76.2" y2="-30.48" width="0.1524" layer="91"/>
-<label x="-76.2" y="-30.48" size="1.778" layer="95" rot="R270" xref="yes"/>
-</segment>
-<segment>
+<junction x="-91.44" y="-5.08"/>
+<wire x1="-91.44" y1="-5.08" x2="-91.44" y2="2.54" width="0.1524" layer="91"/>
 <pinref part="R8" gate="G$1" pin="1"/>
-<wire x1="-68.58" y1="-25.4" x2="-68.58" y2="-30.48" width="0.1524" layer="91"/>
-<label x="-68.58" y="-30.48" size="1.778" layer="95" rot="R270" xref="yes"/>
+<junction x="-91.44" y="2.54"/>
+<pinref part="R9" gate="G$1" pin="1"/>
+<junction x="-91.44" y="2.54"/>
+<wire x1="-91.44" y1="2.54" x2="-91.44" y2="10.16" width="0.1524" layer="91"/>
+<pinref part="R10" gate="G$1" pin="1"/>
+<junction x="-91.44" y="10.16"/>
+<pinref part="R14" gate="G$1" pin="1"/>
+<junction x="-91.44" y="10.16"/>
+<wire x1="-91.44" y1="10.16" x2="-91.44" y2="17.78" width="0.1524" layer="91"/>
+<pinref part="R17" gate="G$1" pin="1"/>
+<junction x="-91.44" y="17.78"/>
+<junction x="-91.44" y="17.78"/>
 </segment>
 <segment>
-<pinref part="R9" gate="G$1" pin="1"/>
-<wire x1="-60.96" y1="-25.4" x2="-60.96" y2="-30.48" width="0.1524" layer="91"/>
-<label x="-60.96" y="-30.48" size="1.778" layer="95" rot="R270" xref="yes"/>
+<pinref part="U1" gate="G$1" pin="GND"/>
+<wire x1="294.64" y1="15.24" x2="294.64" y2="12.7" width="0.1524" layer="91"/>
+<label x="294.64" y="12.7" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
 </net>
 <net name="12V" class="0">
@@ -8830,6 +8988,16 @@ RJ45 Jack connectors&lt;br&gt;
 <wire x1="198.12" y1="-134.62" x2="198.12" y2="-132.08" width="0.1524" layer="91"/>
 <label x="198.12" y="-132.08" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
+<segment>
+<pinref part="U1" gate="G$1" pin="VCCB"/>
+<wire x1="297.18" y1="43.18" x2="297.18" y2="45.72" width="0.1524" layer="91"/>
+<label x="297.18" y="45.72" size="1.778" layer="95" rot="R90" xref="yes"/>
+</segment>
+<segment>
+<wire x1="299.72" y1="0" x2="314.96" y2="0" width="0.1524" layer="91"/>
+<pinref part="R36" gate="G$1" pin="1"/>
+<label x="314.96" y="0" size="1.778" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="DIO3" class="0">
 <segment>
@@ -8902,6 +9070,11 @@ RJ45 Jack connectors&lt;br&gt;
 <segment>
 <pinref part="SBRIO_MEZZANINE" gate="G$1" pin="DIO4"/>
 <wire x1="114.3" y1="-111.76" x2="116.84" y2="-111.76" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U1" gate="G$1" pin="OE"/>
+<wire x1="279.4" y1="33.02" x2="274.32" y2="33.02" width="0.1524" layer="91"/>
+<label x="274.32" y="33.02" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="DIO5" class="0">
@@ -9002,14 +9175,21 @@ RJ45 Jack connectors&lt;br&gt;
 <label x="53.34" y="0" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="F5" gate="G$1" pin="2"/>
-<wire x1="393.7" y1="68.58" x2="386.08" y2="68.58" width="0.1524" layer="91"/>
 <label x="386.08" y="68.58" size="1.778" layer="95" rot="MR0" xref="yes"/>
+<wire x1="401.32" y1="68.58" x2="393.7" y2="68.58" width="0.1524" layer="91"/>
+<pinref part="BSPD_CONN" gate="G$1" pin="4"/>
+<wire x1="393.7" y1="68.58" x2="386.08" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="401.32" y1="68.58" x2="406.4" y2="68.58" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="ACCUMULATOR_CONN" gate="G$1" pin="3"/>
 <wire x1="462.28" y1="-147.32" x2="429.26" y2="-147.32" width="0.1524" layer="91"/>
 <label x="429.26" y="-147.32" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="R25" gate="G$1" pin="2"/>
+<wire x1="-101.6" y1="-27.94" x2="-104.14" y2="-27.94" width="0.1524" layer="91"/>
+<label x="-104.14" y="-27.94" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="AI1" class="0">
@@ -9023,6 +9203,11 @@ RJ45 Jack connectors&lt;br&gt;
 <wire x1="462.28" y1="-144.78" x2="447.04" y2="-144.78" width="0.1524" layer="91"/>
 <label x="447.04" y="-144.78" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<pinref part="R24" gate="G$1" pin="2"/>
+<wire x1="-81.28" y1="-35.56" x2="-78.74" y2="-35.56" width="0.1524" layer="91"/>
+<label x="-78.74" y="-35.56" size="1.778" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="BRAKE_PRESS_IN_1" class="0">
 <segment>
@@ -9031,14 +9216,19 @@ RJ45 Jack connectors&lt;br&gt;
 <label x="81.28" y="2.54" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="F4" gate="G$1" pin="2"/>
-<wire x1="393.7" y1="73.66" x2="386.08" y2="73.66" width="0.1524" layer="91"/>
 <label x="386.08" y="73.66" size="1.778" layer="95" rot="MR0" xref="yes"/>
+<pinref part="BSPD_CONN" gate="G$1" pin="3"/>
+<wire x1="406.4" y1="73.66" x2="386.08" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="462.28" y1="-15.24" x2="421.64" y2="-15.24" width="0.1524" layer="91"/>
 <label x="421.64" y="-15.24" size="1.778" layer="95" rot="R180" xref="yes"/>
 <pinref part="TUB_CONN" gate="-11" pin="KL"/>
+</segment>
+<segment>
+<pinref part="R26" gate="G$1" pin="2"/>
+<wire x1="-81.28" y1="-27.94" x2="-78.74" y2="-27.94" width="0.1524" layer="91"/>
+<label x="-78.74" y="-27.94" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="BRAKE_PRESS_IN_2" class="0">
@@ -9048,14 +9238,19 @@ RJ45 Jack connectors&lt;br&gt;
 <label x="50.8" y="5.08" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="F3" gate="G$1" pin="2"/>
-<wire x1="393.7" y1="78.74" x2="386.08" y2="78.74" width="0.1524" layer="91"/>
 <label x="386.08" y="78.74" size="1.778" layer="95" rot="MR0" xref="yes"/>
+<pinref part="BSPD_CONN" gate="G$1" pin="2"/>
+<wire x1="406.4" y1="78.74" x2="386.08" y2="78.74" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="462.28" y1="-12.7" x2="449.58" y2="-12.7" width="0.1524" layer="91"/>
 <label x="449.58" y="-12.7" size="1.778" layer="95" rot="R180" xref="yes"/>
 <pinref part="TUB_CONN" gate="-12" pin="KL"/>
+</segment>
+<segment>
+<pinref part="R19" gate="G$1" pin="2"/>
+<wire x1="-101.6" y1="-20.32" x2="-104.14" y2="-20.32" width="0.1524" layer="91"/>
+<label x="-104.14" y="-20.32" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="THROTTLE_IN_1" class="0">
@@ -9069,6 +9264,11 @@ RJ45 Jack connectors&lt;br&gt;
 <label x="421.64" y="-10.16" size="1.778" layer="95" rot="R180" xref="yes"/>
 <pinref part="TUB_CONN" gate="-13" pin="KL"/>
 </segment>
+<segment>
+<pinref part="R20" gate="G$1" pin="2"/>
+<wire x1="-81.28" y1="-20.32" x2="-78.74" y2="-20.32" width="0.1524" layer="91"/>
+<label x="-78.74" y="-20.32" size="1.778" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="AI7" class="0">
 <segment>
@@ -9080,6 +9280,11 @@ RJ45 Jack connectors&lt;br&gt;
 <wire x1="462.28" y1="-5.08" x2="421.64" y2="-5.08" width="0.1524" layer="91"/>
 <label x="421.64" y="-5.08" size="1.778" layer="95" rot="R180" xref="yes"/>
 <pinref part="TUB_CONN" gate="-15" pin="KL"/>
+</segment>
+<segment>
+<pinref part="R22" gate="G$1" pin="2"/>
+<wire x1="-81.28" y1="-12.7" x2="-78.74" y2="-12.7" width="0.1524" layer="91"/>
+<label x="-78.74" y="-12.7" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="DIO8" class="0">
@@ -9197,6 +9402,11 @@ RJ45 Jack connectors&lt;br&gt;
 <wire x1="477.52" y1="43.18" x2="467.36" y2="43.18" width="0.1524" layer="91"/>
 <label x="467.36" y="43.18" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<pinref part="R9" gate="G$1" pin="2"/>
+<wire x1="-81.28" y1="2.54" x2="-78.74" y2="2.54" width="0.1524" layer="91"/>
+<label x="-78.74" y="2.54" size="1.778" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="AI10" class="0">
 <segment>
@@ -9208,6 +9418,11 @@ RJ45 Jack connectors&lt;br&gt;
 <label x="434.34" y="-88.9" size="1.778" layer="95" rot="R180" xref="yes"/>
 <pinref part="AIO_PO_CONN" gate="-7" pin="KL"/>
 <wire x1="434.34" y1="-88.9" x2="462.28" y2="-88.9" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="R8" gate="G$1" pin="2"/>
+<wire x1="-101.6" y1="2.54" x2="-104.14" y2="2.54" width="0.1524" layer="91"/>
+<label x="-104.14" y="2.54" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="AI9" class="0">
@@ -9221,6 +9436,11 @@ RJ45 Jack connectors&lt;br&gt;
 <label x="424.18" y="-91.44" size="1.778" layer="95" rot="R180" xref="yes"/>
 <pinref part="AIO_PO_CONN" gate="-6" pin="KL"/>
 </segment>
+<segment>
+<pinref part="R7" gate="G$1" pin="2"/>
+<wire x1="-81.28" y1="-5.08" x2="-78.74" y2="-5.08" width="0.1524" layer="91"/>
+<label x="-78.74" y="-5.08" size="1.778" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="AI8" class="0">
 <segment>
@@ -9232,6 +9452,11 @@ RJ45 Jack connectors&lt;br&gt;
 <label x="434.34" y="-93.98" size="1.778" layer="95" rot="R180" xref="yes"/>
 <pinref part="AIO_PO_CONN" gate="-5" pin="KL"/>
 <wire x1="462.28" y1="-93.98" x2="434.34" y2="-93.98" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="R6" gate="G$1" pin="2"/>
+<wire x1="-101.6" y1="-5.08" x2="-104.14" y2="-5.08" width="0.1524" layer="91"/>
+<label x="-104.14" y="-5.08" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="3.3V" class="0">
@@ -9282,6 +9507,11 @@ RJ45 Jack connectors&lt;br&gt;
 <pinref part="LEVEL_SHIFTER" gate="G$1" pin="VCCA"/>
 <wire x1="193.04" y1="-134.62" x2="193.04" y2="-132.08" width="0.1524" layer="91"/>
 <label x="193.04" y="-132.08" size="1.778" layer="95" rot="R90" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U1" gate="G$1" pin="VCCA"/>
+<wire x1="292.1" y1="43.18" x2="292.1" y2="45.72" width="0.1524" layer="91"/>
+<label x="292.1" y="45.72" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
 <net name="DIO29" class="0">
@@ -9410,14 +9640,9 @@ RJ45 Jack connectors&lt;br&gt;
 <wire x1="114.3" y1="-81.28" x2="116.84" y2="-81.28" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="R36" gate="G$1" pin="2"/>
-<label x="269.24" y="-5.08" size="1.778" layer="95" rot="R180" xref="yes"/>
-<wire x1="287.02" y1="-5.08" x2="269.24" y2="-5.08" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<wire x1="462.28" y1="-38.1" x2="449.58" y2="-38.1" width="0.1524" layer="91"/>
-<label x="449.58" y="-38.1" size="1.778" layer="95" rot="R180" xref="yes"/>
-<pinref part="TUB_CONN" gate="-2" pin="KL"/>
+<pinref part="U1" gate="G$1" pin="A1"/>
+<wire x1="279.4" y1="27.94" x2="274.32" y2="27.94" width="0.1524" layer="91"/>
+<label x="274.32" y="27.94" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="DIO13" class="0">
@@ -9521,6 +9746,11 @@ RJ45 Jack connectors&lt;br&gt;
 <wire x1="477.52" y1="40.64" x2="457.2" y2="40.64" width="0.1524" layer="91"/>
 <label x="457.2" y="40.64" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<pinref part="R10" gate="G$1" pin="2"/>
+<wire x1="-101.6" y1="10.16" x2="-104.14" y2="10.16" width="0.1524" layer="91"/>
+<label x="-104.14" y="10.16" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="AI13" class="0">
 <segment>
@@ -9532,6 +9762,11 @@ RJ45 Jack connectors&lt;br&gt;
 <pinref part="SBRIO_AUX" gate="G$1" pin="AI13"/>
 <wire x1="477.52" y1="38.1" x2="467.36" y2="38.1" width="0.1524" layer="91"/>
 <label x="467.36" y="38.1" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="R14" gate="G$1" pin="2"/>
+<wire x1="-81.28" y1="10.16" x2="-78.74" y2="10.16" width="0.1524" layer="91"/>
+<label x="-78.74" y="10.16" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="STEERING_POS" class="0">
@@ -9550,6 +9785,11 @@ RJ45 Jack connectors&lt;br&gt;
 <label x="449.58" y="-2.54" size="1.778" layer="95" rot="R180" xref="yes"/>
 <pinref part="TUB_CONN" gate="-16" pin="KL"/>
 </segment>
+<segment>
+<pinref part="R17" gate="G$1" pin="2"/>
+<wire x1="-101.6" y1="17.78" x2="-104.14" y2="17.78" width="0.1524" layer="91"/>
+<label x="-104.14" y="17.78" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="AI15" class="0">
 <segment>
@@ -9561,6 +9801,11 @@ RJ45 Jack connectors&lt;br&gt;
 <pinref part="SBRIO_AUX" gate="G$1" pin="AI15"/>
 <wire x1="477.52" y1="33.02" x2="467.36" y2="33.02" width="0.1524" layer="91"/>
 <label x="467.36" y="33.02" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="R18" gate="G$1" pin="2"/>
+<wire x1="-81.28" y1="17.78" x2="-78.74" y2="17.78" width="0.1524" layer="91"/>
+<label x="-78.74" y="17.78" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="AO0" class="0">
@@ -9677,27 +9922,6 @@ RJ45 Jack connectors&lt;br&gt;
 <pinref part="BSPD_CONN" gate="G$1" pin="5"/>
 <pinref part="F6" gate="G$1" pin="1"/>
 <wire x1="406.4" y1="63.5" x2="403.86" y2="63.5" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$43" class="0">
-<segment>
-<pinref part="BSPD_CONN" gate="G$1" pin="4"/>
-<pinref part="F5" gate="G$1" pin="1"/>
-<wire x1="406.4" y1="68.58" x2="403.86" y2="68.58" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$52" class="0">
-<segment>
-<pinref part="BSPD_CONN" gate="G$1" pin="3"/>
-<pinref part="F4" gate="G$1" pin="1"/>
-<wire x1="406.4" y1="73.66" x2="403.86" y2="73.66" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$53" class="0">
-<segment>
-<pinref part="BSPD_CONN" gate="G$1" pin="2"/>
-<pinref part="F3" gate="G$1" pin="1"/>
-<wire x1="406.4" y1="78.74" x2="403.86" y2="78.74" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$54" class="0">
@@ -10247,6 +10471,11 @@ RJ45 Jack connectors&lt;br&gt;
 <wire x1="35.56" y1="10.16" x2="50.8" y2="10.16" width="0.1524" layer="91"/>
 <label x="50.8" y="10.16" size="1.778" layer="95" xref="yes"/>
 </segment>
+<segment>
+<pinref part="R21" gate="G$1" pin="2"/>
+<wire x1="-101.6" y1="-12.7" x2="-104.14" y2="-12.7" width="0.1524" layer="91"/>
+<label x="-104.14" y="-12.7" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="E-STOP_OK" class="0">
 <segment>
@@ -10309,28 +10538,21 @@ RJ45 Jack connectors&lt;br&gt;
 <wire x1="25.4" y1="22.86" x2="25.4" y2="20.32" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$2" class="0">
+<net name="LAP_TIMER_IN" class="0">
 <segment>
-<pinref part="R6" gate="G$1" pin="2"/>
-<wire x1="-83.82" y1="-15.24" x2="-83.82" y2="-12.7" width="0.1524" layer="91"/>
+<pinref part="U1" gate="G$1" pin="B1"/>
+<wire x1="309.88" y1="27.94" x2="314.96" y2="27.94" width="0.1524" layer="91"/>
+<label x="314.96" y="27.94" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
-</net>
-<net name="N$7" class="0">
 <segment>
-<pinref part="R7" gate="G$1" pin="2"/>
-<wire x1="-76.2" y1="-15.24" x2="-76.2" y2="-12.7" width="0.1524" layer="91"/>
+<pinref part="R36" gate="G$1" pin="2"/>
+<label x="281.94" y="0" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="289.56" y1="0" x2="281.94" y2="0" width="0.1524" layer="91"/>
 </segment>
-</net>
-<net name="N$8" class="0">
 <segment>
-<pinref part="R8" gate="G$1" pin="2"/>
-<wire x1="-68.58" y1="-15.24" x2="-68.58" y2="-12.7" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$13" class="0">
-<segment>
-<pinref part="R9" gate="G$1" pin="2"/>
-<wire x1="-60.96" y1="-15.24" x2="-60.96" y2="-12.7" width="0.1524" layer="91"/>
+<wire x1="462.28" y1="-38.1" x2="449.58" y2="-38.1" width="0.1524" layer="91"/>
+<label x="449.58" y="-38.1" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="TUB_CONN" gate="-2" pin="KL"/>
 </segment>
 </net>
 </nets>
