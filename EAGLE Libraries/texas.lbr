@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.3.0">
+<eagle version="7.4.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -31948,6 +31948,51 @@ changed 2011-11-09</description>
 <text x="-12.7" y="30.48" size="1.27" layer="95">&gt;NAME</text>
 <text x="-12.7" y="27.94" size="1.27" layer="96">&gt;VALUE</text>
 </symbol>
+<symbol name="DRV8711">
+<description>DRV8711 Stepper Motor Controller IC</description>
+<wire x1="-17.78" y1="40.64" x2="17.78" y2="40.64" width="0.254" layer="94"/>
+<wire x1="17.78" y1="40.64" x2="17.78" y2="-50.8" width="0.254" layer="94"/>
+<wire x1="17.78" y1="-50.8" x2="-17.78" y2="-50.8" width="0.254" layer="94"/>
+<wire x1="-17.78" y1="-50.8" x2="-17.78" y2="40.64" width="0.254" layer="94"/>
+<pin name="CP1" x="-22.86" y="38.1" length="middle"/>
+<pin name="CP2" x="-22.86" y="33.02" length="middle"/>
+<pin name="VCP" x="-22.86" y="27.94" length="middle"/>
+<pin name="VM" x="-22.86" y="22.86" length="middle"/>
+<pin name="GND" x="-22.86" y="17.78" length="middle"/>
+<pin name="V5" x="-22.86" y="12.7" length="middle"/>
+<pin name="VINT" x="-22.86" y="7.62" length="middle"/>
+<pin name="SLEEPN" x="-22.86" y="2.54" length="middle"/>
+<pin name="RESET" x="-22.86" y="-2.54" length="middle"/>
+<pin name="STEP/AIN1" x="-22.86" y="-7.62" length="middle"/>
+<pin name="DIR/AIN2" x="-22.86" y="-12.7" length="middle"/>
+<pin name="BIN1" x="-22.86" y="-17.78" length="middle"/>
+<pin name="BIN2" x="-22.86" y="-22.86" length="middle"/>
+<pin name="SCLK" x="-22.86" y="-27.94" length="middle"/>
+<pin name="SDATI" x="-22.86" y="-33.02" length="middle"/>
+<pin name="SCS" x="-22.86" y="-38.1" length="middle"/>
+<pin name="SDATO" x="-22.86" y="-43.18" length="middle"/>
+<pin name="FAULTN" x="-22.86" y="-48.26" length="middle"/>
+<pin name="STALLN/BEMFVN" x="22.86" y="38.1" length="middle" rot="R180"/>
+<pin name="AOUT1" x="22.86" y="33.02" length="middle" rot="R180"/>
+<pin name="A1HS" x="22.86" y="27.94" length="middle" rot="R180"/>
+<pin name="A1LS" x="22.86" y="22.86" length="middle" rot="R180"/>
+<pin name="AISENP" x="22.86" y="17.78" length="middle" rot="R180"/>
+<pin name="AISENN" x="22.86" y="12.7" length="middle" rot="R180"/>
+<pin name="A2LS" x="22.86" y="7.62" length="middle" rot="R180"/>
+<pin name="A2HS" x="22.86" y="2.54" length="middle" rot="R180"/>
+<pin name="AOUT2" x="22.86" y="-2.54" length="middle" rot="R180"/>
+<pin name="BOUT1" x="22.86" y="-7.62" length="middle" rot="R180"/>
+<pin name="B1HS" x="22.86" y="-12.7" length="middle" rot="R180"/>
+<pin name="B1LS" x="22.86" y="-17.78" length="middle" rot="R180"/>
+<pin name="BISENP" x="22.86" y="-22.86" length="middle" rot="R180"/>
+<pin name="BISENN" x="22.86" y="-27.94" length="middle" rot="R180"/>
+<pin name="B2LS" x="22.86" y="-33.02" length="middle" rot="R180"/>
+<pin name="B2HS" x="22.86" y="-38.1" length="middle" rot="R180"/>
+<pin name="BOUT2" x="22.86" y="-43.18" length="middle" rot="R180"/>
+<pin name="BEMF" x="22.86" y="-48.26" length="middle" rot="R180"/>
+<text x="-17.78" y="45.72" size="1.27" layer="95">&gt;NAME</text>
+<text x="-17.78" y="43.18" size="1.27" layer="96">&gt;VALUE</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="BQ2054PN" prefix="U">
@@ -44210,6 +44255,57 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/tlc4502.pdf"&gt; Data sheet
 <connect gate="G$1" pin="GND" pad="2"/>
 <connect gate="G$1" pin="IN" pad="1"/>
 <connect gate="G$1" pin="OUT" pad="5"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="DRV8711">
+<description>DRV8711 Stepper Motor Controller IC</description>
+<gates>
+<gate name="G$1" symbol="DRV8711" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="HTSSOP38DCP">
+<connects>
+<connect gate="G$1" pin="A1HS" pad="36"/>
+<connect gate="G$1" pin="A1LS" pad="35"/>
+<connect gate="G$1" pin="A2HS" pad="31"/>
+<connect gate="G$1" pin="A2LS" pad="32"/>
+<connect gate="G$1" pin="AISENN" pad="33"/>
+<connect gate="G$1" pin="AISENP" pad="34"/>
+<connect gate="G$1" pin="AOUT1" pad="37"/>
+<connect gate="G$1" pin="AOUT2" pad="30"/>
+<connect gate="G$1" pin="B1HS" pad="27"/>
+<connect gate="G$1" pin="B1LS" pad="26"/>
+<connect gate="G$1" pin="B2HS" pad="22"/>
+<connect gate="G$1" pin="B2LS" pad="23"/>
+<connect gate="G$1" pin="BEMF" pad="20"/>
+<connect gate="G$1" pin="BIN1" pad="12"/>
+<connect gate="G$1" pin="BIN2" pad="13"/>
+<connect gate="G$1" pin="BISENN" pad="24"/>
+<connect gate="G$1" pin="BISENP" pad="25"/>
+<connect gate="G$1" pin="BOUT1" pad="28"/>
+<connect gate="G$1" pin="BOUT2" pad="21"/>
+<connect gate="G$1" pin="CP1" pad="1"/>
+<connect gate="G$1" pin="CP2" pad="2"/>
+<connect gate="G$1" pin="DIR/AIN2" pad="11"/>
+<connect gate="G$1" pin="FAULTN" pad="18"/>
+<connect gate="G$1" pin="GND" pad="5 29 38 EXP@1"/>
+<connect gate="G$1" pin="RESET" pad="9"/>
+<connect gate="G$1" pin="SCLK" pad="14"/>
+<connect gate="G$1" pin="SCS" pad="16"/>
+<connect gate="G$1" pin="SDATI" pad="15"/>
+<connect gate="G$1" pin="SDATO" pad="17"/>
+<connect gate="G$1" pin="SLEEPN" pad="8"/>
+<connect gate="G$1" pin="STALLN/BEMFVN" pad="19"/>
+<connect gate="G$1" pin="STEP/AIN1" pad="10"/>
+<connect gate="G$1" pin="V5" pad="6"/>
+<connect gate="G$1" pin="VCP" pad="3"/>
+<connect gate="G$1" pin="VINT" pad="7"/>
+<connect gate="G$1" pin="VM" pad="4"/>
 </connects>
 <technologies>
 <technology name=""/>
