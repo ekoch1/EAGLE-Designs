@@ -22893,19 +22893,15 @@ changed 2011-11-09</description>
 <package name="SON-5X6">
 <wire x1="-3" y1="-2.5" x2="3" y2="-2.5" width="0.127" layer="21"/>
 <wire x1="-3" y1="2.5" x2="3" y2="2.5" width="0.127" layer="21"/>
-<smd name="1" x="-2.695" y="1.905" dx="0.85" dy="0.65" layer="1"/>
-<smd name="2" x="-2.695" y="0.635" dx="0.85" dy="0.65" layer="1"/>
-<smd name="3" x="-2.695" y="-0.635" dx="0.85" dy="0.65" layer="1"/>
+<smd name="2" x="-2.695" y="0.635" dx="0.85" dy="3.19" layer="1"/>
 <smd name="4" x="-2.695" y="-1.905" dx="0.85" dy="0.65" layer="1"/>
 <smd name="5" x="2.695" y="0" dx="0.85" dy="4.46" layer="1"/>
 <smd name="9" x="0" y="0" dx="3.48" dy="4.46" layer="1" thermals="no"/>
-<rectangle x1="-3.12" y1="0.96" x2="-2.27" y2="1.58" layer="1" rot="R180"/>
 <circle x="-2" y="1.8" radius="0.3" width="0.127" layer="21"/>
 <text x="0" y="2.7" size="1.016" layer="25" align="bottom-center">&gt;name</text>
 <text x="0" y="-3.7" size="1.016" layer="27" align="bottom-center">&gt;value</text>
 <wire x1="3" y1="-2.5" x2="3" y2="2.5" width="0.127" layer="21"/>
 <wire x1="-3" y1="-2.5" x2="-3" y2="2.5" width="0.127" layer="21"/>
-<rectangle x1="-3.12" y1="-0.31" x2="-2.27" y2="0.31" layer="1" rot="R180"/>
 </package>
 <package name="SON-3X3">
 <wire x1="-1.65" y1="-1.65" x2="1.65" y2="-1.65" width="0.127" layer="21"/>
@@ -44409,7 +44405,7 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/tlc4502.pdf"&gt; Data sheet
 <connects>
 <connect gate="G$1" pin="D" pad="5"/>
 <connect gate="G$1" pin="G" pad="4"/>
-<connect gate="G$1" pin="S" pad="1 2 3"/>
+<connect gate="G$1" pin="S" pad="2"/>
 <connect gate="G$2" pin="GND" pad="9"/>
 </connects>
 <technologies>
