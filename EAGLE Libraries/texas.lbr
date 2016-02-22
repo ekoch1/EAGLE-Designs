@@ -6401,7 +6401,7 @@ Source: http://focus.ti.com/lit/ml/mpds041b/mpds041b.pdf / slma002.pdf</descript
 <wire x1="4.85" y1="-2.2" x2="-4.85" y2="-2.2" width="0.1016" layer="21"/>
 <wire x1="-4.85" y1="-2.2" x2="-4.85" y2="2.2" width="0.1016" layer="21"/>
 <circle x="-3.195" y="-1.35" radius="0.2828" width="0.1016" layer="21"/>
-<smd name="EXP@1" x="0" y="0" dx="9.7" dy="3.4" layer="1" stop="no" cream="no"/>
+<smd name="EXP@1" x="0" y="0" dx="9.7" dy="3.4" layer="1" stop="no" thermals="no" cream="no"/>
 <smd name="1" x="-4.5" y="-2.9" dx="0.3" dy="1.1" layer="1" stop="no" cream="no"/>
 <smd name="2" x="-4" y="-2.9" dx="0.3" dy="1.1" layer="1" stop="no" cream="no"/>
 <smd name="3" x="-3.5" y="-2.9" dx="0.3" dy="1.1" layer="1" stop="no" cream="no"/>
@@ -22893,9 +22893,9 @@ changed 2011-11-09</description>
 <package name="SON-5X6">
 <wire x1="-3" y1="-2.5" x2="3" y2="-2.5" width="0.127" layer="21"/>
 <wire x1="-3" y1="2.5" x2="3" y2="2.5" width="0.127" layer="21"/>
-<smd name="2" x="-2.695" y="0.635" dx="0.85" dy="3.19" layer="1"/>
-<smd name="4" x="-2.695" y="-1.905" dx="0.85" dy="0.65" layer="1"/>
-<smd name="5" x="2.695" y="0" dx="0.85" dy="4.46" layer="1"/>
+<smd name="2" x="-3.33" y="0.635" dx="2.12" dy="3.19" layer="1"/>
+<smd name="4" x="-3.33" y="-1.905" dx="2.12" dy="0.65" layer="1"/>
+<smd name="5" x="3.33" y="0" dx="2.12" dy="4.46" layer="1"/>
 <smd name="9" x="0" y="0" dx="3.48" dy="4.46" layer="1" thermals="no"/>
 <circle x="-2" y="1.8" radius="0.3" width="0.127" layer="21"/>
 <text x="0" y="2.7" size="1.016" layer="25" align="bottom-center">&gt;name</text>
