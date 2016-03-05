@@ -1,0 +1,233 @@
+Partlist exported from C:/Users/Daniel Baron/Desktop/FSAE2016Boards and Schematics/CAN_MOD_12-12.sch at 1/11/2016 3:44 PM
+
+Part     Value          Device          Package               Description                                                                         MF MPN OC_FARNELL OC_NEWARK
+C1       18pF           C-USC0805       C0805                 CAPACITOR, American symbol                                                                                     
+C2       18pF           C-USC0805       C0805                 CAPACITOR, American symbol                                                                                     
+C3       22uF           C-USC0805       C0805                 CAPACITOR, American symbol                                                                                     
+C4       22uF           C-USC0805       C0805                 CAPACITOR, American symbol                                                                                     
+C5       10uF           C-EUC0805       C0805                 CAPACITOR, European symbol                                                                                     
+C6       0.1uF          C-EUC0603       C0603                 CAPACITOR, European symbol                                                                                     
+C7       2.2uF          C-USC0603       C0603                 CAPACITOR, American symbol                                                                                     
+C8       2.2uF          C-USC0603       C0603                 CAPACITOR, American symbol                                                                                     
+C9       0.1uF          C-EUC0603       C0603                 CAPACITOR, European symbol                                                                                     
+C10      0.1uF          C-EUC0603       C0603                 CAPACITOR, European symbol                                                                                     
+C11      1uF            C-USC0603       C0603                 CAPACITOR, American symbol                                                                                     
+C12      100n           C-USC0805       C0805                 CAPACITOR, American symbol                                                                                     
+C15      10uF           C-USC0805       C0805                 CAPACITOR, American symbol                                                                                     
+C16      4.7nF          CAP0603-CAP     0603-CAP              Capacitor                                                                                                      
+C17      0.1uF          C-USC0603       C0603                 CAPACITOR, American symbol                                                                                     
+C18      100n           C-USC0805       C0805                 CAPACITOR, American symbol                                                                                     
+C19      100n           C-USC0805       C0805                 CAPACITOR, American symbol                                                                                     
+C20      100n           C-USC0805       C0805                 CAPACITOR, American symbol                                                                                     
+C21      0.1uF          C-USC0603       C0603                 CAPACITOR, American symbol                                                                                     
+C22      10uF           C-USC0805       C0805                 CAPACITOR, American symbol                                                                                     
+C23      1uF            C-USC0603       C0603                 CAPACITOR, American symbol                                                                                     
+C24      0.1uF          C-USC0603       C0603                 CAPACITOR, American symbol                                                                                     
+C25      0.1uF          C-USC0603       C0603                 CAPACITOR, American symbol                                                                                     
+C26      10uF           C-USC0805       C0805                 CAPACITOR, American symbol                                                                                     
+C27      1uF            C-USC0603       C0603                 CAPACITOR, American symbol                                                                                     
+C28      0.1uF          C-USC0603       C0603                 CAPACITOR, American symbol                                                                                     
+C29      0.1uF          C-USC0603       C0603                 CAPACITOR, American symbol                                                                                     
+C30      10uF           C-USC0805       C0805                 CAPACITOR, American symbol                                                                                     
+C31      1uF            C-USC0603       C0603                 CAPACITOR, American symbol                                                                                     
+C32      0.1uF          C-USC0603       C0603                 CAPACITOR, American symbol                                                                                     
+C33      0.1uF          C-USC0603       C0603                 CAPACITOR, American symbol                                                                                     
+C34      10uF           C-USC0805       C0805                 CAPACITOR, American symbol                                                                                     
+C35      .1uF           CAP0603-CAP     0603-CAP              Capacitor                                                                                                      
+C36      .1uF           CAP0603-CAP     0603-CAP              Capacitor                                                                                                      
+C37      2.2uF          C-USC0603       C0603                 CAPACITOR, American symbol                                                                                     
+C38      2.2uF          C-USC0603       C0603                 CAPACITOR, American symbol                                                                                     
+C39      .1uF           CAP0603-CAP     0603-CAP              Capacitor                                                                                                      
+C40      .1uF           CAP0603-CAP     0603-CAP              Capacitor                                                                                                      
+C41      .1uF           CAP0603-CAP     0603-CAP              Capacitor                                                                                                      
+C42      .1uF           CAP0603-CAP     0603-CAP              Capacitor                                                                                                      
+C43      .1uF           CAP0603-CAP     0603-CAP              Capacitor                                                                                                      
+C44      .1uF           CAP0603-CAP     0603-CAP              Capacitor                                                                                                      
+C45      .1uF           CAP0603-CAP     0603-CAP              Capacitor                                                                                                      
+C46      .1uF           CAP0603-CAP     0603-CAP              Capacitor                                                                                                      
+C47      .1uF           CAP0603-CAP     0603-CAP              Capacitor                                                                                                      
+C48      .1uF           CAP0603-CAP     0603-CAP              Capacitor                                                                                                      
+C49      .1uF           CAP0603-CAP     0603-CAP              Capacitor                                                                                                      
+C50      .1uF           CAP0603-CAP     0603-CAP              Capacitor                                                                                                      
+C51      .1uF           CAP0603-CAP     0603-CAP              Capacitor                                                                                                      
+C52      .1uF           CAP0603-CAP     0603-CAP              Capacitor                                                                                                      
+C53      .1uF           CAP0603-CAP     0603-CAP              Capacitor                                                                                                      
+C54      .1uF           CAP0603-CAP     0603-CAP              Capacitor                                                                                                      
+C55      .1uF           CAP0603-CAP     0603-CAP              Capacitor                                                                                                      
+C56      .1uF           CAP0603-CAP     0603-CAP              Capacitor                                                                                                      
+C57      .1uF           CAP0603-CAP     0603-CAP              Capacitor                                                                                                      
+C58      .1uF           CAP0603-CAP     0603-CAP              Capacitor                                                                                                      
+C59      .1uF           CAP0603-CAP     0603-CAP              Capacitor                                                                                                      
+C60      .1uF           CAP0603-CAP     0603-CAP              Capacitor                                                                                                      
+C61      .1uF           CAP0603-CAP     0603-CAP              Capacitor                                                                                                      
+C62      .1uF           CAP0603-CAP     0603-CAP              Capacitor                                                                                                      
+C63      .1uF           CAP0603-CAP     0603-CAP              Capacitor                                                                                                      
+C64      .1uF           CAP0603-CAP     0603-CAP              Capacitor                                                                                                      
+C65      .1uF           CAP0603-CAP     0603-CAP              Capacitor                                                                                                      
+C66      .1uF           CAP0603-CAP     0603-CAP              Capacitor                                                                                                      
+C67      .1uF           CAP0603-CAP     0603-CAP              Capacitor                                                                                                      
+C68      .1uF           CAP0603-CAP     0603-CAP              Capacitor                                                                                                      
+C69      .1uF           CAP0603-CAP     0603-CAP              Capacitor                                                                                                      
+C70      .1uF           CAP0603-CAP     0603-CAP              Capacitor                                                                                                      
+C71      .1uF           CAP0603-CAP     0603-CAP              Capacitor                                                                                                      
+C72      .1uF           CAP0603-CAP     0603-CAP              Capacitor                                                                                                      
+C73      .1uF           CAP0603-CAP     0603-CAP              Capacitor                                                                                                      
+C74      .1uF           CAP0603-CAP     0603-CAP              Capacitor                                                                                                      
+C75      .1uF           CAP0603-CAP     0603-CAP              Capacitor                                                                                                      
+C76      .1uF           CAP0603-CAP     0603-CAP              Capacitor                                                                                                      
+C77      .1uF           CAP0603-CAP     0603-CAP              Capacitor                                                                                                      
+C78      .1uF           CAP0603-CAP     0603-CAP              Capacitor                                                                                                      
+C79      0.1uF          C-EUC0603       C0603                 CAPACITOR, European symbol                                                                                     
+C82      1nF            C-EUC0603       C0603                 CAPACITOR, European symbol                                                                                     
+C83      10nF           C-EUC0603       C0603                 CAPACITOR, European symbol                                                                                     
+C84      1nF            C-EUC0603       C0603                 CAPACITOR, European symbol                                                                                     
+C85      0.1uF          C-EUC0603       C0603                 CAPACITOR, European symbol                                                                                     
+C87      47uF           C-EUC0805       C0805                 CAPACITOR, European symbol                                                                                     
+C88      1nF            C-EUC0603       C0603                 CAPACITOR, European symbol                                                                                     
+C89      10nF           C-EUC0603       C0603                 CAPACITOR, European symbol                                                                                     
+C90      1nF            C-EUC0603       C0603                 CAPACITOR, European symbol                                                                                     
+C91      1uF            C-USC0603       C0603                 CAPACITOR, American symbol                                                                                     
+C92      0.1uF          C-USC0603       C0603                 CAPACITOR, American symbol                                                                                     
+C93      0.1uF          C-USC0603       C0603                 CAPACITOR, American symbol                                                                                     
+C94      10uF           C-USC0805       C0805                 CAPACITOR, American symbol                                                                                     
+D1       1N4148         DIODESOD-123    SOD-123               Diode                                                                                                          
+D2       1N5819         1N5819-B        DO41-7.6              1.0A SCHOTTKY BARRIER RECTIFIER                                                                                
+D3       BZX84CSMD      BZX84CSMD       TO236                 Z DIODE                                                                                                        
+D4       BZX84CSMD      BZX84CSMD       TO236                 Z DIODE                                                                                                        
+D5       BZX84CSMD      BZX84CSMD       TO236                 Z DIODE                                                                                                        
+D6       BZX84CSMD      BZX84CSMD       TO236                 Z DIODE                                                                                                        
+D7       BZX84CSMD      BZX84CSMD       TO236                 Z DIODE                                                                                                        
+D8       BZX84CSMD      BZX84CSMD       TO236                 Z DIODE                                                                                                        
+D9       BZX84CSMD      BZX84CSMD       TO236                 Z DIODE                                                                                                        
+D10      BZX84CSMD      BZX84CSMD       TO236                 Z DIODE                                                                                                        
+D11      BZX84CSMD      BZX84CSMD       TO236                 Z DIODE                                                                                                        
+D12      BZX84CSMD      BZX84CSMD       TO236                 Z DIODE                                                                                                        
+D13      BZX84CSMD      BZX84CSMD       TO236                 Z DIODE                                                                                                        
+D14      BZX84CSMD      BZX84CSMD       TO236                 Z DIODE                                                                                                        
+D15      BZX84CSMD      BZX84CSMD       TO236                 Z DIODE                                                                                                        
+D16      BZX84CSMD      BZX84CSMD       TO236                 Z DIODE                                                                                                        
+D17      BZX84CSMD      BZX84CSMD       TO236                 Z DIODE                                                                                                        
+D18      BZX84CSMD      BZX84CSMD       TO236                 Z DIODE                                                                                                        
+D19      BZX84CSMD      BZX84CSMD       TO236                 Z DIODE                                                                                                        
+D20      BZX84CSMD      BZX84CSMD       TO236                 Z DIODE                                                                                                        
+D21      BZX84CSMD      BZX84CSMD       TO236                 Z DIODE                                                                                                        
+D22      BZX84CSMD      BZX84CSMD       TO236                 Z DIODE                                                                                                        
+D23      BZX84CSMD      BZX84CSMD       TO236                 Z DIODE                                                                                                        
+D24      BZX84CSMD      BZX84CSMD       TO236                 Z DIODE                                                                                                        
+D25      BZX84CSMD      BZX84CSMD       TO236                 Z DIODE                                                                                                        
+D26      BZX84CSMD      BZX84CSMD       TO236                 Z DIODE                                                                                                        
+F1       16V,0.25A      PTCSMD          PTC-1206              Resettable Fuse PTC                                                                                            
+H7       ICSP           M03X2SMD_FCI    2X3_SMD_FCI_54202-G30 2x3 .1" header.                                                                                                
+IC1      AT90CAN128     AT90CAN128      TQFP64                                                                                                                               
+IC2      MCP2551SO8     MCP2551SO8      SO08                  CAN Tranceiver Microchip                                                                                       
+IC3      NUP2105L       NUP2105L        SOT-23                                                                                                                               
+IC5      FT232RL        FT232RL         SSOP28                                                                                                                               
+L1       CS321613-100K  L-USL3216C      L3216C                INDUCTOR, American symbol                                                                                      
+L2       22uH           DR73            DR73                  High Power Density, High Efficiency, Shielded Inductors                                                        
+LED2     RX             LEDCHIPLED_0805 CHIPLED_0805          LED                                                                                                            
+LED3     TX             LEDCHIPLED_0805 CHIPLED_0805          LED                                                                                                            
+Q1       56P2859        CRYSTALSMD      HC49UP                Various standard crystals. Proven footprints. Spark Fun Electronics SKU : COM-00534                            
+R1       100K           R-US_R0805      R0805                 RESISTOR, American symbol                                                                                      
+R2       1k             R-US_R0805      R0805                 RESISTOR, American symbol                                                                                      
+R3       100K           R-US_R0805      R0805                 RESISTOR, American symbol                                                                                      
+R4       100K           R-US_M0805      M0805                 RESISTOR, American symbol                                                                                      
+R5       100K           R-US_M0805      M0805                 RESISTOR, American symbol                                                                                      
+R6       1K             R-US_R0805      R0805                 RESISTOR, American symbol                                                                                      
+R7       1k             R-US_R0805      R0805                 RESISTOR, American symbol                                                                                      
+R8       1k             R-US_R0805      R0805                 RESISTOR, American symbol                                                                                      
+R9       1k             R-US_R0805      R0805                 RESISTOR, American symbol                                                                                      
+R18      1k             RESISTOR0603    0603-RES              Resistor                                                                                                       
+R19      1k             RESISTOR0603    0603-RES              Resistor                                                                                                       
+R20      1k             RESISTOR0603    0603-RES              Resistor                                                                                                       
+R21      10             RESISTOR0603    0603-RES              Resistor                                                                                                       
+R22      100R680R3k3    RESISTOR0603    0603-RES              Resistor                                                                                                       
+R23      1k             RESISTOR0603    0603-RES              Resistor                                                                                                       
+R24      10             RESISTOR0603    0603-RES              Resistor                                                                                                       
+R25      100R680R3k3    RESISTOR0603    0603-RES              Resistor                                                                                                       
+R26      1k             RESISTOR0603    0603-RES              Resistor                                                                                                       
+R27      1k             RESISTOR0603    0603-RES              Resistor                                                                                                       
+R28      10             RESISTOR0603    0603-RES              Resistor                                                                                                       
+R29      100R680R3k3    RESISTOR0603    0603-RES              Resistor                                                                                                       
+R30      1k             RESISTOR0603    0603-RES              Resistor                                                                                                       
+R31      1k             RESISTOR0603    0603-RES              Resistor                                                                                                       
+R32      10             RESISTOR0603    0603-RES              Resistor                                                                                                       
+R33      100R680R3k3    RESISTOR0603    0603-RES              Resistor                                                                                                       
+R34      1k             RESISTOR0603    0603-RES              Resistor                                                                                                       
+R35      1k             RESISTOR0603    0603-RES              Resistor                                                                                                       
+R36      10             RESISTOR0603    0603-RES              Resistor                                                                                                       
+R37      100R680R3k3    RESISTOR0603    0603-RES              Resistor                                                                                                       
+R38      1k             RESISTOR0603    0603-RES              Resistor                                                                                                       
+R39      1k             RESISTOR0603    0603-RES              Resistor                                                                                                       
+R40      10             RESISTOR0603    0603-RES              Resistor                                                                                                       
+R41      100R680R3k3    RESISTOR0603    0603-RES              Resistor                                                                                                       
+R42      1k             RESISTOR0603    0603-RES              Resistor                                                                                                       
+R43      1k             RESISTOR0603    0603-RES              Resistor                                                                                                       
+R44      10             RESISTOR0603    0603-RES              Resistor                                                                                                       
+R45      100R680R3k3    RESISTOR0603    0603-RES              Resistor                                                                                                       
+R46      1k             RESISTOR0603    0603-RES              Resistor                                                                                                       
+R47      1k             RESISTOR0603    0603-RES              Resistor                                                                                                       
+R48      10             RESISTOR0603    0603-RES              Resistor                                                                                                       
+R49      100R680R3k3    RESISTOR0603    0603-RES              Resistor                                                                                                       
+R50      1k             RESISTOR0603    0603-RES              Resistor                                                                                                       
+R51      1k             RESISTOR0603    0603-RES              Resistor                                                                                                       
+R52      10             RESISTOR0603    0603-RES              Resistor                                                                                                       
+R53      100R680R3k3    RESISTOR0603    0603-RES              Resistor                                                                                                       
+R54      1k             RESISTOR0603    0603-RES              Resistor                                                                                                       
+R55      1k             RESISTOR0603    0603-RES              Resistor                                                                                                       
+R56      10             RESISTOR0603    0603-RES              Resistor                                                                                                       
+R57      100R680R3k3    RESISTOR0603    0603-RES              Resistor                                                                                                       
+R58      1k             RESISTOR0603    0603-RES              Resistor                                                                                                       
+R59      1k             RESISTOR0603    0603-RES              Resistor                                                                                                       
+R60      10             RESISTOR0603    0603-RES              Resistor                                                                                                       
+R61      100R680R3k3    RESISTOR0603    0603-RES              Resistor                                                                                                       
+R62      1k             RESISTOR0603    0603-RES              Resistor                                                                                                       
+R63      1k             RESISTOR0603    0603-RES              Resistor                                                                                                       
+R64      10             RESISTOR0603    0603-RES              Resistor                                                                                                       
+R65      100R680R3k3    RESISTOR0603    0603-RES              Resistor                                                                                                       
+R66      1k             RESISTOR0603    0603-RES              Resistor                                                                                                       
+R67      1k             RESISTOR0603    0603-RES              Resistor                                                                                                       
+R68      10             RESISTOR0603    0603-RES              Resistor                                                                                                       
+R69      100R680R3k3    RESISTOR0603    0603-RES              Resistor                                                                                                       
+R70      1k             RESISTOR0603    0603-RES              Resistor                                                                                                       
+R71      1k             RESISTOR0603    0603-RES              Resistor                                                                                                       
+R72      10             RESISTOR0603    0603-RES              Resistor                                                                                                       
+R73      100R680R3k3    RESISTOR0603    0603-RES              Resistor                                                                                                       
+R74      10K            RESISTOR0603    0603-RES              Resistor                                                                                                       
+R75      10K            RESISTOR0603    0603-RES              Resistor                                                                                                       
+R76      1M             RESISTOR0603    0603-RES              Resistor                                                                                                       
+R77      10K            RESISTOR0603    0603-RES              Resistor                                                                                                       
+R78      10K            RESISTOR0603    0603-RES              Resistor                                                                                                       
+R79      1M             RESISTOR0603    0603-RES              Resistor                                                                                                       
+R82      4.7k           R-US_R0805      R0805                 RESISTOR, American symbol                                                                                      
+R83      4.7k           R-US_R0805      R0805                 RESISTOR, American symbol                                                                                      
+SJ1      SOLDERJUMPERNO SOLDERJUMPERNO  SJ_2S-NO              Solder Jumper                                                                                                  
+U$1      V7805-1000     V78XX-1000      V78XX-1000                                                                                                                           
+U$2      TL750L10       TL750L10        8-SOIC                                                                                                                               
+U$4V5V   MAX6350CSA     MAX6350CSA      8-SOIC                                                                                                                               
+U$5      REG-104GA-5    REG-104GA-5     REG104GA-5                                                                                                                           
+U$6      AD7998         AD7998          20TSSOP                                                                                                                              
+U$7      AD7998         AD7998          20TSSOP                                                                                                                              
+U$8      AD7998         AD7998          20TSSOP                                                                                                                              
+U$9      AD7998         AD7998          20TSSOP                                                                                                                              
+U$10V2V5 MAX6350CSA     MAX6350CSA      8-SOIC                                                                                                                               
+U$11     AD8495         AD8495          8MSOP                                                                                                                                
+U$12     AD8495         AD8495          8MSOP                                                                                                                                
+U$13     AD7998         AD7998          20TSSOP                                                                                                                              
+U$14     MUSBB          MUSBB           MUSBB                                                                                                                                
+U1       LTC2053        LTC2053         MSOP8                 DK: LTC2053CMS8#PBF-ND                                                                                         
+U2       LTC2053        LTC2053         MSOP8                 DK: LTC2053CMS8#PBF-ND                                                                                         
+U3       LTC2053        LTC2053         MSOP8                 DK: LTC2053CMS8#PBF-ND                                                                                         
+U4       LTC2053        LTC2053         MSOP8                 DK: LTC2053CMS8#PBF-ND                                                                                         
+U5       LTC2053        LTC2053         MSOP8                 DK: LTC2053CMS8#PBF-ND                                                                                         
+U6       LTC2053        LTC2053         MSOP8                 DK: LTC2053CMS8#PBF-ND                                                                                         
+U7       LTC2053        LTC2053         MSOP8                 DK: LTC2053CMS8#PBF-ND                                                                                         
+U8       LTC2053        LTC2053         MSOP8                 DK: LTC2053CMS8#PBF-ND                                                                                         
+U9       LTC2053        LTC2053         MSOP8                 DK: LTC2053CMS8#PBF-ND                                                                                         
+U10      LTC2053        LTC2053         MSOP8                 DK: LTC2053CMS8#PBF-ND                                                                                         
+U11      LTC2053        LTC2053         MSOP8                 DK: LTC2053CMS8#PBF-ND                                                                                         
+U12      LTC2053        LTC2053         MSOP8                 DK: LTC2053CMS8#PBF-ND                                                                                         
+U13      LTC2053        LTC2053         MSOP8                 DK: LTC2053CMS8#PBF-ND                                                                                         
+U14      LTC2053        LTC2053         MSOP8                 DK: LTC2053CMS8#PBF-ND                                                                                         
+VCC!     PWR            LEDCHIPLED_0805 CHIPLED_0805          LED                                                                                                            
+X1       AS16-35        AS16-35         AS16-35               DEUTSCH Connector                                                                          unknown    unknown  
+X2       AS06-05        AS06-05         AS06-05               DEUTSCH Connector                                                                          unknown    unknown  
