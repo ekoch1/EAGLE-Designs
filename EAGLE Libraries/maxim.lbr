@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.4.0">
+<eagle version="6.4.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="100" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -14850,46 +14850,6 @@ Source: &lt;a href="http://datasheets.maxim-ic.com/en/ds/MAX8559.pdf"&gt; Data s
 <wire x1="-10.16" y1="-7.62" x2="-10.16" y2="5.08" width="0.25" layer="94"/>
 <text x="-10.16" y="6.35" size="1.778" layer="95">&gt;NAME</text>
 <text x="-10.16" y="-10.16" size="1.778" layer="96">&gt;VALUE</text>
-</symbol>
-<symbol name="MAX4070">
-<wire x1="-10.16" y1="10.16" x2="10.16" y2="10.16" width="0.254" layer="94"/>
-<wire x1="10.16" y1="10.16" x2="10.16" y2="-10.16" width="0.254" layer="94"/>
-<wire x1="10.16" y1="-10.16" x2="-10.16" y2="-10.16" width="0.254" layer="94"/>
-<wire x1="-10.16" y1="-10.16" x2="-10.16" y2="10.16" width="0.254" layer="94"/>
-<pin name="VCC" x="-15.24" y="7.62" length="middle"/>
-<pin name="SHDN" x="-15.24" y="2.54" length="middle"/>
-<pin name="GSEL" x="-15.24" y="-2.54" length="middle"/>
-<pin name="GND" x="-15.24" y="-7.62" length="middle"/>
-<pin name="RS+" x="15.24" y="7.62" length="middle" rot="R180"/>
-<pin name="RS-" x="15.24" y="2.54" length="middle" rot="R180"/>
-<pin name="OUT" x="15.24" y="-2.54" length="middle" rot="R180"/>
-<pin name="REFOUT" x="15.24" y="-7.62" length="middle" rot="R180"/>
-<text x="-10.16" y="15.24" size="1.778" layer="96">&gt;NAME</text>
-<text x="-10.16" y="12.7" size="1.778" layer="96">&gt;VALUE</text>
-</symbol>
-<symbol name="MAX11626">
-</symbol>
-<symbol name="MAX11628">
-<wire x1="-12.7" y1="20.32" x2="12.7" y2="20.32" width="0.254" layer="94"/>
-<wire x1="12.7" y1="20.32" x2="12.7" y2="-20.32" width="0.254" layer="94"/>
-<wire x1="12.7" y1="-20.32" x2="-12.7" y2="-20.32" width="0.254" layer="94"/>
-<wire x1="-12.7" y1="-20.32" x2="-12.7" y2="20.32" width="0.254" layer="94"/>
-<pin name="!EOC" x="-17.78" y="17.78" length="middle"/>
-<pin name="DOUT" x="-17.78" y="12.7" length="middle"/>
-<pin name="DIN" x="-17.78" y="7.62" length="middle"/>
-<pin name="SCLK" x="-17.78" y="2.54" length="middle"/>
-<pin name="!CS" x="-17.78" y="-2.54" length="middle"/>
-<pin name="VDD" x="-17.78" y="-7.62" length="middle"/>
-<pin name="GND" x="-17.78" y="-12.7" length="middle"/>
-<pin name="REF" x="-17.78" y="-17.78" length="middle"/>
-<pin name="AIN0" x="17.78" y="17.78" length="middle" rot="R180"/>
-<pin name="AIN1" x="17.78" y="12.7" length="middle" rot="R180"/>
-<pin name="AIN2" x="17.78" y="7.62" length="middle" rot="R180"/>
-<pin name="AIN3" x="17.78" y="2.54" length="middle" rot="R180"/>
-<pin name="AIN4" x="17.78" y="-2.54" length="middle" rot="R180"/>
-<pin name="AIN5" x="17.78" y="-7.62" length="middle" rot="R180"/>
-<pin name="AIN6" x="17.78" y="-12.7" length="middle" rot="R180"/>
-<pin name="AIN7" x="17.78" y="-17.78" length="middle" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -33893,58 +33853,6 @@ Source: &lt;a href="http://datasheets.maxim-ic.com/en/ds/MAX8559.pdf"&gt; Data s
 <connect gate="G$1" pin="INB" pad="4"/>
 <connect gate="G$1" pin="OUTA" pad="8"/>
 <connect gate="G$1" pin="OUTB" pad="5"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="MAX4070" prefix="U">
-<gates>
-<gate name="G$1" symbol="MAX4070" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="UMAX8">
-<connects>
-<connect gate="G$1" pin="GND" pad="4"/>
-<connect gate="G$1" pin="GSEL" pad="8"/>
-<connect gate="G$1" pin="OUT" pad="6"/>
-<connect gate="G$1" pin="REFOUT" pad="5"/>
-<connect gate="G$1" pin="RS+" pad="3"/>
-<connect gate="G$1" pin="RS-" pad="2"/>
-<connect gate="G$1" pin="SHDN" pad="1"/>
-<connect gate="G$1" pin="VCC" pad="7"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="MAX11628">
-<gates>
-<gate name="G$1" symbol="MAX11628" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="QSOP16">
-<connects>
-<connect gate="G$1" pin="!CS" pad="12"/>
-<connect gate="G$1" pin="!EOC" pad="16"/>
-<connect gate="G$1" pin="AIN0" pad="1"/>
-<connect gate="G$1" pin="AIN1" pad="2"/>
-<connect gate="G$1" pin="AIN2" pad="3"/>
-<connect gate="G$1" pin="AIN3" pad="4"/>
-<connect gate="G$1" pin="AIN4" pad="5"/>
-<connect gate="G$1" pin="AIN5" pad="6"/>
-<connect gate="G$1" pin="AIN6" pad="7"/>
-<connect gate="G$1" pin="AIN7" pad="8"/>
-<connect gate="G$1" pin="DIN" pad="14"/>
-<connect gate="G$1" pin="DOUT" pad="15"/>
-<connect gate="G$1" pin="GND" pad="10"/>
-<connect gate="G$1" pin="REF" pad="9"/>
-<connect gate="G$1" pin="SCLK" pad="13"/>
-<connect gate="G$1" pin="VDD" pad="11"/>
 </connects>
 <technologies>
 <technology name=""/>
